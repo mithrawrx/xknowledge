@@ -4,29 +4,29 @@ type: tool
 date_added: 2026-01-02
 source: "https://markwhen.com/"
 tags: [timeline, planning, productivity, text-based]
-via: "Twitter bookmark from @joodalooped"
+via: "Twitter 书签 @joodalooped"
 ---
 
-Markwhen is a keyboard-first timeline and planning tool that emphasizes text-based input over drag-and-drop interfaces. It's particularly well-suited for people who prefer keyboard navigation and want to avoid visual/mouse-driven UI paradigms.
+Markwhen 是键盘优先的时间线和规划工具，强调文本输入而非拖放界面。特别适合喜欢键盘导航、想避开视觉/鼠标驱动 UI 模式的人群。
 
-The tool appears to be complementary to life-planning and retrospective exercises, useful for mapping out timelines, milestones, and planning future roadmaps. It supports flexible categorization and allows you to publish timelines publicly or keep them private.
+该工具适合人生规划和回顾练习，用于绘制时间线、里程碑和未来路线图。支持灵活分类，可公开或私有分享时间线。
 
-## Key Features
+## 核心功能
 
-- Keyboard-driven interface for timeline creation
-- Text-based input model (no drag-and-drop required)
-- Flexible timeline categorization
-- Public or private timeline sharing
-- Real-time preview
+- 键盘驱动的时间线创建界面
+- 文本输入模式（无需拖放）
+- 灵活的时间线分类
+- 公开或私有时间线分享
+- 实时预览
 
-## Use Cases
+## 使用场景
 
-- Annual reviews and planning
-- Life retrospectives (mapping first half and projecting second half)
-- Project planning and milestone tracking
-- Timeline visualization for non-visual thinkers
+- 年度回顾和规划
+- 人生回顾（映射上半生、规划下半生）
+- 项目规划和里程碑跟踪
+- 为非视觉思考者可视化时间线
 
-## Links
+## 相关链接
 
-- [Website](https://markwhen.com/)
-- [Original Tweet](https://x.com/joodalooped/status/2006089396861427738)
+- [官网](https://markwhen.com/)
+- [原始推文](https://x.com/joodalooped/status/2006089396861427738)

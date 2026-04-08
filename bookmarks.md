@@ -16,6 +16,18 @@
 
 ---
 
+## @vista8 - Vibe Coding 项目三个月实践总结
+> *引用 @idoubicc:* https://t.co/hPbpho1LYC
+>
+> 真牛逼
+
+- **推文**: https://x.com/vista8/status/2041330940925095977
+- **引用推文**: https://x.com/idoubicc/status/2040821048577565144
+- **链接**: https://x.com/i/article/2040815341639786497（X文章）
+- **概述**: 作者分享三个月内使用 Claude Code 进行 Vibe Coding 的实践成果，成功构建了 WorkAny、WorkAny Bot、ChatClaw、CoRich、FastClaw、WeClaw、AnyClaw 等多个项目。总结了几点深刻感悟：编程习惯被颠覆、AI 治好强迫症、注意力更加不集中、测试资源极度缺乏、技术落地能力差异被 AI 抹平。
+
+---
+
 ## @fankaishuoai - Karpathy LLM Wiki 改造方案
 > Karpathy 的 LLM Wiki 方案全网刷屏，我拿来跑了一遍。方案很漂亮，但对内容创作者来说有三个硬伤。改了三个地方之后，900 多篇笔记现在全部自动管理。完整方案和实操演示👇
 
@@ -82,6 +94,63 @@
 
 # Saturday, April 4, 2026
 
+## @karpathy - LLM Wiki Idea File
+> *引用 @karpathy:* LLM Knowledge Bases
+>
+> Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest...
+>
+> Wow, this tweet went very viral!
+>
+> I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.
+
+- **推文**: https://x.com/karpathy/status/2040470801506541998
+- **引用推文**: https://x.com/karpathy/status/2039805659525644595
+- **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
+- **归档**: [llm-wiki-idea-file](./knowledge/tools/llm-wiki-idea-file.md)
+- **概述**: Karpathy 提出 Agent 时代的新分享模式：分享 idea 而非代码，让对方 Agent 自行定制实现。Gist 包含完整的 LLM Wiki 架构设计，用于构建个人知识库。
+
+---
+
+## @op7418 - Karpathy LLM Wiki 中文解读
+> *引用 @op7418:* Karpathy 分享了他如何构建本地的 AI 知识库
+>
+> 跟我用的方法也很相似，但还是有很多可以借鉴的地方，推荐看看...
+>
+> karpathy 针对他这个 AI 知识库方案给了个更详细的版本
+
+- **推文**: https://x.com/op7418/status/2040471456820408449
+- **引用推文**: https://x.com/op7418/status/2039898050697839041
+- **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
+- **概述**: 歸藏分享 Karpathy LLM Wiki 的中文解读，介绍了 raw/ 目录存储原始资料、LLM 编译成 Wiki、Obsidian 作为前端、健康检查等核心概念。强调知识库会越用越厚，但需注意区分可靠来源和 AI 生成内容。
+
+---
+
+## @berryxia - Karpathy Idea File 推广
+> *引用 @karpathy:* Wow, this tweet went very viral! I wanted share a possibly slightly improved version of the tweet in an "idea file"...
+>
+> 兄弟们！Karpathy 又整了个大活儿！🚀
+>
+> 他那条爆火的「LLM 个人知识库」推文火了之后，现在直接甩出一个「Idea File」Gist：
+>
+> 核心想法超前——在 Agent 时代，不用再分享具体代码或 App 了！直接把「idea」扔给对方 Agent，让它根据你的需求自己定制、自己实现！
+
+- **推文**: https://x.com/berryxia/status/2040554947415244831
+- **引用推文**: https://x.com/karpathy/status/2040470801506541998
+- **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
+- **概述**: Berryxia 推广 Karpathy 的 idea file 概念，强调在 Agent 时代分享 idea 而非代码的新模式。同一个 Gist 已在 @karpathy 条目归档。
+
+---
+
+## @yibie - 巴菲特致股东信知识库
+> 大力推荐这个网站！它把巴菲特致股东的信掰开了，揉碎了，结构化了，变成一个知识库。而我非常喜欢它的结构：总览，图谱，概念，索引。
+
+- **推文**: https://x.com/yibie/status/2040561560993890430
+- **链接**: https://buffett-letters-eir.pages.dev/
+- **归档**: [buffett-letters-knowledge-base](./knowledge/articles/buffett-letters-knowledge-base.md)
+- **概述**: 一个结构化的巴菲特致股东信知识库，收录 35 篇合伙人信（1956-1970）和 60 篇伯克希尔股东信（1965至今）。采用总览、图谱、概念、索引四层架构组织，方便检索和学习巴菲特的投资思想演变。
+
+---
+
 ## @CG_BRC20 - Bitcoin Faucet Revival After 16 Years
 > 比特币水龙头时隔 16 年回归！
 >
@@ -94,6 +163,73 @@
 - **Tweet:** https://x.com/CG_BRC20/status/2040422960264306698
 - **Link:** https://btc.day/
 - **What:** Jack Dorsey's BitcoinatBlock announces Bitcoin faucet revival launching April 6, 2026 - ~$1M BTC pool (~15 BTC) funded by Block company. Tribute to Gavin Andresen's 2010 original faucet that distributed 19,700 BTC (now worth ~$19B) with Satoshi's endorsement. Countdown site at btc.day.
+
+---
+
+# Monday, April 6, 2026
+
+## @i5ting - Claude Island 灵动岛原型 Swift 实现
+> 原来这才是灵动岛的原型啊
+> 真swift
+
+- **推文**: https://x.com/i5ting/status/2041006014603182089
+- **链接**: https://github.com/farouqaldori/claude-island（GitHub）
+- **归档**: [claude-island](./knowledge/tools/claude-island.md)
+- **概述**: i5ting 对 Claude Island 项目的评价，指出这是灵动岛功能的 Swift 原型实现。该项目使用 Swift 构建原生 macOS 应用，在刘海位置显示 Claude Code 状态通知。
+
+---
+
+## @rwayne - 思维系统升级测试
+> *引用 @Jaden_riku:* https://t.co/i1xzQ9wRCA
+>
+> 不错👍
+> 马上来给我的第二大脑装上测试一下
+
+- **推文**: https://x.com/rwayne/status/2041063190776385858
+- **引用推文**: https://x.com/Jaden_riku/status/2041013292005773507
+- **链接**: https://x.com/i/article/2041011364412764160（X文章）
+- **概述**: 用户对新知识管理方法的积极反馈，准备在自己的第二大脑系统中测试。引用的文章介绍了一套三层思维系统：维特根斯坦帮你发现模糊、苏格拉底追问挖掘答案、波兰尼处理默会知识。
+
+---
+
+# Sunday, April 5, 2026
+
+## @dotey - 编程智能体的核心组件【译】
+> https://t.co/Aj6H4eVQer
+
+- **推文**: https://x.com/dotey/status/2040659186070040584
+- **链接**: https://x.com/i/article/2040657346175676416（X文章）
+- **归档**: [coding-agent-components](./knowledge/articles/coding-agent-components.md)
+- **概述**: Sebastian Raschka 文章的译文，详细拆解编程智能体六大核心组件：实时代码仓库上下文、提示词形态与缓存复用、工具接入与调用、上下文瘦身、结构化会话记忆、任务委派与子智能体。强调模型只是发动机，Harness 是整车系统。
+
+---
+
+## @Lonely__MH - Karpathy AI知识库落地教程
+> *引用 @laozhang2579:* https://t.co/e2jwnF1Aak
+>
+> 🔥Karpathy AI知识库 落地教程首发！🚀
+>
+> 告别低效的 RAG 检索！这篇文章把 Karpathy 的核心思路拆解成了可操作的步骤。别再让你的 AI 每次都从零开始，学会主动构建知识库才是关键。
+
+- **推文**: https://x.com/Lonely__MH/status/2040736227314499707
+- **引用推文**: https://x.com/laozhang2579/status/2040732229035585615
+- **链接**: https://x.com/i/article/2040727573035102208（X文章）
+- **概述**: 将 Karpathy 的 AI 知识库理念转化为可操作步骤的落地教程。包括使用 Obsidian Web Clipper 采集素材、图片本地化、Git 版本管理、图谱视图查看知识全貌等实操步骤，帮助读者告别传统 RAG 的低效检索循环。
+
+---
+
+## @dotey - Claude Island：Mac 灵动岛通知管理器
+> *引用 @panda_ai_agent:* @dotey https://t.co/TwYxGXWnEs 和这个很像，不过这个是开源的，而且很久没更新了
+>
+> 开源项目推荐：Claude Island - Mac 灵动岛 Claude Code 通知管理器
+>
+> 这是一个 macOS 原生应用，用 Swift 写的，装好之后会在刘海位置显示一个可展开的浮层。Claude Code 运行时，它实时追踪会话状态。需要授权的时候，刘海区弹出批准/拒绝按钮，点一下就行，不用切窗口。
+
+- **推文**: https://x.com/dotey/status/2040850151405707702
+- **引用推文**: https://x.com/panda_ai_agent/status/2040246806509195312
+- **链接**: https://github.com/farouqaldori/claude-island（GitHub）
+- **归档**: [claude-island](./knowledge/tools/claude-island.md)
+- **概述**: Claude Island 是一款 macOS 原生应用，通过 Dynamic Island 显示 Claude Code 通知，让开发者无需切换上下文即可监控后台任务状态。Swift 编写，1802+ stars，支持实时会话监控、权限审批、对话历史查看等功能。
 
 ---
 
@@ -129,6 +265,21 @@
 - **Tweet:** https://x.com/lxfater/status/2039649747049537927
 - **Link:** https://x.com/i/article/2039588754138988544
 - **What:** Chinese tweet referencing an article about quitting a job to pursue full-time indie development for one year, reflecting on earnings and lessons learned. The linked article title: "辞去工作，全职独立开发一年，我赚了多少钱" (How much I earned after one year of full-time indie development).
+
+---
+
+# Thursday, March 26, 2026
+
+## @nemoaigc - autoresearch 迭代方法论拆解
+> *引用 @Lonely__MH:* https://t.co/civP7TucBp
+>
+> 妙啊
+
+- **推文**: https://x.com/nemoaigc/status/2037069544980963540
+- **引用推文**: https://x.com/Lonely__MH/status/2036651579005194426
+- **链接**: https://x.com/i/article/2036637016637743104（X文章）
+- **归档**: [autoresearch-methodology](./knowledge/articles/autoresearch-methodology.md)
+- **概述**: 拆解 Karpathy 的 autoresearch 项目核心思路：改一个东西 → 打分 → 保留或回滚。这个通用迭代方法论可应用于任何需要迭代的场景，强调"工具会过时，框架不会"。
 
 ---
 

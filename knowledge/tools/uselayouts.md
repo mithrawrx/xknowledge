@@ -1,26 +1,26 @@
 ---
-title: "uselayouts"
+title: "UseLayouts"
 type: tool
 date_added: 2026-01-02
 source: "https://uselayouts.com"
 tags: ["react", "framer-motion", "animations", "ui-components", "tailwind"]
-via: "Twitter bookmark from @0xUrvish"
+via: "Twitter 书签 @0xUrvish"
 ---
 
-Premium animated React components and micro-interactions library built with Framer Motion and Tailwind CSS. Free and open-source collection of modern, ready-to-use motion components for building high-converting websites with sophisticated animations.
+高级动画 React 组件和微交互库，使用 Framer Motion 和 Tailwind CSS 构建。免费开源的现代、即用运动组件集合，用于构建高转化率网站和精致动画。
 
-## Key Features
+## 核心功能
 
-- Free premium animated components
-- Built with React, Framer Motion, and Tailwind CSS
-- Modern micro-interactions
-- Ready-to-use motion components
-- 100% open source
-- Extensive documentation and examples
+- 免费高级动画组件
+- 使用 React、Framer Motion 和 Tailwind CSS 构建
+- 现代微交互
+- 即用运动组件
+- 100% 开源
+- 丰富文档和示例
 
-## Links
+## 相关链接
 
-- [uselayouts](https://uselayouts.com)
-- [GitHub](https://github.com/iurvish/uselayouts)
-- [Creator: Urvish Mali](https://urvishh.me)
-- [Original Tweet](https://x.com/0xUrvish/status/2006608646730559629)
+- [官网](https://uselayouts.com)
+- [GitHub 仓库](https://github.com/iurvish/uselayouts)
+- [作者: Urvish Mali](https://urvishh.me)
+- [原始推文](https://x.com/0xUrvish/status/2006608646730559629)

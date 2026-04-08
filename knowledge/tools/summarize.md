@@ -4,42 +4,42 @@ type: tool
 date_added: 2026-01-02
 source: "https://summarize.sh"
 tags: [summarization, cli, chrome-extension, content-extraction]
-via: "Twitter bookmark from @steipete"
+via: "Twitter 书签 @steipete"
 ---
 
-Summarize is a dual-mode tool (CLI + Chrome extension) for extracting and summarizing web content, PDFs, images, and media. Features real extraction pipeline with fallback mechanisms and supports multiple LLM providers (local, paid, and free models).
+Summarize 是双模式工具（CLI + Chrome 扩展），用于提取和总结网页内容、PDF、图片和媒体。采用真实提取管道加备用机制，支持多种 LLM 服务商（本地、付费和免费模型）。
 
-Includes a smart link summarization toolbar that appears on hover, helping identify clickbait or low-value content before opening.
+包含智能链接总结工具栏，悬停时显示，帮助在打开前识别标题党或低价值内容。
 
-## Key Features
+## 核心功能
 
-- **CLI Mode**: Scriptable summaries with JSON/Markdown output
-- **Chrome Extension**: Side Panel for one-click tab summaries
-- Real extraction pipeline with Firecrawl fallback
-- Media pipeline with transcript-first approach
-- Whisper fallback for video/audio
-- Provider-agnostic: local gateways, paid providers, OpenRouter free models
-- Structured output with metrics and diagnostics
+- **CLI 模式**: 可脚本化总结，JSON/Markdown 输出
+- **Chrome 扩展**: 侧边栏一键总结标签页
+- 真实提取管道，Firecrawl 备用
+- 媒体管道，优先提取文字稿
+- Whisper 备用处理视频/音频
+- 服务商无关：本地网关、付费服务商、OpenRouter 免费模型
+- 结构化输出，包含指标和诊断信息
 
-## Supported Content
+## 支持内容类型
 
-- URLs and web pages
-- PDFs
-- Images
-- YouTube videos (with transcript extraction)
-- Podcasts
-- Audio/video files
+- URL 和网页
+- PDF 文件
+- 图片
+- YouTube 视频（提取文字稿）
+- 播客
+- 音频/视频文件
 
-## Installation & Usage
+## 安装和使用
 
 ```bash
 npm i -g @steipete/summarize
 summarize "https://example.com/article"
 ```
 
-## Links
+## 相关链接
 
-- [Website](https://summarize.sh/)
-- [GitHub Repository](https://github.com/steipete/summarize)
-- [Documentation](https://summarize.sh/docs)
-- [Original Tweet](https://x.com/steipete/status/2006425901719023628)
+- [官网](https://summarize.sh/)
+- [GitHub 仓库](https://github.com/steipete/summarize)
+- [文档](https://summarize.sh/docs)
+- [原始推文](https://x.com/steipete/status/2006425901719023628)

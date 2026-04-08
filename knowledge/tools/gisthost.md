@@ -1,33 +1,33 @@
 ---
-title: "gisthost.github.io"
+title: "Gisthost"
 type: tool
 date_added: 2026-01-02
 source: "https://github.com/simonwillison/gisthost"
 tags: [github-gists, html-preview, developer-tools]
-via: "Twitter bookmark from @simonw"
+via: "Twitter 书签 @simonw"
 ---
 
-A fork and modernized version of gistpreview.github.io that enables browser-rendering of HTML files stored in GitHub Gists. Simon Willison updated the original project (last commit 10 years ago) with modern web practices and improved CSS.
+gistpreview.github.io 的分支和现代化版本，让浏览器能渲染存储在 GitHub Gist 中的 HTML 文件。Simon Willison 更新了原项目（最后一次提交距今已有 10 年），采用现代 Web 实践和改进的 CSS。
 
-The tool works by fetching GitHub Gist content via the GitHub API and rendering it as HTML in the browser, bypassing GitHub's content-type headers that normally serve Gist files as plain text.
+工作原理：通过 GitHub API 获取 Gist 内容并在浏览器中渲染为 HTML，绕过 GitHub 默认以纯文本形式提供 Gist 文件的内容类型头。
 
-## Key Features
+## 核心功能
 
-- Render HTML files from GitHub Gists in the browser
-- Modern CSS and improved UX over the original gistpreview
-- Direct link format: `https://gisthost.github.io/?{GIST_ID}/{filename}`
-- Works with any HTML file stored in a Gist
+- 在浏览器中渲染 GitHub Gist 的 HTML 文件
+- 现代化 CSS，比原版 gistpreview UX 更佳
+- 直接链接格式: `https://gisthost.github.io/?{GIST_ID}/{filename}`
+- 支持存储在 Gist 中的任意 HTML 文件
 
-## Use Cases
+## 使用场景
 
-- Quick HTML/CSS/JS prototyping and sharing
-- Portfolio demonstrations
-- Interactive documentation
-- Teaching HTML/CSS concepts
+- 快速 HTML/CSS/JS 原型和分享
+- 作品集展示
+- 交互式文档
+- HTML/CSS 教学演示
 
-## Links
+## 相关链接
 
-- [GitHub Repository](https://github.com/simonwillison/gisthost)
-- [Live Tool](https://gisthost.github.io/)
-- [Original Tweet](https://x.com/simonw/status/2006851664935006385)
-- [Blog Post](https://simonwillison.net/2026/Jan/1/gisthost/)
+- [GitHub 仓库](https://github.com/simonwillison/gisthost)
+- [在线工具](https://gisthost.github.io/)
+- [原始推文](https://x.com/simonw/status/2006851664935006385)
+- [博客文章](https://simonwillison.net/2026/Jan/1/gisthost/)

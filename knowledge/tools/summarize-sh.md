@@ -1,22 +1,22 @@
 ---
-title: "Summarize.sh - Link Preview Toolbar"
+title: "Summarize.sh - 链接预览工具栏"
 type: tool
 date_added: 2026-01-02
 source: "https://summarize.sh/"
 tags: [productivity, browser-tool, summarization, clickbait-detection]
-via: "Twitter bookmark from @steipete"
+via: "Twitter 书签 @steipete"
 ---
 
-A browser tool that shows a summarized toolbar over any link you hover, helping identify clickbait before opening the link.
+浏览器工具，悬停任意链接时显示总结工具栏，帮助在打开链接前识别标题党内容。
 
-## Key Features
+## 核心功能
 
-- Hover-based link preview system
-- Summarization to identify clickbait
-- Toolbar overlay interface
-- Quick content preview without clicking
+- 悬停式链接预览系统
+- 总结内容，识别标题党
+- 工具栏覆盖界面
+- 无需点击即可快速预览内容
 
-## Links
+## 相关链接
 
-- [Website](https://summarize.sh/)
-- [Original Tweet](https://x.com/steipete/status/2006425901719023628)
+- [官网](https://summarize.sh/)
+- [原始推文](https://x.com/steipete/status/2006425901719023628)
