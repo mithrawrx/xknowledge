@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(npx smaug:*)",
+      "Bash(claude --print --verbose --output-format stream-json --model sonnet --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,Task,TodoWrite\" -- \"Process the 20 bookmark\\(s\\) in ./.state/pending-bookmarks.json following the instructions in ./.claude/commands/process-bookmarks.md. Read that file first, then process each bookmark.\")",
+      "Bash(claude --print --verbose --output-format stream-json --model \"claude-sonnet-4-20250514\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,Task,TodoWrite\" -- \"Say hello\")",
+      "Bash(claude --print --verbose --output-format stream-json --model \"glm-5\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,Task,TodoWrite\" -- \"Say hello\")"
+    ]
+  }
+}

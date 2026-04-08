@@ -1,3 +1,85 @@
+# Tuesday, April 7, 2026
+
+## @dotey - Hermes Agent vs OpenClaw 对比分析
+> *引用 @NousResearch:* Meet Hermes Agent, the open source agent that grows with you.
+>
+> Hermes Agent remembers what it learns and gets more capable over time, with a multi-level memory system and persistent dedicated machine access. https://t.co/Xe55wBbUuo
+>
+> Hermes Agent 势头很猛，这几天推荐的人很多，可以关注一下。我自己安装试用了还可以。
+>
+> Hermes Agent 是由 Nous Research 在今年 2 月底开源的 AI 智能体框架，上线不到两个月，GitHub 星标已经接近三万。这个项目被社区认为是 OpenClaw（龙虾）上线以来，第一个真正意义上的竞争对手。
+
+- **推文**: https://x.com/dotey/status/2041585514873037167
+- **引用推文**: https://x.com/NousResearch/status/2026758996107898954
+- **链接**: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart（文档）
+- **概述**: 宝玉详细对比了 Hermes Agent 和 OpenClaw 的设计哲学差异：龙虾是网关型设计，Hermes 是引擎型设计（闭环学习循环）。Hermes 会自动从经验生成技能并自我迭代，记忆体系采用 SQLite 全量检索，安全方面有五层纵深防御。适合关注 agent 镆期进化能力的用户或 AI 研究者。
+
+---
+
+## @fankaishuoai - Karpathy LLM Wiki 改造方案
+> Karpathy 的 LLM Wiki 方案全网刷屏，我拿来跑了一遍。方案很漂亮，但对内容创作者来说有三个硬伤。改了三个地方之后，900 多篇笔记现在全部自动管理。完整方案和实操演示👇
+
+- **推文**: https://x.com/fankaishuoai/status/2041387467040055685
+- **链接**: https://x.com/i/article/2041163929674715136（X文章）
+- **归档**: [karpathy-llm-wiki-improved](./knowledge/articles/karpathy-llm-wiki-improved.md)
+- **概述**: 范凯分享了对 Karpathy LLM Wiki 方案的改造实践，针对内容创作者的需求增加了输入层、产出层，并引入确认机制让 AI 先报计划再执行，解决了自动分类不准确的问题。
+
+---
+
+## @wangray - Hermes Agent 内置 LLM-Wiki
+> *引用 @Teknium:* Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and research vaults with Obsidian!
+>
+> In just a short bit of time Hermes created a large body of research work from studying the web, code, and our papers to create this knowledge base around all of Nous' projects.
+>
+> Just `hermes update` and type
+>
+> /llm-wiki <research x>
+>
+> in a new message or session to begin :)
+>
+> https://t.co/K2FIDTTljz
+>
+> 本来想自己搭一套 Karpathy 的 LLM-Wiki 做知识库管理
+>
+> Hermes 现在直接开箱即用，省事儿了
+
+- **推文**: https://x.com/wangray/status/2041384982485315737
+- **引用推文**: https://x.com/Teknium/status/2041370915012071577
+- **链接**: https://github.com/NousResearch/hermes-agent（GitHub）
+- **归档**: [hermes-agent](./knowledge/tools/hermes-agent.md)
+- **概述**: Hermes Agent 现已内置 Karpathy 的 LLM-Wiki 功能，可直接用 `/llm-wiki <research x>` 命令创建知识库。这是一个自进化的AI智能体框架，具有闭环学习循环能力。
+
+---
+
+## @nash_su - LLM Wiki可视化客户端即将开源
+> *引用 @nash_su:* 继 Karpathy 大神后，YC 的 CEO @garrytan 也分享了自己的知识管理方法：
+> https://t.co/7iHMjfqr5e
+>
+> Karpathy大神的：
+> https://t.co/Sxn9PR4TZ2
+>
+> 我将各自理论的核心架构、逻辑和概念可视化出来，方便大家看 https://t.co/uAq8tSfB9z
+>
+> LLM Wiki 客户端马上开源！
+> 昨天根据 Karpathy 大神的 LLM Wiki 个人知识管理的方法论，开发了一个可视化的客户端软件，功能流程都完整实现，需要再优化下用户体验，今晚或明天开源出来。
+>
+> 今天要搞 https://t.co/nib8sZOrUi 的大版本更新和发布，忙完了就搞这个 https://t.co/lHVS9lDPf9
+
+- **推文**: https://x.com/nash_su/status/2041381292588294606
+- **引用推文**: https://x.com/nash_su/status/2041074070956216441
+- **链接**: https://autocli.ai/（AutoCLI.ai）
+- **概述**: nash_su 基于 Karpathy 和 Garry Tan 的 LLM Wiki 方法论开发了可视化客户端软件，即将开源。同时提到了 AutoCLI.ai 的大版本更新，这是一个将网站转换为结构化CLI输出的AI工具。
+
+---
+
+## @billtheinvestor - Clicky：屏幕旁的AI教师
+> 我开发了一个叫 Clicky 的工具，它像一个 AI 教师，住在你光标旁边。它可以看见你的屏幕，和你对话，甚至能指着东西，有点像真有人在你旁边教学。我过去几天用它学习 Davinci Resolve，评分 10/10。 https://t.co/lTSj1Hg6Ci
+
+- **推文**: https://x.com/billtheinvestor/status/2041341222632210836
+- **概述**: Clicky 是一个 AI 教学工具，能实时观察屏幕内容、与用户对话交互，帮助学习软件操作。作者用它学习视频编辑软件 DaVinci Resolve，体验极佳。
+
+---
+
 # Saturday, April 4, 2026
 
 ## @CG_BRC20 - Bitcoin Faucet Revival After 16 Years

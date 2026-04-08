@@ -1,25 +1,46 @@
-# Hermes Agent
+---
+title: "Hermes Agent"
+type: tool
+date_added: 2026-04-07
+source: "https://github.com/NousResearch/hermes-agent"
+tags: [ai-agent, llm, knowledge-management, nous-research]
+via: "Twitter书签 @wangray"
+---
 
-**GitHub:** https://github.com/NousResearch/hermes-agent
-**Stars:** 30,360
-**Language:** Python
-**Tagline:** The agent that grows with you
+Hermes Agent 是 Nous Research 开源的自进化 AI 智能体框架，具有闭环学习循环能力。现已内置 Karpathy 的 LLM-Wiki 功能，可直接创建知识库。GitHub 星标超过 33,720。
 
-## Overview
+## 核心功能
 
-Hermes is an AI agent designed for personal knowledge management, implementing Karpathy's LLM-Wiki methodology out of the box. It eliminates the need to build a custom LLM-Wiki system from scratch.
+- **闭环学习循环** - Agent 自动从经验创建技能，使用过程中自我改进，建立用户模型
+- **内置 LLM-Wiki** - 支持 Karpathy 的知识管理方法论，用 `/llm-wiki` 命令创建知识库
+- **多平台支持** - Telegram、Discord、Slack、WhatsApp、Signal、CLI 等多入口
+- **多模型切换** - 支持 Nous Portal、OpenRouter、OpenAI、自定义 endpoint 等
+- **自动技能生成** - 完成复杂任务后自动沉淀为技能文档，下次直接调用
+- **双层记忆体系** - MEMORY.md 常驻关键信息 + SQLite 全量历史检索
 
-## Key Features
+## 使用场景
 
-- **Out-of-the-box LLM-Wiki implementation** - Ready to use without extensive setup
-- **Personal knowledge management** - Grows and evolves with your knowledge base
-- **Built on Karpathy's methodology** - Follows the proven LLM Wiki approach for organizing and retrieving knowledge
+- 个人知识库管理（配合 Obsidian）
+- 长期 AI 助手培养（越用越聪明）
+- 多渠道统一 AI 接入
+- AI 研究和训练轨迹生成
 
-## Use Case
+## 快速开始
 
-Ideal for users who want to implement Karpathy's LLM-Wiki knowledge management system without building it from scratch. Mentioned as a time-saving alternative to DIY implementations.
+```bash
+# 安装
+curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 
-## Source
+# 启动对话
+hermes
 
-- Discovered via @wangray tweet: https://x.com/wangray/status/2041384982485315737
-- Date: Tuesday, April 7, 2026
+# 使用 LLM-Wiki
+hermes update
+# 然后在对话中输入: /llm-wiki <research topic>
+```
+
+## 相关链接
+
+- [GitHub仓库](https://github.com/NousResearch/hermes-agent)
+- [官方文档](https://hermes-agent.nousresearch.com/docs/)
+- [原始推文](https://x.com/wangray/status/2041384982485315737)
