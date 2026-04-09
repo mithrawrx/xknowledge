@@ -101,10 +101,10 @@ const DEFAULT_CONFIG = {
     },
     tweet: {
       match: [],
-      action: 'capture',
-      folder: null,
-      template: null,
-      description: 'Plain tweets - captured in bookmarks.md only'
+      action: 'file',
+      folder: './knowledge/tweets',
+      template: 'tweet',
+      description: 'All tweets - full content archived to separate files'
     }
   },
 

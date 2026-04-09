@@ -118,7 +118,6 @@ Categories define how different bookmark types are handled. Each category has:
 - `match`: URL patterns or keywords to identify this type
 - `action`: What to do with matching bookmarks
   - `file`: Create a separate markdown file in the folder
-  - `capture`: Just add to bookmarks.md
   - `transcribe`: Flag for future transcription, add to bookmarks.md with transcript note
 - `folder`: Where to save files (for `file` action)
 - `template`: Which template to use (`tool`, `article`, `podcast`, `video`)
@@ -174,7 +173,6 @@ Match each bookmark's links against category patterns (check `match` arrays). Us
 
 **For each action type:**
 - `file`: Create a separate file in the category's folder using its template
-- `capture`: Just add to bookmarks.md (no separate file)
 - `transcribe`: Add to bookmarks.md with a "Needs transcript" flag, optionally create placeholder in folder
 
 **Special handling:**
@@ -425,6 +423,48 @@ status: needs_transcript
 - [视频链接]({video_url})
 - [原始推文]({tweet_url})
 ```
+
+### 推文条目 (`./knowledge/tweets/{slug}.md`)
+
+**重要：这是完整的推文内容归档，不是简要概述！**
+
+```yaml
+---
+title: "{描述性标题}"
+type: tweet
+date_added: {YYYY-MM-DD}
+author: "@{username}"
+author_name: "{显示名称}"
+tags: [{相关标签}, {文件夹标签}]
+via: "Twitter书签"
+tweet_id: "{推文ID}"
+---
+
+## 完整内容
+
+{推文完整原文，保留所有换行和格式}
+
+{如果有引用推文，完整包含引用内容}
+
+## 收藏原因
+
+{为什么这条推文有价值，收藏的背景}
+
+## 相关链接
+
+- [原始推文]({tweet_url})
+```
+
+**推文标题命名规则：**
+- 使用 `@{author}-{简要主题}.md` 格式
+- 例如：`@karpathy-llm-wiki-idea.md`、`@simonw-gist-host.md`
+- 同一作者的多个推文可以追加数字：`@author-topic-2.md`
+
+**内容要求：**
+1. **完整原文**：推文的所有文字内容，包括换行
+2. **引用内容**：如果是引用推文，完整包含被引用的内容
+3. **媒体描述**：如果推文包含图片/视频，描述其内容
+4. **收藏价值**：说明这条推文为什么值得收藏
 
 ## Parallel Processing (REQUIRED when above threshold)
 
