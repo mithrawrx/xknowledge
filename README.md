@@ -9,8 +9,8 @@
 ```
 ├── bookmarks.md          # 主归档文件，按日期组织
 ├── knowledge/
-│   ├── tools/            # GitHub 项目/工具 (27+)
-│   └── articles/         # 技术文章 (7+)
+│   ├── tools/            # GitHub 项目/工具
+│   ├── tweets/           # 普通推文完整内容
 ```
 
 ### 🛠️ 工具类 (`knowledge/tools/`)
@@ -64,10 +64,10 @@ AI & 开发工具：
 
 | 类型 | 数量 | 说明 |
 |------|------|------|
-| 总书签 | 95 | bookmarks.md 中记录的所有书签 |
-| 工具归档 | 23 | GitHub 项目，提取 README 等信息 |
+| 总书签 | 96 | bookmarks.md 中记录的所有书签 |
+| 工具归档 | 13 | GitHub 项目，提取 README 等信息 |
 | 文章归档 | 6 | 外部文章，提取正文内容 |
-| 推文归档 | 66 | 普通推文完整原文 |
+| 推文归档 | 79 | 普通推文完整原文 |
 
 > **所有书签都会创建单独文件**：无论是 GitHub 项目、外部文章还是普通推文，都会归档到 knowledge/ 目录下，保存完整内容而非简要概述。
 
@@ -75,7 +75,3 @@ AI & 开发工具：
 
 - 工具源码: [alexknowshtml/smaug](https://github.com/alexknowshtml/smaug)
 - bird CLI: [steipete/bird](https://github.com/steipete/bird)
-
----
-
-*此知识库由 AI 自动整理，内容来自我的 X/Twitter 书签收藏。*
