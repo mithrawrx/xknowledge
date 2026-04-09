@@ -1,5 +1,122 @@
 # Tuesday, April 7, 2026
 
+---
+
+# Thursday, April 9, 2026
+
+## @Jason23818126 - Vibe-Trading 金融AI交易框架
+> 港大最新开源了一个金融 AI 交易项目...
+
+- **推文**: https://x.com/Jason23818126/status/2042089979627921634
+- **链接**: https://github.com/HKUDS/Vibe-Trading
+- **归档**: [vibe-trading.md](./knowledge/tools/vibe-trading.md)
+- **概述**: 香港大学开源的金融AI交易框架，支持多策略自动化交易。
+
+---
+
+## @0xAA_Science - auth2api Claude OAuth转API代理
+> 我们利用上周"开源"的 Claude Code 源码，在 auth2api 中精确复刻了 7 个维度的用户指纹...
+
+**引用原推**:
+> 让 Claude Code 自己写了一个轻量、单账号的 Claude OAuth 转 API 代理...
+
+- **推文**: https://x.com/0xAA_Science/status/2042151683283878146
+- **链接**: https://github.com/AmazingAng/auth2api
+- **归档**: [auth2api.md](./knowledge/tools/auth2api.md)
+- **概述**: 将Claude OAuth认证转换为API代理的工具，支持精确复刻用户指纹实现稳定调用。
+
+---
+
+## @QingQ77 - Token Neovim配色方案
+> 不需要配置的配色方案，才是你不用操心的配色方案。
+
+受 Claude 美学启发的 Neovim 配色方案...
+
+- **推文**: https://x.com/QingQ77/status/2042182985093468607
+- **链接**: https://github.com/ThorstenRhau/token/
+- **归档**: [token-neovim-theme.md](./knowledge/tools/token-neovim-theme.md)
+- **概述**: 受Claude美学启发的Neovim配色方案，零配置开箱即用。
+
+---
+
+## @vista8 - Recordly 免费录屏软件
+> 最贵缩放录屏软件Screen Studio，核心功能被Recordly复刻，完全免费开源！
+
+- **推文**: https://x.com/vista8/status/2042046881635979312
+- **链接**: 无（媒体附件）
+- **概述**: Recordly 是 Screen Studio 的免费开源替代品，复刻了其核心录屏缩放功能。
+
+---
+
+## @geekbb - Obsidian Baseline 主题
+> Obsidian Baseline 主题越来越赏心悦目了...
+
+- **推文**: https://x.com/geekbb/status/2042071957840261537
+- **链接**: https://github.com/aaaaalexis/obsidian-baseline
+- **归档**: [obsidian-baseline.md](./knowledge/tools/obsidian-baseline.md)
+- **概述**: 简洁优雅的 Obsidian 主题，注重可读性和美观性，1.1K+ stars。
+
+---
+
+# Wednesday, April 8, 2026
+
+## @nash_su - LLM Wiki 开源客户端
+> 开源啦🎉🎉🎉
+>
+> 基于 @karpathy 的 llm-wiki 方法论...
+
+- **推文**: https://x.com/nash_su/status/2042017125678903330
+- **链接**: https://github.com/nashsu/llm_wiki
+- **归档**: [llm-wiki.md](./knowledge/tools/llm-wiki.md)
+- **概述**: 基于 Karpathy 的 LLM Wiki 方法论开发的开源客户端，用于个人知识管理和智能整理。
+
+---
+
+## @howlemont - MarkItDown 文档转 Markdown 工具
+> 微软，总算出了个好东西...
+>
+> 可以将几乎任何格式转换为Markdown...
+
+- **推文**: https://x.com/howlemont/status/2042017686457348506
+- **链接**: https://github.com/microsoft/markitdown
+- **归档**: [markitdown.md](./knowledge/tools/markitdown.md)
+- **概述**: 微软开源的文档转换工具，支持将 PDF、Word、PPT 等多种格式转换为 Markdown，95K+ stars。
+
+---
+
+## @FinanceYF5 - Karpathy的"第二大脑"概念应用案例
+> Karpathy 的"第二大脑"概念直接干掉了 RAG。
+>
+> 现在 LLM 可以把论文、代码库和笔记变成一个不断进化、越来越聪明的活维基。
+>
+> 而且人们已经在用它做各种疯狂的应用了。
+>
+> 以下是 10 个例子：
+
+- **推文**: https://x.com/FinanceYF5/status/2041792320639815910
+- **概述**: 介绍了Karpathy提出的"第二大脑"概念，LLM可以将论文、代码库和笔记转化为不断进化的活维基，并分享了10个实际应用案例。
+
+---
+
+## @blackanger - Anthropic发布Claude Managed Agents
+> Anthropic 发布了新的 Harness 工程实践文章...
+>
+> 引用 @RLanceMartin
+
+- **推文**: https://x.com/blackanger/status/2041951380836147479
+- **链接**: https://x.com/i/article/2041913047493832710 (X文章: Launching Claude Managed Agents)
+- **概述**: Anthropic发布Claude Managed Agents相关文章，介绍新的工程实践和代理管理能力。
+
+---
+
+## @billtheinvestor - Graphify开源发布
+> Andrej Karpathy 建议开发此工具 48 小时后，Graphify 已在 GitHub 开源...
+
+- **推文**: https://x.com/billtheinvestor/status/2041995989889024056
+- **概述**: Graphify工具在Karpathy建议后48小时内开源发布，展现了开源社区的快速响应能力。
+
+---
+
 ## @dotey - Hermes Agent vs OpenClaw 对比分析
 > *引用 @NousResearch:* Meet Hermes Agent, the open source agent that grows with you.
 >
@@ -193,6 +310,18 @@
 ---
 
 # Sunday, April 5, 2026
+
+## @garrytan - AI求职系统Career-Ops开源
+> Golden age of open source is here
+>
+> 引用 @Hesamation: "bro created an AI job search system for Claude Code that scored 700+ job applications..."
+
+- **推文**: https://x.com/garrytan/status/2040891664617848993
+- **链接**: https://github.com/santifer/career-ops
+- **归档**: [career-ops.md](./knowledge/tools/career-ops.md)
+- **概述**: AI驱动的求职系统，基于Claude Code构建，支持14种技能模式、Go仪表板、PDF生成和批处理，开源后迅速获得26k+星标。
+
+---
 
 ## @dotey - 编程智能体的核心组件【译】
 > https://t.co/Aj6H4eVQer
