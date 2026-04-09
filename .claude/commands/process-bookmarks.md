@@ -426,7 +426,7 @@ status: needs_transcript
 
 ### 推文条目 (`./knowledge/tweets/{slug}.md`)
 
-**重要：这是完整的推文内容归档，不是简要概述！**
+**重要：这是完整的推文内容归档。当推文只是转发链接时，必须获取链接的完整内容！**
 
 ```yaml
 ---
@@ -446,6 +446,15 @@ tweet_id: "{推文ID}"
 
 {如果有引用推文，完整包含引用内容}
 
+## 链接内容
+
+{如果推文包含重要链接（GitHub、文章、X文章等），此处保存链接的完整内容}
+
+**当推文主要是转发链接时（推文本身只有简短说明）：**
+- **GitHub链接**: 包含 README 内容、功能描述、star数量等
+- **文章链接**: 包含文章正文内容（从 links[].content.text 获取）
+- **X文章链接**: 包含文章完整内容（从 links[].content.content 获取）
+
 ## 收藏原因
 
 {为什么这条推文有价值，收藏的背景}
@@ -453,6 +462,7 @@ tweet_id: "{推文ID}"
 ## 相关链接
 
 - [原始推文]({tweet_url})
+{如果有链接，添加相关链接}
 ```
 
 **推文标题命名规则：**
@@ -460,11 +470,15 @@ tweet_id: "{推文ID}"
 - 例如：`@karpathy-llm-wiki-idea.md`、`@simonw-gist-host.md`
 - 同一作者的多个推文可以追加数字：`@author-topic-2.md`
 
-**内容要求：**
+**内容填充规则（关键）：**
 1. **完整原文**：推文的所有文字内容，包括换行
 2. **引用内容**：如果是引用推文，完整包含被引用的内容
-3. **媒体描述**：如果推文包含图片/视频，描述其内容
-4. **收藏价值**：说明这条推文为什么值得收藏
+3. **链接内容**：**这是最重要的！** 如果推文转发了一个链接（GitHub、文章、X文章），必须从 `links[].content` 获取完整内容并保存：
+   - GitHub: `content.readme`, `content.description`, `content.stars`
+   - 文章: `content.text`（HTML内容）
+   - X文章: `content.content`（文章正文）
+4. **媒体描述**：如果推文包含图片/视频，描述其内容
+5. **收藏价值**：说明这条推文为什么值得收藏
 
 ## Parallel Processing (REQUIRED when above threshold)
 
