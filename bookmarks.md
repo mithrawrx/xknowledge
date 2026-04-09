@@ -4,6 +4,19 @@
 
 # Thursday, April 9, 2026
 
+## @geekbb - Token Neovim配色方案（回复推荐）
+> *回复 @duanjl_china:* 这个 ghostty 是什么 theme 啊
+>
+> https://t.co/sg8C5ezF47
+
+- **推文**: https://x.com/geekbb/status/2042160744754733428
+- **父推文**: https://x.com/duanjl_china/status/2042125297940885685
+- **链接**: https://github.com/ThorstenRhau/token/
+- **归档**: [token-neovim-theme.md](./knowledge/tools/token-neovim-theme.md)（已有）
+- **概述**: geekbb 回复询问 ghostty 配色的问题，推荐了 Token 主题。这是一个零配置的 Neovim 配色方案，内置 Ghostty 等终端工具配套主题，所有配色从同一 palette 生成。
+
+---
+
 ## @Jason23818126 - Vibe-Trading 金融AI交易框架
 > 港大最新开源了一个金融 AI 交易项目...
 
