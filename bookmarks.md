@@ -107,7 +107,7 @@
 > 以下是 10 个例子：
 
 - **推文**: https://x.com/FinanceYF5/status/2041792320639815910
-- **归档**: [FinanceYF5-karpathy.md](./knowledge/tweets/FinanceYF5-karpathy.md)
+- **归档**: [Karpathy的第二大脑概念应用案例.md](./knowledge/tweets/Karpathy的第二大脑概念应用案例.md)
 - **概述**: 介绍了Karpathy提出的"第二大脑"概念，LLM可以将论文、代码库和笔记转化为不断进化的活维基，并分享了10个实际应用案例。
 
 ---
@@ -119,7 +119,7 @@
 
 - **推文**: https://x.com/blackanger/status/2041951380836147479
 - **链接**: https://x.com/i/article/2041913047493832710 (X文章: Launching Claude Managed Agents)
-- **归档**: [blackanger-anthropicclaude-managed-agents.md](./knowledge/tweets/blackanger-anthropicclaude-managed-agents.md)
+- **归档**: [Anthropic发布ClaudeManagedAgents.md](./knowledge/tweets/Anthropic发布ClaudeManagedAgents.md)
 - **概述**: Anthropic发布Claude Managed Agents相关文章，介绍新的工程实践和代理管理能力。
 
 ---
@@ -128,7 +128,7 @@
 > Andrej Karpathy 建议开发此工具 48 小时后，Graphify 已在 GitHub 开源...
 
 - **推文**: https://x.com/billtheinvestor/status/2041995989889024056
-- **归档**: [billtheinvestor-graphify.md](./knowledge/tweets/billtheinvestor-graphify.md)
+- **归档**: [Graphify开源发布.md](./knowledge/tweets/Graphify开源发布.md)
 - **概述**: Graphify工具在Karpathy建议后48小时内开源发布，展现了开源社区的快速响应能力。
 
 ---
@@ -145,7 +145,7 @@
 - **推文**: https://x.com/dotey/status/2041585514873037167
 - **引用推文**: https://x.com/NousResearch/status/2026758996107898954
 - **链接**: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart（文档）
-- **归档**: [dotey-hermes-agent-vs-openclaw-.md](./knowledge/tweets/dotey-hermes-agent-vs-openclaw-.md)
+- **归档**: [HermesAgentvsOpenClaw对比分析.md](./knowledge/tweets/HermesAgentvsOpenClaw对比分析.md)
 - **概述**: 宝玉详细对比了 Hermes Agent 和 OpenClaw 的设计哲学差异：龙虾是网关型设计，Hermes 是引擎型设计（闭环学习循环）。Hermes 会自动从经验生成技能并自我迭代，记忆体系采用 SQLite 全量检索，安全方面有五层纵深防御。适合关注 agent 镆期进化能力的用户或 AI 研究者。
 
 ---
@@ -158,7 +158,7 @@
 - **推文**: https://x.com/vista8/status/2041330940925095977
 - **引用推文**: https://x.com/idoubicc/status/2040821048577565144
 - **链接**: https://x.com/i/article/2040815341639786497（X文章）
-- **归档**: [vista8-vibe-coding-.md](./knowledge/tweets/vista8-vibe-coding-.md)
+- **归档**: [VibeCoding项目三个月实践总结.md](./knowledge/tweets/VibeCoding项目三个月实践总结.md)
 - **概述**: 作者分享三个月内使用 Claude Code 进行 Vibe Coding 的实践成果，成功构建了 WorkAny、WorkAny Bot、ChatClaw、CoRich、FastClaw、WeClaw、AnyClaw 等多个项目。总结了几点深刻感悟：编程习惯被颠覆、AI 治好强迫症、注意力更加不集中、测试资源极度缺乏、技术落地能力差异被 AI 抹平。
 
 ---
@@ -215,7 +215,7 @@
 - **推文**: https://x.com/nash_su/status/2041381292588294606
 - **引用推文**: https://x.com/nash_su/status/2041074070956216441
 - **链接**: https://autocli.ai/（AutoCLI.ai）
-- **归档**: [nash_su-llm-wiki.md](./knowledge/tweets/nash_su-llm-wiki.md)
+- **归档**: [LLMWiki可视化客户端即将开源.md](./knowledge/tweets/LLMWiki可视化客户端即将开源.md)
 - **概述**: nash_su 基于 Karpathy 和 Garry Tan 的 LLM Wiki 方法论开发了可视化客户端软件，即将开源。同时提到了 AutoCLI.ai 的大版本更新，这是一个将网站转换为结构化CLI输出的AI工具。
 
 ---
@@ -224,7 +224,7 @@
 > 我开发了一个叫 Clicky 的工具，它像一个 AI 教师，住在你光标旁边。它可以看见你的屏幕，和你对话，甚至能指着东西，有点像真有人在你旁边教学。我过去几天用它学习 Davinci Resolve，评分 10/10。 https://t.co/lTSj1Hg6Ci
 
 - **推文**: https://x.com/billtheinvestor/status/2041341222632210836
-- **归档**: [billtheinvestor-clickyai.md](./knowledge/tweets/billtheinvestor-clickyai.md)
+- **归档**: [Clicky：屏幕旁的AI教师.md](./knowledge/tweets/Clicky：屏幕旁的AI教师.md)
 - **概述**: Clicky 是一个 AI 教学工具，能实时观察屏幕内容、与用户对话交互，帮助学习软件操作。作者用它学习视频编辑软件 DaVinci Resolve，体验极佳。
 
 ---
@@ -258,7 +258,7 @@
 - **推文**: https://x.com/op7418/status/2040471456820408449
 - **引用推文**: https://x.com/op7418/status/2039898050697839041
 - **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
-- **归档**: [op7418-karpathy-llm-wiki-.md](./knowledge/tweets/op7418-karpathy-llm-wiki-.md)
+- **归档**: [KarpathyLLMWiki中文解读.md](./knowledge/tweets/KarpathyLLMWiki中文解读.md)
 - **概述**: 歸藏分享 Karpathy LLM Wiki 的中文解读，介绍了 raw/ 目录存储原始资料、LLM 编译成 Wiki、Obsidian 作为前端、健康检查等核心概念。强调知识库会越用越厚，但需注意区分可靠来源和 AI 生成内容。
 
 ---
@@ -275,7 +275,7 @@
 - **推文**: https://x.com/berryxia/status/2040554947415244831
 - **引用推文**: https://x.com/karpathy/status/2040470801506541998
 - **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
-- **归档**: [berryxia-karpathy-idea-file-.md](./knowledge/tweets/berryxia-karpathy-idea-file-.md)
+- **归档**: [KarpathyIdeaFile推广.md](./knowledge/tweets/KarpathyIdeaFile推广.md)
 - **概述**: Berryxia 推广 Karpathy 的 idea file 概念，强调在 Agent 时代分享 idea 而非代码的新模式。同一个 Gist 已在 @karpathy 条目归档。
 
 ---
@@ -327,7 +327,7 @@
 - **推文**: https://x.com/rwayne/status/2041063190776385858
 - **引用推文**: https://x.com/Jaden_riku/status/2041013292005773507
 - **链接**: https://x.com/i/article/2041011364412764160（X文章）
-- **归档**: [rwayne-.md](./knowledge/tweets/rwayne-.md)
+- **归档**: [思维系统升级测试.md](./knowledge/tweets/思维系统升级测试.md)
 - **概述**: 用户对新知识管理方法的积极反馈，准备在自己的第二大脑系统中测试。引用的文章介绍了一套三层思维系统：维特根斯坦帮你发现模糊、苏格拉底追问挖掘答案、波兰尼处理默会知识。
 
 ---
@@ -366,7 +366,7 @@
 - **推文**: https://x.com/Lonely__MH/status/2040736227314499707
 - **引用推文**: https://x.com/laozhang2579/status/2040732229035585615
 - **链接**: https://x.com/i/article/2040727573035102208（X文章）
-- **归档**: [Lonely__MH-karpathy-ai.md](./knowledge/tweets/Lonely__MH-karpathy-ai.md)
+- **归档**: [KarpathyAI知识库落地教程.md](./knowledge/tweets/KarpathyAI知识库落地教程.md)
 - **概述**: 将 Karpathy 的 AI 知识库理念转化为可操作步骤的落地教程。包括使用 Obsidian Web Clipper 采集素材、图片本地化、Git 版本管理、图谱视图查看知识全貌等实操步骤，帮助读者告别传统 RAG 的低效检索循环。
 
 ---
