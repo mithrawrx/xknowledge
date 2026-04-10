@@ -18,5 +18,5 @@ This is how you should use MCPs if you can. Instead of loading all MCPs, load 1 
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/0xSero/status/2005355435570958553)
 

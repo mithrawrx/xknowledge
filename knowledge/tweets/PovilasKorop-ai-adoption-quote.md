@@ -18,5 +18,5 @@ How to adopt AI in your company (or personally). Main point: There is no AI cour
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/PovilasKorop/status/2004099293389463793)
 

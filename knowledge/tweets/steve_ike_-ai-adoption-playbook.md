@@ -18,5 +18,5 @@ This might be the cleanest AI adoption playbook inside a real product org I've s
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/steve_ike_/status/2003497265495785523)
 

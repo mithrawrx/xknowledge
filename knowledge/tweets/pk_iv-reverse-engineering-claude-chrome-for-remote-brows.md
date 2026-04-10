@@ -20,5 +20,5 @@ Here's how Anthropic taught Claude how to browse the web (1/7)
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/pk_iv/status/2005694082627297735)
 

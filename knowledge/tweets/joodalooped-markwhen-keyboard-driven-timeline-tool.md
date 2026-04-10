@@ -20,5 +20,5 @@ for those who prefer keyboard to drag and drop, https://markwhen.com/ is quite n
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/joodalooped/status/2006089396861427738)
 

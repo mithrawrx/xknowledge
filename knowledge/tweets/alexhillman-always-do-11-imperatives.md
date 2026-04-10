@@ -18,5 +18,5 @@ Always Keep Humans at the Center - use AI to remove drudgery and free up time fo
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/alexhillman/status/2006881325849129246)
 

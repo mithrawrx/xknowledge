@@ -18,5 +18,5 @@ woah...game changer addition to chrome
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/calebporzio/status/2004651797533917261)
 

@@ -18,5 +18,5 @@ Started working on "Claude HUD"
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/jarrodwatts/status/2007035752665034994)
 

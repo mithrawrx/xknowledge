@@ -18,5 +18,5 @@ Static navbars can be cool too 👀 https://t.co/CkRIvlXUrr
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/Suupercharged/status/2006787096955203911)
 

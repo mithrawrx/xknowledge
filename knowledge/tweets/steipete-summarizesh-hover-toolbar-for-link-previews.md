@@ -56,5 +56,5 @@ Config
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/steipete/status/2006425901719023628)
 

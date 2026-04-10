@@ -18,5 +18,5 @@ I really enjoyed this. There's no sense pretending that this isn't happening, ev
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/DanielNealAdler/status/2006206247054229798)
 

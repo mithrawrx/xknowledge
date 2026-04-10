@@ -18,5 +18,5 @@ Moved away from react-markdown to streamdown and although its not perfect, its s
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/hdjirdeh/status/2004020171808428520)
 

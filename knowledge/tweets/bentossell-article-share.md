@@ -25,5 +25,5 @@ https://t.co/Ref8GgkIR5
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/bentossell/status/2006352820140749073)
 

@@ -257,5 +257,5 @@ docker build -t
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/tom_doerr/status/2006262985182834881)
 

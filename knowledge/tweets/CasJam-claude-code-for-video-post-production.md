@@ -18,5 +18,5 @@ Building a custom Claude Code app that handles ~80% of post-production in a sing
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/CasJam/status/2005765644394844261)
 

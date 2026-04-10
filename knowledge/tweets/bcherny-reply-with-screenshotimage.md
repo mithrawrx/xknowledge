@@ -18,5 +18,5 @@ Visual content reply
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/bcherny/status/2004947522889162834)
 

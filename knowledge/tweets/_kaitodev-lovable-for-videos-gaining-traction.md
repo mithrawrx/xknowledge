@@ -22,5 +22,5 @@ check it out:
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/_kaitodev/status/2007553892968706134)
 

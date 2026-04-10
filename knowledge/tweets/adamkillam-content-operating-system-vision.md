@@ -22,5 +22,5 @@ The list goes on.
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/adamkillam/status/2006894238446002261)
 

@@ -18,5 +18,5 @@ Here's my "ask claude code to onboard a nontechnical user" prompt
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/seconds_0/status/2004684813773799543)
 

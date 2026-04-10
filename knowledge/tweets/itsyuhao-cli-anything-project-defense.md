@@ -20,5 +20,5 @@ via: "Twitter书签"
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/itsyuhao/status/2040028116362612753)
 

@@ -28,5 +28,5 @@ via: "Twitter书签"
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/wquguru/status/1992498795444396267)
 

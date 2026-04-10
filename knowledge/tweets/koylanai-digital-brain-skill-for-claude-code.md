@@ -18,5 +18,5 @@ Agent Skills for Context Engineering - digital brain implementation
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/koylanai/status/2005857134311854480)
 

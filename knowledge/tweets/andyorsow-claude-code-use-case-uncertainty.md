@@ -18,5 +18,5 @@ Feeling like I should be using Claude Code but have no idea exactly what I shoul
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/andyorsow/status/2007931911847719290)
 

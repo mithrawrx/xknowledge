@@ -18,5 +18,5 @@ If you started using Claude Code over the holidays, you might be curious about h
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/trq212/status/2007903193158881323)
 

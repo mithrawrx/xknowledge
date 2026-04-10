@@ -18,5 +18,5 @@ Full template for asking Claude Code to onboard a non-technical user
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/trq212/status/2007903193158881323)
 

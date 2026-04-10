@@ -24,5 +24,5 @@ ayyyy thanks for this fam! i was able to use Claude opus + anti gravity to put t
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/emmagine79/status/2007051496496714038)
 

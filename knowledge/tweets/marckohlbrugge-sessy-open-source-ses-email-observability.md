@@ -112,5 +112,5 @@ Sessy was heavily inspired by [Fizzy](https://github.com/basecamp/fizzy) and we'
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/marckohlbrugge/status/2005972157445333371)
 

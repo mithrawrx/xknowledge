@@ -18,5 +18,5 @@ Discussion about how smartphone addiction affects dopamine levels and causes bra
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/aakashgupta/status/2005552148218851769)
 

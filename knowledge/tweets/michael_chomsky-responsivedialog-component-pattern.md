@@ -18,5 +18,5 @@ I do this for every project (quote of @jordienr about drawer on mobile, dialog o
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/michael_chomsky/status/2005454822083076172)
 

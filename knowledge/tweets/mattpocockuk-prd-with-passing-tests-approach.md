@@ -18,5 +18,5 @@ Tired: PRD + Multi-phase plan. Wired: PRD with 'passing' status on each test cas
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/mattpocockuk/status/2005232347374141888)
 

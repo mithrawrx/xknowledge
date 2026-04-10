@@ -18,5 +18,5 @@ via: "Twitter书签"
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/emmagine79/status/2007051496496714038)
 

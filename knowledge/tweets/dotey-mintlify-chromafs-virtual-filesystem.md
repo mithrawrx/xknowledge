@@ -583,5 +583,5 @@ Tools &amp; Toolsets
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/dotey/status/2041585514873037167)
 

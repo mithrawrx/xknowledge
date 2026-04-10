@@ -18,5 +18,5 @@ Years of work is finally ready. Introducing Crosspost.
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/cameronpetitti/status/2004631941782667685)
 

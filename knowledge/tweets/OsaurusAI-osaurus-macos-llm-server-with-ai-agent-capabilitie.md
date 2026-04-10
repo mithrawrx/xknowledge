@@ -20,5 +20,5 @@ This is what AI agents look like on Mac.
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/OsaurusAI/status/2007091913393070168)
 

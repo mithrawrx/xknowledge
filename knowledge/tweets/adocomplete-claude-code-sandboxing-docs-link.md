@@ -18,5 +18,5 @@ Learn more about Claude Code Sandboxing
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/adocomplete/status/2004977725136888287)
 

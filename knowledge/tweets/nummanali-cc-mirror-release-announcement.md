@@ -28,5 +28,5 @@ Start now: npx cc-mirror
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/nummanali/status/2007586417094844517)
 

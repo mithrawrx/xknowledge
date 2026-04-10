@@ -421,5 +421,5 @@ Lightweight 60FPS animations optimized for performance.
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/0xUrvish/status/2006608646730559629)
 

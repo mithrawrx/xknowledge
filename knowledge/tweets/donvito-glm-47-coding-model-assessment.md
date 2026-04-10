@@ -20,5 +20,5 @@ tried it in claude code
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/donvito/status/2006743894147711370)
 

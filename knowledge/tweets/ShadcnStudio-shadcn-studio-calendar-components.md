@@ -391,5 +391,5 @@ Scroll to top
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/ShadcnStudio/status/2005964727806222598)
 

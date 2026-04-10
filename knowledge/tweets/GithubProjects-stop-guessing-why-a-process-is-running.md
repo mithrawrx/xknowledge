@@ -18,5 +18,5 @@ Stop guessing why a process is running on your system. https://t.co/F4edRFxOuH
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/GithubProjects/status/2006747292510925092)
 

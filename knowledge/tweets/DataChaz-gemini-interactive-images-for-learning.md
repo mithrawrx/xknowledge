@@ -22,5 +22,5 @@ Such an insane resource for learning → highlight any region, and it gives you 
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/DataChaz/status/2005605994781606141)
 

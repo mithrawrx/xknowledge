@@ -18,5 +18,5 @@ I want to make the most out of Claude Code... One thing to explore more are plug
 
 ## 相关链接
 
-- [原始推文]()
+- [原始推文](https://x.com/rudrank/status/2005215898593034525)
 
