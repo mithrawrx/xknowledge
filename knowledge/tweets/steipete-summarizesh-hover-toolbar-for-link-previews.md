@@ -12,6 +12,44 @@ via: "Twitter书签"
 
 https://t.co/qSe6Y6Qfup now shows a summarized toolbar over any link you hover, perfect to identify clickbait before even opening the link.
 
+
+## 链接内容
+
+### 文章: summarize — CLI + Chrome Side Panel for fast summaries
+
+> Fast summaries, in the CLI and the Chrome Side Panel.
+
+CLI
+
+Fast summaries, scripted or interactive.
+
+            Built for automation: extract clean text, summarize with your model, and output JSON or
+            Markdown. Works with URLs, PDFs, images, audio/video, YouTube, and podcasts.
+
+Extract + summarize
+ with Firecrawl fallback.
+
+Media pipeline
+ with transcript-first flow and Whisper fallback.
+
+Scriptable output
+ via 
+--json
+, 
+--extract
+,
+
+--metrics
+.
+
+summarize "https://example.com" --length long
+summarize "https://youtu.be/..." --youtube auto
+summarize "/path/report.pdf" --model google/gemini-3-flash-preview
+
+CLI docs
+
+Config
+
 ## 收藏原因
 
 值得保存的推文内容。

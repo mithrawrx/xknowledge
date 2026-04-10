@@ -12,6 +12,29 @@ via: "Twitter书签"
 
 I forked the wonderful https://t.co/DdVAXh3Du3 to create https://t.co/4jatEKRMZv - here's what I changed in my fork: https://t.co/DmSbkKMNTn
 
+
+## 链接内容
+
+### 文章: Gist HTML Preview
+
+Loading...
+
+Gist HTML Preview
+
+If 
+File Name
+ is empty, it will preview 
+index.html
+ or 
+the first file
+ as default.
+
+https://gistpreview.github.io/?
+
+/
+
+Submit
+
 ## 收藏原因
 
 值得保存的推文内容。

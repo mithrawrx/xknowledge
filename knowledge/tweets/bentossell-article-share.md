@@ -12,6 +12,13 @@ via: "Twitter书签"
 
 https://t.co/Ref8GgkIR5
 
+
+## 链接内容
+
+### X 文章
+
+*X 文章内容需要通过 Twitter API 获取，原文链接: https://x.com/i/article/2006346812785868800*
+
 ## 收藏原因
 
 值得保存的推文内容。

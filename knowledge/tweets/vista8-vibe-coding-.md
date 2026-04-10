@@ -14,6 +14,11 @@ via: "Twitter书签"
 >
 真牛逼
 
+
+## 链接内容
+
+*X文章内容需要通过 Twitter API 获取，请手动补充*
+
 ## 收藏原因
 
 作者分享三个月内使用 Claude Code 进行 Vibe Coding 的实践成果，成功构建了 WorkAny、WorkAny Bot、ChatClaw、CoRich、FastClaw、WeClaw、AnyClaw 等多个项目。总结了几点深刻感悟：编程习惯被颠覆、AI 治好强迫症、注意力更加不集中、测试资源极度缺乏、技术落地能力差异被 AI 抹平。

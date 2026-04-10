@@ -12,6 +12,29 @@ via: "Twitter书签"
 
 I forked the wonderful https://gistpreview.github.io/ to create https://gisthost.github.io/ - here's what I changed in my fork: https://simonwillison.net/2026/Jan/1/gisthost/
 
+
+## 链接内容
+
+### 文章: Gist HTML Preview
+
+Loading...
+
+Gist HTML Preview
+
+If 
+File Name
+ is empty, it will preview 
+index.html
+ or 
+the first file
+ as default.
+
+https://gistpreview.github.io/?
+
+/
+
+Submit
+
 ## 收藏原因
 
 值得保存的推文内容。

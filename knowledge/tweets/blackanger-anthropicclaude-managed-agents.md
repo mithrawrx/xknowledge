@@ -14,6 +14,11 @@ Anthropic 发布了新的 Harness 工程实践文章...
 >
 引用 @RLanceMartin
 
+
+## 链接内容
+
+*X文章内容需要通过 Twitter API 获取，请手动补充*
+
 ## 收藏原因
 
 Anthropic发布Claude Managed Agents相关文章，介绍新的工程实践和代理管理能力。
