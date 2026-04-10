@@ -1,5 +1,5 @@
 ---
-title: "Karpathy的"第二大脑"概念应用案例"
+title: 'Karpathy的"第二大脑"概念应用案例'
 type: tweet
 date_added: 2026-04-08
 author: "@FinanceYF5"

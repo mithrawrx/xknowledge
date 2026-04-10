@@ -1,5 +1,5 @@
 ---
-title: "Karpathy "dramatically behind" commentary"
+title: 'Karpathy "dramatically behind" commentary'
 type: tweet
 date_added: 2025-12-27
 author: "@aakashgupta"
