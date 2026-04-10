@@ -12,7 +12,7 @@
 - **推文**: https://x.com/geekbb/status/2042160744754733428
 - **父推文**: https://x.com/duanjl_china/status/2042125297940885685
 - **链接**: https://github.com/ThorstenRhau/token/
-- **归档**: [token-neovim-theme.md](./knowledge/tools/token-neovim-theme.md)（已有）
+- **归档**: [Token-Neovim配色方案.md](./knowledge/tools/Token-Neovim配色方案.md)（已有）
 - **概述**: geekbb 回复询问 ghostty 配色的问题，推荐了 Token 主题。这是一个零配置的 Neovim 配色方案，内置 Ghostty 等终端工具配套主题，所有配色从同一 palette 生成。
 
 ---
@@ -22,7 +22,7 @@
 
 - **推文**: https://x.com/Jason23818126/status/2042089979627921634
 - **链接**: https://github.com/HKUDS/Vibe-Trading
-- **归档**: [vibe-trading.md](./knowledge/tools/vibe-trading.md)
+- **归档**: [Vibe-Trading-金融AI交易.md](./knowledge/tools/Vibe-Trading-金融AI交易.md)
 - **概述**: 香港大学开源的金融AI交易框架，支持多策略自动化交易。
 
 ---
@@ -35,7 +35,7 @@
 
 - **推文**: https://x.com/0xAA_Science/status/2042151683283878146
 - **链接**: https://github.com/AmazingAng/auth2api
-- **归档**: [auth2api.md](./knowledge/tools/auth2api.md)
+- **归档**: [auth2api-OAuth转API代理.md](./knowledge/tools/auth2api-OAuth转API代理.md)
 - **概述**: 将Claude OAuth认证转换为API代理的工具，支持精确复刻用户指纹实现稳定调用。
 
 ---
@@ -47,7 +47,7 @@
 
 - **推文**: https://x.com/QingQ77/status/2042182985093468607
 - **链接**: https://github.com/ThorstenRhau/token/
-- **归档**: [token-neovim-theme.md](./knowledge/tools/token-neovim-theme.md)
+- **归档**: [Token-Neovim配色方案.md](./knowledge/tools/Token-Neovim配色方案.md)
 - **概述**: 受Claude美学启发的Neovim配色方案，零配置开箱即用。
 
 ---
@@ -66,7 +66,7 @@
 
 - **推文**: https://x.com/geekbb/status/2042071957840261537
 - **链接**: https://github.com/aaaaalexis/obsidian-baseline
-- **归档**: [obsidian-baseline.md](./knowledge/tools/obsidian-baseline.md)
+- **归档**: [Obsidian-Baseline-主题.md](./knowledge/tools/Obsidian-Baseline-主题.md)
 - **概述**: 简洁优雅的 Obsidian 主题，注重可读性和美观性，1.1K+ stars。
 
 ---
@@ -80,7 +80,7 @@
 
 - **推文**: https://x.com/nash_su/status/2042017125678903330
 - **链接**: https://github.com/nashsu/llm_wiki
-- **归档**: [llm-wiki.md](./knowledge/tools/llm-wiki.md)
+- **归档**: [LLM-Wiki-知识库客户端.md](./knowledge/tools/LLM-Wiki-知识库客户端.md)
 - **概述**: 基于 Karpathy 的 LLM Wiki 方法论开发的开源客户端，用于个人知识管理和智能整理。
 
 ---
@@ -92,7 +92,7 @@
 
 - **推文**: https://x.com/howlemont/status/2042017686457348506
 - **链接**: https://github.com/microsoft/markitdown
-- **归档**: [markitdown.md](./knowledge/tools/markitdown.md)
+- **归档**: [MarkItDown-文档转Markdown.md](./knowledge/tools/MarkItDown-文档转Markdown.md)
 - **概述**: 微软开源的文档转换工具，支持将 PDF、Word、PPT 等多种格式转换为 Markdown，95K+ stars。
 
 ---
@@ -168,7 +168,7 @@
 
 - **推文**: https://x.com/fankaishuoai/status/2041387467040055685
 - **链接**: https://x.com/i/article/2041163929674715136（X文章）
-- **归档**: [karpathy-llm-wiki-improved](./knowledge/articles/karpathy-llm-wiki-improved.md)
+- **归档**: [karpathy-llm-wiki-improved](./knowledge/articles/Karpathy-LLM-Wiki改进版.md)
 - **概述**: 范凯分享了对 Karpathy LLM Wiki 方案的改造实践，针对内容创作者的需求增加了输入层、产出层，并引入确认机制让 AI 先报计划再执行，解决了自动分类不准确的问题。
 
 ---
@@ -193,7 +193,7 @@
 - **推文**: https://x.com/wangray/status/2041384982485315737
 - **引用推文**: https://x.com/Teknium/status/2041370915012071577
 - **链接**: https://github.com/NousResearch/hermes-agent（GitHub）
-- **归档**: [hermes-agent](./knowledge/tools/hermes-agent.md)
+- **归档**: [hermes-agent](./knowledge/tools/Hermes-Agent-自进化智能体.md)
 - **概述**: Hermes Agent 现已内置 Karpathy 的 LLM-Wiki 功能，可直接用 `/llm-wiki <research x>` 命令创建知识库。这是一个自进化的AI智能体框架，具有闭环学习循环能力。
 
 ---
@@ -243,7 +243,7 @@
 - **推文**: https://x.com/karpathy/status/2040470801506541998
 - **引用推文**: https://x.com/karpathy/status/2039805659525644595
 - **链接**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f（GitHub Gist）
-- **归档**: [llm-wiki-idea-file](./knowledge/tools/llm-wiki-idea-file.md)
+- **归档**: [llm-wiki-idea-file](./knowledge/tools/LLM-Wiki-Idea-File.md)
 - **概述**: Karpathy 提出 Agent 时代的新分享模式：分享 idea 而非代码，让对方 Agent 自行定制实现。Gist 包含完整的 LLM Wiki 架构设计，用于构建个人知识库。
 
 ---
@@ -285,7 +285,7 @@
 
 - **推文**: https://x.com/yibie/status/2040561560993890430
 - **链接**: https://buffett-letters-eir.pages.dev/
-- **归档**: [buffett-letters-knowledge-base](./knowledge/articles/buffett-letters-knowledge-base.md)
+- **归档**: [buffett-letters-knowledge-base](./knowledge/articles/巴菲特致股东信知识库.md)
 - **概述**: 一个结构化的巴菲特致股东信知识库，收录 35 篇合伙人信（1956-1970）和 60 篇伯克希尔股东信（1965至今）。采用总览、图谱、概念、索引四层架构组织，方便检索和学习巴菲特的投资思想演变。
 
 ---
@@ -313,7 +313,7 @@
 
 - **推文**: https://x.com/i5ting/status/2041006014603182089
 - **链接**: https://github.com/farouqaldori/claude-island（GitHub）
-- **归档**: [claude-island](./knowledge/tools/claude-island.md)
+- **归档**: [claude-island](./knowledge/tools/Claude-Island-灵动岛通知.md)
 - **概述**: i5ting 对 Claude Island 项目的评价，指出这是灵动岛功能的 Swift 原型实现。该项目使用 Swift 构建原生 macOS 应用，在刘海位置显示 Claude Code 状态通知。
 
 ---
@@ -341,7 +341,7 @@
 
 - **推文**: https://x.com/garrytan/status/2040891664617848993
 - **链接**: https://github.com/santifer/career-ops
-- **归档**: [career-ops.md](./knowledge/tools/career-ops.md)
+- **归档**: [Career-Ops-AI求职系统.md](./knowledge/tools/Career-Ops-AI求职系统.md)
 - **概述**: AI驱动的求职系统，基于Claude Code构建，支持14种技能模式、Go仪表板、PDF生成和批处理，开源后迅速获得26k+星标。
 
 ---
@@ -351,7 +351,7 @@
 
 - **推文**: https://x.com/dotey/status/2040659186070040584
 - **链接**: https://x.com/i/article/2040657346175676416（X文章）
-- **归档**: [coding-agent-components](./knowledge/articles/coding-agent-components.md)
+- **归档**: [coding-agent-components](./knowledge/articles/编程智能体核心组件.md)
 - **概述**: Sebastian Raschka 文章的译文，详细拆解编程智能体六大核心组件：实时代码仓库上下文、提示词形态与缓存复用、工具接入与调用、上下文瘦身、结构化会话记忆、任务委派与子智能体。强调模型只是发动机，Harness 是整车系统。
 
 ---
@@ -381,7 +381,7 @@
 - **推文**: https://x.com/dotey/status/2040850151405707702
 - **引用推文**: https://x.com/panda_ai_agent/status/2040246806509195312
 - **链接**: https://github.com/farouqaldori/claude-island（GitHub）
-- **归档**: [claude-island](./knowledge/tools/claude-island.md)
+- **归档**: [claude-island](./knowledge/tools/Claude-Island-灵动岛通知.md)
 - **概述**: Claude Island 是一款 macOS 原生应用，通过 Dynamic Island 显示 Claude Code 通知，让开发者无需切换上下文即可监控后台任务状态。Swift 编写，1802+ stars，支持实时会话监控、权限审批、对话历史查看等功能。
 
 ---
@@ -431,7 +431,7 @@
 - **推文**: https://x.com/nemoaigc/status/2037069544980963540
 - **引用推文**: https://x.com/Lonely__MH/status/2036651579005194426
 - **链接**: https://x.com/i/article/2036637016637743104（X文章）
-- **归档**: [autoresearch-methodology](./knowledge/articles/autoresearch-methodology.md)
+- **归档**: [autoresearch-methodology](./knowledge/articles/autoresearch迭代方法论.md)
 - **概述**: 拆解 Karpathy 的 autoresearch 项目核心思路：改一个东西 → 打分 → 保留或回滚。这个通用迭代方法论可应用于任何需要迭代的场景，强调"工具会过时，框架不会"。
 
 ---
@@ -698,7 +698,7 @@ If there's enough interest, I'll polish it up and open-source it!
 
 - **Tweet:** https://x.com/steipete/status/2006425901719023628
 - **Link:** https://summarize.sh/
-- **Filed:** [Summarize.sh](./knowledge/tools/summarize-sh.md)
+- **Filed:** [Summarize.sh](./knowledge/tools/Summarize-sh-链接预览.md)
 - **What:** A browser tool that displays summary information in a toolbar when hovering over links, helping users identify clickbait without clicking through.
 
 ---
@@ -723,7 +723,7 @@ If there's enough interest, I'll polish it up and open-source it!
 - **Tweet:** https://x.com/joodalooped/status/2006089396861427738
 - **Quoted:** https://x.com/karelvuong/status/2005669812199137476
 - **Link:** https://markwhen.com/
-- **Filed:** [Markwhen](./knowledge/tools/markwhen.md)
+- **Filed:** [Markwhen](./knowledge/tools/Markwhen-时间线工具.md)
 - **What:** A keyboard-first timeline tool for planning and visualization. Complementary to Lifemap (the quoted tool), offering text-based input for those who prefer keyboards over drag-and-drop interfaces.
 
 ---
@@ -736,7 +736,7 @@ If there's enough interest, I'll polish it up and open-source it!
 
 - **Tweet:** https://x.com/ShadcnStudio/status/2005964727806222598
 - **Link:** https://github.com/themeselection/shadcn-studio
-- **Filed:** [Shadcn Studio](./knowledge/tools/shadcn-studio.md)
+- **Filed:** [Shadcn Studio](./knowledge/tools/Shadcn-Studio-UI组件.md)
 - **What:** An extended collection of 25+ shadcn/ui calendar components with variants for single/range picking, multi-month navigation, and time slots. Part of the broader shadcn-studio ecosystem offering customizable UI components and templates.
 
 ---
@@ -755,7 +755,7 @@ If there's enough interest, I'll polish it up and open-source it!
 
 - **Tweet:** https://x.com/marckohlbrugge/status/2005972157445333371
 - **Link:** https://github.com/marckohlbrugge/sessy
-- **Filed:** [Sessy](./knowledge/tools/sessy.md)
+- **Filed:** [Sessy](./knowledge/tools/Sessy-邮件可观测性.md)
 - **What:** A self-hosted Rails application providing beautiful observability and monitoring for Amazon SES, eliminating the need for expensive commercial SES wrappers. Shows events in a timeline: sends, deliveries, clicks, bounces, etc.
 
 ---
@@ -769,7 +769,7 @@ If there's enough interest, I'll polish it up and open-source it!
 - **Tweet:** https://x.com/parcadei/status/2005755875701776624
 - **Parent:** https://x.com/yuzu_4ever/status/2005520908656500964
 - **Link:** https://github.com/parcadei/Continuous-Claude-v2
-- **Filed:** [Continuous Claude v2](./knowledge/tools/continuous-claude-v2.md)
+- **Filed:** [Continuous Claude v2](./knowledge/tools/Continuous-Claude-v2-上下文管理.md)
 - **What:** A Python framework for maintaining session continuity and efficient context management in Claude Code workflows, including ledger-based state persistence, MCP execution isolation, and agent orchestration patterns for multi-agent systems.
 
 ---
@@ -787,7 +787,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 - **Tweet:** https://x.com/0xUrvish/status/2006608646730559629
 - **Parent:** https://x.com/0xUrvish/status/2006600544220230083
 - **Link:** https://uselayouts.com/
-- **Filed:** [uselayouts](./knowledge/tools/uselayouts.md)
+- **Filed:** [uselayouts](./knowledge/tools/uselayouts-动画React组件.md)
 - **What:** Open-source library of premium animated React components built with Framer Motion and Tailwind CSS. Includes modern micro-interactions and ready-to-use motion components.
 
 ---
@@ -861,7 +861,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 - **Tweet:** https://x.com/OsaurusAI/status/2007091913393070168
 - **Link:** https://github.com/dinoki-ai/osaurus
-- **Filed:** [osaurus.md](./knowledge/tools/osaurus.md)
+- **Filed:** [Osaurus-macOS-LLM服务器.md](./knowledge/tools/Osaurus-macOS-LLM服务器.md)
 - **What:** A native macOS LLM server with MCP support that enables AI agents like Claude to interact with the screen, navigate applications, and perform tasks while you supervise. Supports local and cloud models with OpenAI and Anthropic compatible APIs.
 
 ---
