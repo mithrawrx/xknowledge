@@ -4,6 +4,25 @@
 
 # Thursday, April 9, 2026
 
+## @billtheinvestor - Claude与Obsidian深度整合三步设置
+> Claude + Obsidian 是我目前最常用的组合，3 步就能实现深度整合。
+> Claude 可以直接读写你的 Obsidian 仓库：搜索笔记、新建文件、在指定标题下插入内容、自动把会议总结成新笔记……
+> 把 Obsidian 当第二大脑后，Claude 就成了它上面的"思考层"。
+> 3 步设置：
+>
+> Obsidian 安装并启用 "Local REST API" 插件，复制 API Key
+> 打开 Claude 配置文件夹：Mac：~/Library/Application Support/Claude/claude_desktop_config.json
+>
+> 加入 mcp-obsidian 配置，重启 Claude 即可。
+>
+> 从此 Claude 真正懂你的知识库了。
+
+- **推文**: https://x.com/billtheinvestor/status/2042284579986555107
+- **归档**: [Claude与Obsidian深度整合三步设置.md](./knowledge/tweets/Claude与Obsidian深度整合三步设置.md)
+- **概述**: Claude与Obsidian深度整合的三步设置指南，通过MCP协议让Claude直接读写Obsidian仓库，实现真正的"第二大脑"能力。
+
+---
+
 ## @geekbb - Token Neovim配色方案（回复推荐）
 > *回复 @duanjl_china:* 这个 ghostty 是什么 theme 啊
 >
