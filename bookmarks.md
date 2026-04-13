@@ -1,3 +1,432 @@
+---
+日期: Friday, April 10, 2026
+## @lxfater - Claude Code Rust索引器TS重写提速3倍
+
+> Boris Cherny 把 Claude Code 里一个 Rust 写的索引器，用 TS 重写了一遍：速度快了 3 倍
+>
+> 你用 Claude Code 打 @ 的时候，它会帮你搜文件
+>
+> 这个搜索背后跑的是一个 Rust 索引器，通过 NAPI 调用，速度确实快
+>
+> 但在大代码库上，直接跑不动了
+>
+> 所以 Boris 没去修 Rust，直接让 Opus 把整个索引器移植成 TS
+>
+> 他给 Opus 的第一条 prompt 就是：把 Rust+NAPI 的文件索引编译成原生 TS，跑通原来的测试，然后证明新方案更快
+>
+> 跑完之后他又问，还有什么能优化的？在大 monorepo 里跑一下，P99 要压到 10ms 以下
+>
+> 结果出来了，但他打 @ 的时候还是觉得有点卡，就让 Opus 接着改
+>
+> 改到最后他说，手感很好了，上吧
+>
+> 几个小时就搞出了一个 PR，TS 写的，比原来的 Rust 还快
+>
+> P99 从 46.80ms 降到 15.25ms
+> P50 从 17.78ms 降到 8.55ms
+> P95 从 22.56ms 降到 14.61ms
+>
+> P99 快了整整 3 倍
+>
+> 但 TS 怎么可能比 Rust 快？瓶颈根本不在语言
+>
+> NAPI 的桥接开销没了，预计算也不会阻塞主线程了，Opus 在过程中还找到了 8 项算法优化
+>
+> 快不快，跟语言没关系
+
+- **推文**: https://x.com/lxfater/status/2042407796969521424
+- **引用**: @bcherny - "Just got a nice DM from a big enterprise customer using Claude Code in one of the world's biggest codebases. Here's how we made @-mentions 3x faster in large enterprise codebases"
+- **归档**: [[Claude-Code索引器TS重写提速3倍]]
+- **标签**: [[Claude Code]] [[性能优化]] [[AI编程]]
+- **概述**: Claude Code 团队用 Opus 将 Rust 索引器移植到 TS，P99 性能提升 3 倍。关键洞察是瓶颈不在语言，而是 NAPI 桥接开销和算法优化。
+
+---
+日期: Friday, April 10, 2026
+## @garrytan - GBrain Agent知识库系统
+
+> If you want your OpenClaw or Hermes Agent to be able to have perfect total recall of all 10,000+ markdown files, GBrain is here to help.
+>
+> It's exactly my OpenClaw/Hermes Agent setup. MIT-licensed open source. Hope it helps you build your mini-AGI.
+
+- **推文**: https://x.com/garrytan/status/2042497872114090069
+- **链接**: [garrytan/gbrain](https://github.com/garrytan/gbrain)（GitHub, TypeScript, 6163 stars）
+- **归档**: [[GBrain-Agent知识库系统]]
+- **标签**: [[AI Agent]] [[知识库]] [[记忆系统]]
+- **概述**: GBrain 是 Garry Tan 开源的 Agent Brain 系统，支持 10,000+ markdown 文件完美召回。配合 OpenClaw/Hermes Agent 使用，约 30 分钟部署完成。
+
+---
+日期: Friday, April 10, 2026
+## @seekjourney - Agora多Agent审议系统
+
+> 我开源了31 位思想家组成的多 Agent 审议系统，覆盖工程、商业、人生抉择、关系、心理、创作六大领域。
+>
+> 黑格尔正反合结构，一个命令开启深度辩证。
+>
+> Agora 是一个多 Agent 审议系统，名字字取自古希腊城邦广场（Agora，市民把一切问题带到那里：技术、商业、政治、爱情、意义。
+>
+> 智能路由 — /agora 一个入口，自动分析问题并导向正确的审议室
+> 31 位思想家 — 波普尔、康德、尼采、萨特、荣格、庄子……跨越东西方哲学、心理学、经济学
+> 黑格尔正反合 — 不只是投票，而是 Thesis → Antithesis → Synthesis 的辩证升华
+> 两次交互 — 审议中确认理解、决定深度，全程可引导
+> 自包含 — 无需安装其他技能，开箱即用
+
+- **推文**: https://x.com/seekjourney/status/2042505013478719724
+- **链接**: [geekjourneyx/agora](https://github.com/geekjourneyx/agora)（GitHub, 107 stars）
+- **归档**: [[Agora-多Agent审议系统]]
+- **标签**: [[Claude Code]] [[多Agent]] [[决策系统]] [[哲学]]
+- **概述**: Agora 是基于 Claude Code 的多 Agent 审议系统，31 位思想家通过黑格尔正反合进行深度辩证，覆盖工程、商业、人生六大领域。
+
+---
+日期: Friday, April 10, 2026
+## @huacnlee - Longbridge CLI投资助理工具
+
+> 我们最近搞的 Longbridge CLI 已经比较完善了，也为此增加了很多数据 API，目前已经有 40 多个子功能，涵盖各类投资参考信息。
+>
+> 以前 CLI 仅是程序员特有的工具，现在有了 AI 加持，人人都可以有一个专业的投资助理。
+
+- **推文**: https://x.com/huacnlee/status/2042558214529782126
+- **链接**: [Longbridge CLI](https://open.longbridge.com/docs/cli)（官方文档）
+- **归档**: [[Longbridge-CLI投资助理工具]]
+- **标签**: [[CLI]] [[金融]] [[投资]] [[AI]]
+- **概述**: Longbridge CLI 已有 40+ 子功能，涵盖各类投资参考信息。在 AI 加持下，人人都可以拥有一个专业投资助理。
+
+---
+日期: Friday, April 10, 2026
+## @jaywcjlove - Switzy Git身份管理工具
+
+> Switzy：用于切换 Git 身份、邮箱和 SSH 密钥的原生 macOS 管理工具
+
+- **推文**: https://x.com/jaywcjlove/status/2042573948668514554
+- **链接**: [yefga/Switzy](https://github.com/yefga/Switzy)（GitHub, Swift, 145 stars）
+- **归档**: [[Switzy-Git身份管理工具]]
+- **标签**: [[macOS]] [[Git]] [[SSH]] [[身份管理]]
+- **概述**: Switzy 是原生 macOS 菜单栏应用，一键切换 Git 身份、邮箱和 SSH 密钥。Swift 开发，无 Electron 依赖，支持 Homebrew 安装。
+
+# Friday, April 10, 2026
+
+## @berryxia - SuperConductor Rust macOS Agent 管理器
+> SuperConductor 来了！
+> 
+> 纯 Rust 原生 macOS Agent 管理神器：
+> 
+> - 100% Rust，无 Electron、无 Tauri，速度拉满
+> - 专为 Agentic Engineering 设计
+> - 无缝管理所有 Coding agents
+> - 丝滑 UI + 极致性能
+
+- **推文**: https://x.com/berryxia/status/2042603510102184346
+- **归档**: [SuperConductor-Rust-Agent管理器.md](./knowledge/tweets/SuperConductor-Rust-Agent管理器.md)
+- **概述**: 纯 Rust 开发的 macOS Agent 管理工具，无 Electron/Tauri 依赖，专为 Agentic Engineering 设计，统一管理多个 Coding Agent，追求极致性能。
+
+---
+
+## @brad_zhang2024 - fireworks-tech-graph 技术图生成工具
+> 写技术文章最烦的事之一：画图。
+> 
+> 脑子里很清楚的架构，落到 diagrams.net 上总是对不齐、颜色难看、导出模糊。
+> 
+> 所以我做了 fireworks-tech-graph，一个专门生成技术图的 Claude Code Skill。
+> 
+> 用法很简单——一句话描述，图就出来了。
+> 
+> 目前支持 8 种图类型、5 种视觉风格，AI/Agent 领域的常见 Pattern 全部内置（RAG、Mem0、Agentic Search、Multi-Agent、Tool Call 等）。
+> 
+> 开源，欢迎 star 和 fork
+
+- **推文**: https://x.com/brad_zhang2024/status/2042628758264517098
+- **链接**: https://github.com/yizhiyanhua-ai/fireworks-tech-graph
+- **归档**: [fireworks-tech-graph-技术图生成.md](./knowledge/tools/fireworks-tech-graph-技术图生成.md)
+- **概述**: 专为 Claude Code 打造的技术图生成 Skill，一句话描述即可生成专业级 SVG+PNG 图表，支持 7 种视觉风格和 14 种图表类型，内置 AI/Agent 领域常见架构 Pattern，1.5K+ stars。
+
+---
+
+# Saturday, April 11, 2026
+
+## @berryxia - fireworks-tech-graph 技术图生成神器（引用推文）
+> 兄弟们，技术架构图终于有救了！
+> 
+> 以前画 Multi-Agent、RAG、Tool Call 这些架构，diagrams.net 里永远对不齐、颜色土、导出还模糊……画一次头秃一次
+> 
+> 烟花直接放大招！开源了个超级神器 fireworks-tech-graph —— 专为 Claude Code 打造的技术图生成 Skill！
+> 
+> 一句话就能出图，效果直接起飞：
+> - 自动识别图类型
+> - 智能语义形状 + 颜色编码（流程蓝、控制橙、数据绿…）
+> - 支持玻璃态、Neon 等高级风格
+> - 高清 SVG + PNG 一键导出
+> 
+> 生产力直接拉满！
+
+**引用原推**:
+> @brad_zhang2024: 写技术文章最烦的事之一：画图。脑子里很清楚的架构，落到 diagrams.net 上总是对不齐、颜色难看、导出模糊。所以我做了 fireworks-tech-graph，一个专门生成技术图的 Claude Code Skill。用法很简单——一句话描述，图就出来了。
+
+- **推文**: https://x.com/berryxia/status/2042757589180858796
+- **引用推文**: https://x.com/brad_zhang2024/status/2042628758264517098
+- **链接**: https://github.com/yizhiyanhua-ai/fireworks-tech-graph
+- **归档**: [fireworks-tech-graph技术图神器.md](./knowledge/tweets/fireworks-tech-graph技术图神器.md)
+- **概述**: Berryxia 推荐烟花老师开源的 fireworks-tech-graph，一句话生成专业级技术架构图，解决传统画图工具的对齐配色问题。
+
+---
+
+## @berryxia - Obsidian Reader YouTube 字幕交互时间轴
+> 我看完 YouTube 再也回不去了……
+> 
+> Obsidian Reader 直接把字幕做成可交互时间轴！
+> 
+> - 点击任意一句字幕 → 视频精准跳转
+> - 高亮重点句子 → 自动同步
+> - 记笔记丝滑到爆
+> 
+> 这体验太上头了，普通 YouTube 已经完全看不下去
+> 
+> Obsidian Web Clipper 1.4 已上线
+
+- **推文**: https://x.com/berryxia/status/2042767221513146644
+- **归档**: [Obsidian-Reader-YouTube字幕.md](./knowledge/tweets/Obsidian-Reader-YouTube字幕.md)
+- **概述**: Obsidian Web Clipper 1.4 新增 YouTube 字幕交互时间轴功能，点击字幕即可跳转视频，极大提升视频学习和笔记效率。
+
+---
+
+## @dotey - Codex 团队 CLI 工具方法论
+> OpenAI Codex 团队的 Nick Baumann 分享了一个他日常用 Codex 干活的心得：与其每次把一堆文档、日志、API 输出丢给 AI 去啃，不如给它造几个专用的命令行小工具。
+> 
+> 他的逻辑很直接：MCP 连接器解决的是"能不能访问"的问题，但很多时候原始数据太大、太杂，AI 拿到手也处理得费劲。这时候更好的做法是把常用操作封装成一个带参数、输出 JSON、有帮助文档的 CLI 命令。
+> 
+> 他自己实际在用三个这样的 CLI：
+> 1. codex-threads：检索自己以前的 Codex 对话记录
+> 2. slack-cli：在 Slack 里精准找信息
+> 3. typefully-cli：写推文和排期发布
+> 
+> 他把整个方法论总结成了一篇教程发到 OpenAI 开发者文档上，还配了一个 cli-creator skill 帮你用 Codex 自己造 CLI。
+> 
+> 这个思路对用 Claude Code 的人同样适用。核心就一句话：如果你发现自己反复在给 AI 喂同一类乱糟糟的数据，那就别再解释了，给它造个命令。
+
+**引用原推**:
+> @nickbaumann_: The best tools I give Codex are bespoke CLIs
+
+- **推文**: https://x.com/dotey/status/2042777337398210713
+- **链接**: https://developers.openai.com/codex/use-cases/agent-friendly-clis
+- **归档**: [Codex团队CLI工具方法论.md](./knowledge/articles/Codex团队CLI工具方法论.md)
+- **概述**: OpenAI Codex 团队分享的 CLI 工具方法论：与其反复喂同一类杂乱数据给 AI，不如封装成专用 CLI 命令。核心思想适用于 Claude Code，CLI + Skill 组合让 AI 更高效地处理复杂任务。
+
+---
+日期: Saturday, April 11, 2026
+## @汉松 - Orca AI编排IDE
+> 我现在经常同时打开多个 ClaudeCode 命令行开发，有时候开的 terminal 窗口多了，就容易找不到。
+后来看到 cmux，它有垂直标签页，也支持分屏，而且 ClaudeCode 执行完它也会高亮通知。
+但还有一个痛点就是，我有时候想看一下项目里面的文件内容，纯命令行就不方便了。
+最近发现另一个项目 Orca @JinjingLiang，它是按照项目组织的，在右边可以看到文件目录，然后可以直接打开查看，也能方便拖动文件告诉 ClaudeCode 文件路径。
+Orca 正好解决了我的问题，目前是我的主力 IDE。
+
+> 引用 @JinjingLiang: Seriously—stop using Cursor / Conductor / Cmux. Orca does it all: Ghostty terminal, File editor, Worktree management, Works on mac / linux / windows. Free. Open source. MIT licensed.
+
+- **推文**: https://x.com/Yonah_x/status/2042797318064497066
+- **链接**: [orca](https://github.com/stablyai/orca) - 下一代AI编排IDE
+- **归档**: [Orca-AI编排IDE](./knowledge/tools/Orca-AI编排IDE.md)
+- **概述**: Orca是下一代IDE，可在一个界面中同时运行Claude Code、Codex、OpenCode等多个AI agent，每个agent在独立worktree中运行，内置Ghostty终端和文件编辑器，解决多窗口管理痛点。
+
+---
+日期: Saturday, April 11, 2026
+## @泊舟 - Graphify知识图谱技能
+> 上周分享了 Karpathy 用 AI 整理知识库的做法，现在有人把它做成了正经产品。
+Graphify，一个 Claude Code 的 skill（技能插件），输入 /graphify 就能把一个文件夹里的代码、文档、论文、图片、视频自动整理成知识图谱。
+做了三件事：
+1. 代码文件用 AST 解析，本地跑，不需要调 AI
+2. 音视频用 Whisper 本地转文字
+3. 文档、论文、图片让 Claude 子代理并行提取语义关系
+最后生成一个可交互的 HTML 图谱，还有一份纯文字报告。所有关系都标注了来源：是直接提取的、推断的、还是模糊的。
+Karpathy 当时说"这件事值得做成一个正经产品"，这个项目就是在回应这句话。
+
+- **推文**: https://x.com/bozhou_ai/status/2042816049205391484
+- **链接**: [graphify](https://github.com/safishamsi/graphify) - 知识图谱生成技能
+- **归档**: [Graphify-知识图谱技能](./knowledge/tools/Graphify-知识图谱技能.md)
+- **概述**: Claude Code skill，输入/graphify将代码/文档/论文/图片/视频整理成可交互知识图谱。三阶段处理：AST解析代码、Whisper转录音视频、Claude子代理提取语义关系，71.5x更少tokens每次查询。
+
+---
+日期: Saturday, April 11, 2026
+## @Nous Research - Hermes Agent微信集成
+> 给中国用户的好消息：Hermes Agent 现在原生支持个人微信了
+微信扫码即可连接，私聊群聊都支持。图片、视频、文件、语音消息全覆盖，长轮询直连，不需要公网 IP。
+运行 'hermes update' 即可体验
+文档：https://t.co/nonIEoaF79
+感谢 @Bravohenry_ 的贡献
+
+- **推文**: https://x.com/NousResearch/status/2042821620281053641
+- **链接**: [微信集成文档](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/weixin)
+- **归档**: [Hermes微信集成指南](./knowledge/articles/Hermes微信集成指南.md)
+- **概述**: Hermes Agent原生支持个人微信，扫码连接即可，私聊群聊全覆盖，图片视频文件语音消息支持，长轮询直连无需公网IP，运行hermes update即可体验。
+
+---
+日期: Saturday, April 11, 2026
+## @BruceBlue - Hermes Agent深度解析
+> Hermes Agent：当工具开始拥有时间，它就不再只是工具
+
+一篇深入分析 Hermes Agent 的长文，探讨它如何将 Agent 从一次性会话推进成带有时间维度的持续性系统。核心框架：Knowledge Layer（记忆、skills）、Execution Layer（child agents、工具）、Output Layer（cron、gateway、消息出口）。真正迁移的是工作方式，不只是文件。
+
+- **推文**: https://x.com/BruceBlue/status/2042868542421504399
+- **链接**: [原文](https://x.com/i/article/2042805844459597824)
+- **归档**: [Hermes-Agent时间维度系统](./knowledge/articles/Hermes-Agent时间维度系统.md)
+- **概述**: 深度解析Hermes Agent的三层架构（Knowledge/Execution/Output Layer），探讨其记忆系统、Skills渐进式披露、任务委派、OpenClaw迁移路径等，阐述"当工具开始拥有时间"的核心洞见。
+
+---
+日期: Saturday, April 11, 2026
+## @Kai - 中转站行业真相揭露
+> 这摊浑水我搅定了
+我就是要推动更多人直接下场做中转站老板，别特么去当什么代理。自己搭站、自己控渠道、自己定价，哪怕起步再惨，那也是你自己的生意。
+我刚开始碰中转站那会儿，惨得一批。一天流水一二百块钱，刨去成本剩不下几个子儿。后来怎么起来的？路子跑通了，渠道商一个一个主动找上门来，信息差磨平了，利润率直接从脚底板窜到百分之八十。
+
+> 引用 @0xToni: 这哥们一周前就在说让人关注他，他出中转教程了，本来没想理他，但是他的文章实在漏洞太多了，不愧是上个UCL都要挂在主业的英留
+
+- **推文**: https://x.com/xkajon/status/2042944828758200368
+- **链接**: 无
+- **归档**: [中转站行业真相揭露](./knowledge/tweets/中转站行业真相揭露.md)
+- **概述**: 作者经手流水七十多万，揭露中转站行业猫腻，批评天策的代理模式是"披着AI外衣的传销"，计划公开Claude全链路、ChatGPT供货端等源头信息，推动更多人自己做中转站老板而非当代理。
+
+---
+日期: Saturday, April 11, 2026
+## @雨哥向前冲 - Obsidian Web Clipper YouTube智能阅读器教程
+> https://t.co/TarhI8ng1n
+
+- **推文**: https://x.com/xiangxiang103/status/2042950224227045763
+- **链接**: [X文章](https://x.com/i/article/2042947402982920192) - Obsidian Web Clipper YouTube智能阅读器教程
+- **归档**: [Obsidian-Web-Clipper-YouTube智能阅读器](./knowledge/articles/Obsidian-Web-Clipper-YouTube智能阅读器.md)
+- **概述**: Obsidian Web Clipper 1.4版本重大更新，可将YouTube视频变成智能阅读器。支持章节大纲、时间戳字幕、点击跳转、自动高亮等功能，观看教程视频效率大幅提升。
+
+---
+日期: Saturday, April 11, 2026
+## @花叔 - Obsidian + Claude Code 橙皮书发布
+> 58页的Obsidian+Claude Code构建知识库的橙皮书📙来了：https://t.co/WQlkWqXVbR
+其实相比说这是我写的「书」，更合适的说法是这是个为了辅助我自己开始使用Obsidian而做的一个深度调研+系统梳理的素材。
+主要内容如下：
+问题篇 -- 为什么你的笔记软件是「信息坟场」，以及为什么只有 AI 能解决这个问题
+选择篇 -- 三个完全独立的十亿级项目，不约而同选了 Markdown 存储 AI 的记忆，这不是巧合
+上手篇 -- 40 分钟内搞定 Obsidian 安装 + Claude Code 接入
+架构篇 -- 设计你的 vault，让 AI 能高效地理解和操作它
+知识库篇 -- Karpathy 的 LLM Wiki 模式：让 AI 维护你的知识库，而不是建 RAG
+实战篇 -- 7 个可以直接抄的工作流，每个都有具体步骤和 prompt
+生态篇 -- 1000+ 插件中你真正需要的 4 个
+进阶篇 -- Git 版本控制、自定义 Skills、本地 AI、多 Vault 策略
+
+- **推文**: https://x.com/AlchainHust/status/2042964631098904603
+- **链接**: [obsidian-ai-orange-book](https://github.com/alchaincyf/obsidian-ai-orange-book) - Obsidian + Claude Code橙皮书 (377 stars)
+- **归档**: [Obsidian-AI-橙皮书](./knowledge/tools/Obsidian-AI-橙皮书.md)
+- **概述**: 花叔发布的58页橙皮书，系统讲解如何用Obsidian + Claude Code搭建AI驱动的个人知识管理系统。三大核心洞察：Markdown是AI Agent的原生接口、LLM应该是编译器而非检索器、CLAUDE.md + index.md做了80%的工作。
+
+---
+日期: Sunday, April 12, 2026
+## @Lonely__MH - AI搜索引擎API询问
+> 🚀想求教下大家：目前主流的 AI 搜索引擎 API 你们首选哪家？
+>
+> 我知道的是 Tavily 和 Exa，并且目前在用的是Tavily
+>
+> 除了这两家，还有更硬核或者性价比更高的推荐吗？求大佬们带带路🙂
+
+- **推文**: https://x.com/Lonely__MH/status/2043204436668158400
+- **概述**: 用户询问AI搜索引擎API的选择，目前使用Tavily，寻求更硬核或性价比更高的替代方案。
+
+---
+日期: Sunday, April 12, 2026
+## @Lonely__MH - Grok MCP Server推荐
+> *回复 @0x00psyche:* grok搜索➕tavily crawl
+>
+> Grok Search MCP Server ，是这个吗？
+
+- **推文**: https://x.com/Lonely__MH/status/2043206735016698065
+- **父推文**: https://x.com/0x00psyche/status/2043205276845949300
+- **概述**: 回复讨论Grok搜索配合Tavily爬虫的MCP方案，询问Grok Search MCP Server的具体实现。
+
+---
+日期: Sunday, April 12, 2026
+## @MrLarus - SearXNG元搜索引擎推荐
+> *回复 @Lonely__MH:* 我也用Tavily，另外在hermes中配了个SearXNG
+>
+> https://github.com/searxng/searxng
+
+- **推文**: https://x.com/MrLarus/status/2043216911031247301
+- **父推文**: https://x.com/Lonely__MH/status/2043204436668158400
+- **链接**: [searxng/searxng](https://github.com/searxng/searxng)（GitHub, Python, 28286 stars）
+- **归档**: [SearXNG-元搜索引擎.md](./knowledge/tools/SearXNG-元搜索引擎.md)
+- **概述**: 推荐开源元搜索引擎SearXNG作为Tavily的补充方案，可集成到Hermes Agent中。28K+ stars，支持隐私保护的跨引擎聚合搜索。
+
+---
+日期: Sunday, April 12, 2026
+## @ai_xiaomu - AI视频SaaS月入20万攻略
+> https://t.co/ez54iEBvS8
+
+- **推文**: https://x.com/ai_xiaomu/status/2043246359210557948
+- **链接**: [X文章](https://x.com/i/article/2043235345861591040) - AI视频SaaS从0到月入20万攻略
+- **归档**: [AI视频SaaS月入20万攻略.md](./knowledge/articles/AI视频SaaS月入20万攻略.md)
+- **概述**: 万字长文分享零基础开发者如何做出AI视频工具月入20万。涵盖开发环境搭建、域名服务配置、模板建站、落地页设计、SEO推广、支付接入等完整攻略，核心思路是找到已验证产品做自己的版本快速上线。
+
+---
+日期: Sunday, April 12, 2026
+## @loonggg - 花费万元折腾AI一年总结分享
+> 最近读到一篇很有意思的文章，作者是腾讯云开发者，一位很早就开始拥抱 AI 的开发者，付费用过的产品超过十几款，前前后后花了上万块。他把自己这一年折腾 AI 的经历、工具和思考都写了出来，读完确实有不少启发。
+先说工具层面。他围绕 Mac 搭了一套高效的工作环境，核心是 AeroSpace 做窗口管理、Raycast 做快捷启动和剪贴板管理，再加上 Ghostty 终端和一堆命令行工具。最有意思的是他自己开发了一个叫 Cockpit 的仪表盘，专门用来同时监控多台机器上跑着的 AI Agent 状态，防止某个 Agent 卡住了自己还不知道。
+然后他聊到怎么把 Agent 用好。他梳理了一条演进路线：从最早的 Prompt Engineering（写好提示词），到 Context Engineering（管好 Agent 能看到的所有信息），再到 Spec-driven Development（先写清楚需求契约再让 Agent 动手），最后到 Harness Engineering（给 Agent 搭一整套约束体系）。OpenAI 有个团队就是用 3 个工程师、5 个月、完全零手写代码，靠搭建这套"缰绳"体系做出了百万行代码的产品。核心比喻特别形象：Agent 是马，Harness 是缰绳，马跑得再快，没有缰绳就只会横冲直撞。
+最让我觉得有价值的是他关于"让 Agent 替我学习"的思路。他发现现在技术迭代太快，传统的手动收集、整理笔记的方式已经跟不上了。所以他搭了一套 Agent 工作流：AI 每天自动从十几个信息源抓取新闻、转录播客、提炼最佳实践，然后把这些知识沉淀到 Agent 自己的技能库里。等到真正干活的时候，这个 Agent 已经是一个吸收了最新方案的"武装版"了。他甚至让 Agent 帮他打 Kaggle 比赛，春节旅游期间远程托管，4000 支队伍里最高冲到过第六名。
+原文地址：https://t.co/vj6t3h62U6
+
+- **推文**: https://x.com/KengGuangLong/status/2043128498878111878
+- **链接**: [bestblogs.dev文章](https://www.bestblogs.dev/en/article/83fa2a78) - 花费万元折腾AI一年总结
+- **归档**: [花费万元折腾AI一年总结](./knowledge/articles/花费万元折腾AI一年总结.md)
+- **概述**: 腾讯云开发者分享一年AI实践经验：围绕Mac搭建高效工具链（AeroSpace、Raycast、Ghostty、自研Cockpit），掌握Harness Engineering方法论，搭建Agent自动学习工作流，甚至用Agent远程托管打Kaggle比赛冲到第六名。
+
+---
+日期: Sunday, April 12, 2026
+## @Yangyi - 出海AI Web月入4万刀经验分享
+> 实践经验很宝贵👍
+
+> 引用 @小耳朵sir: https://t.co/tFhyCr6ERQ
+
+- **推文**: https://x.com/yangyi/status/2043188676759527601
+- **链接**: [X文章](https://x.com/i/article/2033208780654256128) - 出海web月入4万刀经验分享
+- **归档**: [出海AI-Web月入4万刀经验分享](./knowledge/articles/出海AI-Web月入4万刀经验分享.md)
+- **概述**: 小耳朵sir分享一年摸索出海AI Web的经历，达到月收入4万美元。万字长文涵盖项目选择思路、需求验证方法、产品设计原则、流量获取策略（SEO + Google Ads）、付费转化技巧等实操经验。
+
+---
+日期: Sunday, April 12, 2026
+## @烟花老师 - Fireworks Tech Graph V3版本发布
+> 谢谢大家的认可与反馈，迅速更新了第三版，这一版已经很稳定了，我比较满意了。
+强烈推荐大家升级到这一版！
+(附件7 张图是最新效果)
+
+收到了很多小伙伴的反馈，其中 codex 兼容和出图不稳定是最多的。
+
+所以认真解决了"怎么稳定产出样图级技术图"这件事。🔥
+这七张最新的图片均是由 codex 生成
+ps:Claude 最近降智了，也推荐大家用 Codex(GPT5.4 high) 出图
+
+👏欢迎给个三连，冲一下 2K star：
+https://t.co/ZKEHSaBwsb
+
+具体更新内容：
+✅ Codex完美兼容 — 不再报错，也感谢几位小伙伴的 PR
+✅ 推送到了 https://t.co/vky0IQIvLO：
+一句话安装：npx skills add yizhiyanhua-ai/fireworks-tech-graph
+一句话升级： npx skills add yizhiyanhua-ai/fireworks-tech-graph --force
+✅ 把 7 种 style 从"换皮肤"升级成"有自己版式语言的生成系统"
+✅ 把最影响观感的几个老问题狠狠干掉了（连线穿框、标签压图、路径太机械、构图松散）
+✅ 更重要的是，把这些能力抽象成了正式能力，基本确保输出 svg 代码过程不报错
+
+> 引用 @烟花老师: 写技术文章最烦的事之一：画图。
+脑子里很清楚的架构，落到 https://t.co/Pu1N1Z3H2s 上总是对不齐、颜色难看、导出模糊。
+所以我做了 fireworks-tech-graph，一个专门生成技术图的 Claude Code Skill。
+用法很简单——
+「画一张 Multi-Agent 协作图：Orchestrator 调度 3 个 SubAgent，分别负责搜索、计算和代码执行，最后汇聚到 Aggregator 输出结果，玻璃态风格」
+然后它会：
+① 识别图类型 → Agent 架构图
+② 分配语义形状 → Orchestrator 用六边形，Agent 用六边形，存储用圆柱体
+③ 用语义颜色编码箭头 → 蓝色主流程、橙色控制流、绿色读写
+④ 自动导出 SVG + 1920px PNG
+
+- **推文**: https://x.com/brad_zhang2024/status/2043322925072388408
+- **链接**: [fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) - Claude Code技术图生成Skill (1522 stars)
+- **归档**: [Fireworks-Tech-Graph-技术图生成器](./knowledge/tools/Fireworks-Tech-Graph-技术图生成器.md)
+- **概述**: V3版本重大更新：Codex完美兼容、7种风格升级为有版式语言的生成系统、解决连线穿框/标签压图等观感问题。一句话描述即可生成出版物级别的SVG+PNG技术图，内置AI/Agent领域知识。
+
+---
+
 # Tuesday, April 7, 2026
 
 ---
