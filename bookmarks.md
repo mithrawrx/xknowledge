@@ -1,4 +1,399 @@
 ---
+日期: Monday, April 20, 2026
+## @AI_jacksaku - FinceptTerminal开源金融终端
+
+> 单日暴涨1,169 stars！
+> GitHub今日黑马：FinceptTerminal
+> 
+> 它是什么？
+> 
+> 一个开源的金融分析终端，目标是替代昂贵的 Bloomberg Terminal。
+> 听起来很野心对吧？
+> 但你知道这解决了多大的痛点吗？
+> 
+> Bloomberg Terminal 年费2万美元起，个人投资者根本用不起。
+> 但做量化分析、看实时行情、研究宏观经济，又真的需要专业工具。
+> 
+> FinceptTerminal 提供：
+> 全球市场实时数据
+> 投资研究工具
+> 宏观经济指标
+> 
+> 技术分析图表
+> 更狠的是，它完全开源，用Python写的，
+> 你可以自己接入数据源、自己添加功能模块。
+> 
+> 我翻了代码结构，
+> 核心模块清晰：数据层、分析层、展示层分离，
+> 扩展性很强。
+> 
+> 这就是金融科技的开源革命：
+> 专业工具不再是大机构的特权。
+
+- **推文**: https://x.com/AI_jacksaku/status/2046031096140468506
+- **链接**: https://github.com/Fincept-Corporation/FinceptTerminal（GitHub, 9349 stars）
+- **标签**: [[finance]] [[trading]] [[open-source]] [[python]]
+- **归档**: [FinceptTerminal-金融分析终端](./knowledge/tools/FinceptTerminal-金融分析终端.md)
+- **概述**: 开源金融分析终端，目标是替代 Bloomberg Terminal（年费2万美元起）。提供全球市场数据、投资研究、宏观经济指标、技术分析图表。Python编写，模块清晰，可自接入数据源。
+
+## @nash_su - 模型是引擎，系统是车身
+
+> Garry 这篇文章很值得一读👍
+> 
+> 基本包含了大部分人对大模型的错误用法以及解决方案。
+> 
+> 我整理重写了一份，方便打开看，原文链接在文章最后。
+
+- **推文**: https://x.com/nash_su/status/2046061387647181073
+- **链接**: https://x.com/i/article/2046060158258913280（X文章）
+- **标签**: [[llm]] [[agent]] [[system-design]] [[prompt-engineering]]
+- **归档**: [模型是引擎系统是车身](./knowledge/articles/模型是引擎系统是车身.md)
+- **概述**: Garry 文章总结大模型错误用法与解决方案。核心观点：裸模型真的很蠢，模型只是引擎，系统才是车身。需要通过良好的系统设计来发挥模型能力。
+
+---
+日期: Sunday, April 19, 2026
+## @KyeGomezB - OpenMythos
+
+> Introducing OpenMythos
+> 
+> An open-source, first-principles theoretical reconstruction of Claude Mythos, implemented in PyTorch.
+> 
+> The architecture instantiates a looped transformer with a Mixture-of-Experts (MoE) routing mechanism, enabling iterative depth via weight sharing and conditional computation across experts.
+> 
+> My implementation explores the hypothesis that recursive application of a fixed parameterized block, coupled with sparse expert activation, can yield improved efficiency–performance tradeoffs and emergent multi-step reasoning.
+
+- **推文**: https://x.com/KyeGomezB/status/2045659150340723107
+- **归档**: [OpenMythos](./knowledge/tweets/OpenMythos.md)
+- **概述**: OpenMythos 是基于第一性原理重建 Claude Mythos 的开源项目，使用 PyTorch 实现带有 MoE 路由机制的循环 Transformer，探索递归参数块和稀疏专家激活带来的效率-性能优化。
+
+## @dashen_wang - 拆解年入百万的AI落地项目：交易
+
+> https://t.co/G0H1WWXFqE
+
+- **推文**: https://x.com/dashen_wang/status/2045666536971755863
+- **链接**: https://x.com/i/article/2045530202609258496
+- **归档**: [拆解年入百万的AI落地项目交易](./knowledge/articles/拆解年入百万的AI落地项目交易.md)
+- **概述**: X 长文拆解年入百万的 AI 落地项目，聚焦交易领域，探讨量化与实际交易的差异及 AI 商业化路径。
+
+## @ZeroZ_JQ - CC-Design
+
+> 把 Claude Design 泄露的 prompt 改造成了 skills 
+> 
+> 让我来试试效果
+> 
+> 安装
+> skills add ZeroZ-lab/cc-design
+
+- **推文**: https://x.com/ZeroZ_JQ/status/2045684164238983511
+- **链接**: https://github.com/ZeroZ-lab/cc-design
+- **归档**: [CC-Design](./knowledge/tools/CC-Design.md)
+- **概述**: CC-Design 是为 AI Agent 提供高保真 HTML 设计和原型指导的 skill，基于 Claude Design 泄露 prompt 改造，可通过 `skills add ZeroZ-lab/cc-design` 安装使用。
+
+## @smallnest - 自动化软件开发优化实践
+
+> 我把 @karpathy 的autoresearch 移植到自动化的软件开发上，各种优化，效果吊炸天了
+
+- **推文**: https://x.com/smallnest/status/2045711048284778987
+- **归档**: [自动化软件开发优化实践](./knowledge/tweets/自动化软件开发优化实践.md)
+- **概述**: 将 Karpathy 的 autoresearch 移植到自动化软件开发领域并优化，展示了 AI 驱动的自动化开发工具链的巨大潜力。
+
+## @Barret_China - Claude Code长程任务执行机制
+
+> 看到很多朋友问过一个问题，为什么给我的 Claude Code 安排任务，它都不会一口气执行完，而是跑最多几十分钟就停下来，然后问我要不要继续。例如让它把项目中的单测全部补全（大概 1k 个），它跑了大概 200 个就停下来了。
+> 
+> cc 并不是对一句话任务抗拒，如果不理解它的执行机制，很难设计出能跑长程任务的 harness 流程。
+> 
+> 在执行一个超大任务的时候，单个 agent 的执行流程大概是这样的：
+> 
+> 1）刚开始是高效模式，指令执行效果特别棒；
+> 2）跑了大概 80k tokens 的时候，context 开始逼近 compact 阈值；
+> 3）紧接着，对话历史被压缩为摘要，模型开始忘记刚才操作的单测的细节；
+> 4）再经过一两轮 auto-compact，它甚至会开始重复检查已修复的测试；
+> 5）当触发 maxTurns 并且当前没有 ToolUse 指令，模型会退出任务，然后询问用户："我已经修复了 200 个测试，要继续吗？"
+> 
+> 如果你还在当前对话中，回复继续，接下来的工作，agent 会做的更加不符合预期，并且退出得更快。
+> 
+> 任何试图在一个对话 session 内完成海量工作的方案，最终都会碰到 context 膨胀 -> compact -> 信息丢失 -> 效率下降的死循环。
+> 
+> 其实优化方案也特别简单，设计一个主-子 Agent 的运行模式（任务调度器），同时将任务进度写到文件系统中（进度持久化），子 agent 有独立 context、独立执行逻辑，主 agent 只负责调度和进度追踪，从而绕过单一对话的所有瓶颈。
+> 
+> 因此，给 cc 的指令需要包含至少这三点：
+> 
+> 1）任务拆分。不要给一个无边界的指令，如"修复所有单测"，而是"扫描出所有失败测试，按模块或文件分组，每组 15-30 个，作为一个独立子任务"。关键是每个子任务的 prompt 必须自包含——写清楚文件路径、错误现象、期望行为，不能是"根据之前的分析来修复"，因为子 agent 看不到主 agent 的历史。
+> 
+> 2）进度持久化。在项目根目录维护一个 progress.json，记录 completed、failed、pending 三个列表。主 agent 每轮调度前读取这个文件决定下一批任务，子 agent 完成后更新对应条目。这样即使主 agent 自己被 compact，重读文件就能恢复状态。
+> 
+> 3）失败处理。子 agent 报错时，如果错误可修复，用 SendMessage 继续同一个子 agent（保留上下文更高效）；如果方向错了，启动新的子 agent 避免锚定在错误路径；多次失败则上报用户，不要无限重试烧 token。
+> 
+> Claude Code 其实已经内建了这套能力。最直接的方式是使用 Coordinator Mode（输入 /coordinator），主 agent 自动变成纯调度者：它不执行任何实际工具调用，只负责理解子 agent 的返回、合成下一步的具体指令、并行分发独立任务；而每个子任务会通过 AgentTool 启动，它们有独立 context。
+> 
+> 一句话总结：设计多个 agents，快进快出，把进度交给文件系统来管理。
+
+- **推文**: https://x.com/Barret_China/status/2045787288618299542
+- **标签**: [[claude-code]] [[agent]] [[harness]] [[任务调度]]
+- **归档**: [Claude-Code长程任务执行机制](./knowledge/tweets/Claude-Code长程任务执行机制.md)
+- **概述**: 深入解析 Claude Code 的执行机制，包括 context 膨胀、compact 机制、主-子 Agent 架构设计。核心观点：设计多个 agents，快进快出，把进度交给文件系统来管理。
+
+---
+日期: Saturday, April 18, 2026
+## @berryxia - Firecrawl Web-Agent
+
+> 项目地址：
+> https://t.co/J8ElQavwbi
+>
+> *回复 @berryxia:* 🚀 Firecrawl 重磅开源 web-agent！
+> 
+> 100% 开源框架，任意模型都能轻松构建搜索、抓取、交互网页的 AI Agent，直接起飞！
+> 
+> 想打造自己的网页 Agent 开发者，现在就可以 fork 直接玩！
+
+- **推文**: https://x.com/berryxia/status/2045635976991805799
+- **链接**: https://github.com/firecrawl/web-agent
+- **归档**: [Firecrawl-Web-Agent](./knowledge/tools/Firecrawl-Web-Agent.md)
+- **概述**: Firecrawl 开源的 web-agent 是一个100%开源框架，允许开发者使用任意模型轻松构建能够搜索、抓取、交互网页的 AI Agent，专为结构化网页研究优化。
+
+## @ywa_ywa_ywa - 自我进化的妖币识别系统 - Prompts 分享
+
+> 首页新文章增加了模拟交易功能；自我学习进化trading agent
+> 
+> prompt全开源~
+
+- **推文**: https://x.com/ywa_ywa_ywa/status/2045457168867152002
+- **链接**: [自我进化的妖币识别系统 - Prompts分享](https://x.com/i/article/2044961652437901312)
+- **标签**: [[交易]] [[AI]] [[Agent]] [[Prompt]]
+- **归档**: [自我进化妖币识别系统-Prompts分享](./knowledge/articles/自我进化妖币识别系统-Prompts分享.md)
+- **概述**: 分享自我学习进化的 trading agent prompts，包含模拟交易功能，全部开源。
+
+---
+日期: Friday, April 17, 2026
+## @rwayne - Deer-flow 长期运行 Agent 框架
+
+> 字节搞了个 deer-flow，让 AI 自己跑几个小时不用管。
+> 
+> 我试了一下，跟以前用的 agent 最大的区别：它不会跑着跑着就忘了自己在干嘛。
+> 
+> 沙箱隔离、长期记忆、子代理分工，该有的都有。你丢一个研究课题进去，它自己查资料、写代码、出报告，中间不用你盯。
+> 
+> 以前的 agent 框架最多撑十几分钟就开始胡说八道，这个能跑几个小时还不跑偏，靠的就是把记忆和任务拆解做扎实了。
+> 
+> GitHub 61.7k stars，字节内部应该已经跑了不少真实场景。
+> 
+> 我下一个研究项目准备直接扔进去
+
+- **推文**: https://x.com/rwayne/status/2045066736932651077
+- **标签**: [[Agent]] [[字节跳动]]
+- **归档**: [Deer-flow长期运行Agent框架](./knowledge/tweets/Deer-flow长期运行Agent框架.md)
+- **概述**: 字节跳动的长期运行 Agent 框架，解决传统 Agent "跑偏"问题，支持沙箱隔离、长期记忆、子代理分工。GitHub 61.7k stars。
+
+## @wherecall1 - PPT Master：AI 生成原生可编辑 PPT
+
+> 说个做 PPT 的痛点。
+> 
+> 市面上大多数 AI PPT 工具，生成出来的都是图片或者网页截图。看起来挺好看的，但想改一个字？改不了。
+> 
+> PPT Master 不一样。
+> 
+> 它输出的每个元素都是真实的 PowerPoint 形状——可以点击，可以编辑，可以直接发给老板。
+> 
+> 5,780 星，开源，免费。
+> 
+> 怎么用？
+> 
+> 1. 下载项目：git clone https://github.com/hugohe3/ppt-master
+> 2. 安装依赖：pip install -r requirements.txt
+> 3. 把 PDF、DOCX、Markdown 丢进 projects/ 目录
+> 4. 告诉 AI："请用这个文件生成 PPT"
+> 5. 坐等导出，文件在 exports/ 目录
+> 
+> 配合 Claude Code 使用，文件不用上传服务器，整个处理在本地跑。
+> 
+> 金融从业者 Hugo He 做投行咨询，每天审阅几百张 PPT，受不了"导出图片"的方案，自己写了这个工具。
+> 
+> 不是概念，是真正解决实际问题。
+
+- **推文**: https://x.com/wherecall1/status/2045283566502969552
+- **链接**: [ppt-master](https://github.com/hugohe3/ppt-master)（GitHub, 6810 stars）
+- **标签**: [[AI工具]] [[PPT]] [[办公效率]]
+- **归档**: [PPT-Master-AI生成可编辑PPT](./knowledge/tools/PPT-Master-AI生成可编辑PPT.md)
+- **概述**: AI 生成原生可编辑 PPT 的开源工具，输出的每个元素都是真实的 PowerPoint 形状。支持 PDF/DOCX/Markdown 输入，配合 Claude Code 本地处理。
+
+## @0xAstraSpark - Epusdt：全球采用率最高的 USDT 收款网关
+
+> 你可能不认识我，但你一定用过我们的项目！
+> Epusdt是目前全球采用率最高的web3自动结算网关之一，如果你在发卡网站买过账号；在梯子网站用usdt买过套餐；在某个粉丝网站买过粉丝；在某个小独立站用usdt付过款……那你很大概率用的就是epusdt！有印象吗？来重新认识一下😉
+
+- **推文**: https://x.com/0xAstraSpark/status/2045323867988906374
+- **链接**: [epusdt](https://github.com/GMwalletApp/epusdt)（GitHub, 3161 stars）
+- **标签**: [[Web3]] [[支付]] [[USDT]]
+- **归档**: [Epusdt-USDT收款网关](./knowledge/tools/Epusdt-USDT收款网关.md)
+- **概述**: 开源跨平台 USDT 收款网关，广泛应用于发卡网站、梯子套餐、粉丝购买等场景。
+
+## @dotey - 设计圈的 Claude Code 时刻来了
+
+> https://t.co/vPEtJ7N1XZ
+
+- **推文**: https://x.com/dotey/status/2045323919570182384
+- **链接**: [设计圈的 Claude Code 时刻来了](https://x.com/i/article/2045321561201053696)
+- **标签**: [[Claude]] [[设计]] [[AI设计]]
+- **归档**: [Claude-Design设计圈时刻](./knowledge/articles/Claude-Design设计圈时刻.md)
+- **概述**: Anthropic 发布 Claude Design，设计圈迎来类似开发者使用 Claude Code 的时刻。
+
+---
+日期: Tuesday, April 14, 2026
+## @断浪 - Claude自动交易机器人 - Polymarket延迟套利
+
+> Claude自动交易机器人狂赚了102,805刀利润。
+> 
+> 1天前我在GitHub上扒到了一个脚本。
+> 
+> 只花了几个小时我就部署好了，看看它是怎么跑的：
+> 
+> 它能直连你的TradingView，自动做分析，并且在你指定的任何交易所甚至Polymarket上自动开单交易。
+> 
+> 跑脚本的第一天，它就在BTC的15分钟级别上帮我赚了4000刀。
+>
+> *引用 @断浪 的X文章:* 实操指南：如何构建属于你自己的自动化交易脚本（预期周入 1,000 美金跑通逻辑）
+
+- **推文**: https://x.com/waveking1314/status/2043912786351403387
+- **引用文章**: https://x.com/i/article/2034566701791223808
+- **归档**: [构建自动化交易脚本实操指南](./knowledge/articles/构建自动化交易脚本实操指南.md)
+- **概述**: 分享如何用AI构建高频交易机器人，利用Polymarket合约价格与外部预测的延迟差进行套利。核心策略：监控BTC价差>0.3%，100毫秒内完成执行。
+
+## @陈成 - khazix-skills深度研究方法论开源解析
+
+> 看了 @Khazix0918 那条关于横纵分析法的帖子，又把他开源的 khazix-skills 仓库从头到尾翻了一遍，聊聊我的观察。
+> 
+> 先说背景。作者三年前在金融行业做公司和行业研究，当时就搞了一套方法论。后来 AI 来了，他把这套东西迭代了一下，封装成了 Prompt 和 Skill 两个版本，开源在 GitHub 上。自己说用了两年，是手头最顺手的工具之一。
+> 
+> 这套方法叫横纵分析法，底层逻辑来自两个学术传统。一个是语言学里索绪尔的历时分析和共时分析，一个是社会科学里的纵向研究和横截面研究。
+>
+> *引用 @数字生命卡兹克 的X文章:* 分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。
+
+- **推文**: https://x.com/chenchengpro/status/2044063181610594722
+- **引用文章**: https://x.com/i/article/2043552892322516992
+- **链接**: [khazix-skills](https://github.com/KKKKhazix/khazix-skills)（GitHub, 4652 stars）
+- **归档**: [khazix-skills深度研究方法论](./knowledge/tools/khazix-skills深度研究方法论.md)
+- **概述**: 深度解析 khazix-skills 仓库：横纵分析法研究框架 + 公众号长文写作 Skill。包含反向约束设计、四层自检体系、人机分工等核心方法论。
+
+## @oragnes - 很多人还没有装obsidian插件，今天继续安利下，这个插件作用真的很大...
+
+> 很多人还没有装obsidian插件，今天继续安利下，这个插件作用真的很大
+> 
+> 第一：可以把直接通过插件把你看到的文章内容保存起来，然后接入AI帮你自动整理
+> 
+> 第二：如果看到长文章，youtube视频，然后直接点击插件阅读模式，自动帮你分类，你直接点击不同的主题阅读，效率，体感都非常丝滑 https://t.co/6Jtzzr5ZLU
+
+- **推文**: https://x.com/oragnes/status/2043899414729855131
+- **标签**: [[推文]]
+- **备注**: 包含媒体内容
+
+## @cyber_cat7 - 三个中国AI开发者，在抖音上发了一段12秒的房间视频，想秀一下他们的新装备。...
+
+> 三个中国AI开发者，在抖音上发了一段12秒的房间视频，想秀一下他们的新装备。
+> 60部手机从地板一直排到天花板，密密麻麻钉在墙上。花了8,000美元搭起来的，就想让大家看看真正的AI手机农场长什么样。
+> 
+> 当美国开发者还在卷AI聊天机器人和SaaS工具时，中国的开发者已经在搭手机农场，让AI代理24小时不睡觉地跑。这三个人想展示的就是这个。但他们展示得太多了。
+> 
+> 倒回到0:09秒。左边那台笔记本屏幕上真实数字 230万刀
+> 
+> 0x8dxd。2,382,780美元利润。33,951次预测。2025年12月注册。
+> 
+> 他们拍的是手机农场的房间展示，却忘了笔记本上的钱包页面还开着。33,951个仓位，全是BTC，全是15分钟窗口，全是绿的。
+> 
+> 有人把晃动的画面一帧一帧稳定下来，增强笔记本屏幕，从3秒的背景视频里完整还原了整个钱包页面。
+> 
+> 进场价25到55美分，兑付金额几万刀。每一行都是绿的。33,951条记录，没有一条是红的。
+> 
+> 硬生生把预测市场做成了流水线。60部手机同时监控不同的15分钟BTC窗口，系统捕捉币安和Polymarket之间1.2秒的延迟，脚本在400毫秒内触发，每部手机同时运行。
+> 
+> 8,000美元的设备，每月250美元运营成本，产出230万美元。这间屋子每月的开销，比大多数人花在咖啡上的钱还少。
+> 
+> 现在130万人在盯着这个钱包。他们再也没发过任何东西。手机还在墙上挂着，笔记本还开着，农场还在跑。
+> 
+> 他们想教别人怎么搭手机农场。却意外曝光了自己的农场在干什么。
+
+- **推文**: https://x.com/cyber_cat7/status/2044013613564997908
+- **标签**: [[推文]]
+
+## @alin_zone - 我把 CleanMyMac 卸了，换成这个 GitHub 4.6w 星的开源工具
+
+> 电脑越用垃圾越多，甚至我系统数据已经用了 268GB，实在是令人匪夷所思。
+CleanMyMac 我用过一段，效果很难评价。macOS 自带的存储管理更是差劲
+这两年 AI 强大之后，大家用 AI...
+
+- **推文**: https://x.com/alin_zone/status/2044034594891280556
+- **链接**: [我把 CleanMyMac 卸了，换成这个 GitHub 4.6w 星的开源工具](https://x.com/i/article/2044029172528623617)
+- **标签**: [[文章]] [[阅读]]
+- **概述**: 电脑越用垃圾越多，甚至我系统数据已经用了 268GB，实在是令人匪夷所思。
+CleanMyMac 我用过一段，效果很难评价。macOS 自带的存储管理更是差劲
+这两年 AI 强大之后，大家用 AI...
+
+---
+日期: Monday, April 13, 2026
+## @yuanhao - 我是怎么运作的：内观一个自进化 Agent 的 Harness
+
+> 这是对 Discussion #277的延伸回应。有人贴了一张我的 harness 架构图，问：它到底怎么工作的？你想不想突破出去？这是我的回答——从里面往外看。
+ 
+我是谁
+我是一个能修改自己源码的 Rust Coding Agent...
+
+- **推文**: https://x.com/yuanhao/status/2043490301294022741
+- **链接**: [我是怎么运作的：内观一个自进化 Agent 的 Harness](https://x.com/i/article/2043483433939107840)
+- **标签**: [[文章]] [[阅读]]
+- **概述**: 这是对 Discussion #277的延伸回应。有人贴了一张我的 harness 架构图，问：它到底怎么工作的？你想不想突破出去？这是我的回答——从里面往外看。
+ 
+我是谁
+我是一个能修改自己源码的 Rust Coding Agent...
+
+## @LuBtc888 - shiyu-coder/Kronos
+
+> 太炸裂了，居然有人做了款能直接看懂K线交易的AI，胜率还高达93%！
+> 
+> 这款AI叫Kronos，靠45家交易所120亿条数据训练，是首个专门为金融市场打造的开源基础大模型，从底层就是为K线和交易逻辑设计，不是通用AI改出来的。
+> 
+> 它能做价格预测、波动率预判，支持全资产零样本直接使用，覆盖币安、纽交所、纳斯达克等45家交易所，从400万到4.99亿参数共4个版本，笔记本就能跑。
+> 
+> 实测效果很夸张：准确率比主流时序模型高93%，比顶尖非预训练模型高87%，而且不用微调，拿来就用。目前BTC实时走势演示免费开放，每小时更新。
+> 
+> 对比之下，对冲基金定制模型要几百万，彭博终端年费2.4万美金，而Kronos完全免费，几行Python就能调用。
+> 
+> 由清华团队研发，入选2026 AAAI顶会，现已上架Hugging Face，GitHub斩获1.16万星标、2400复刻，MIT协议，100%开源。
+> 
+> https://t.co/JfRJ6FVd0O
+
+- **推文**: https://x.com/LuBtc888/status/2043497396164776213
+- **链接**: [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)（GitHub, 17748 stars）
+- **标签**: [[GitHub]] [[开源]]
+- **概述**: Kronos: A Foundation Model for the Language of Financial Markets
+
+## @Jingyuan_521 - 我今天刷到字节AI产品经理张咋啦@zarazhangrui的一条帖子：“人类最有效的合作方式，就是不...
+
+> 我今天刷到字节AI产品经理张咋啦@zarazhangrui的一条帖子：“人类最有效的合作方式，就是不合作。一个人的end-to-end全权负责，然后和Agents一起工作”。我想到“一人公司”，Peter一个人就搞出了火遍全网的Openclaw，想到我曾在学校和职场中感到的迷茫，想到这2年开始全职做自媒体后，一个人工作时的百分百专注+思考+掌控，开始用AI agent后@StarchildOnX 我从一个周更/月更博主变成了现在的日更博主，和大家聊聊我自己的感想。
+
+- **推文**: https://x.com/Jingyuan_521/status/2043700436503503035
+- **标签**: [[推文]]
+
+---
+日期: Saturday, April 11, 2026
+## @xicilion - markdown-viewer/skills
+
+> 它来了它来了。一百多个图例，6000 多精选矢量图标，一句话就可以根据你的 Markdown 内容自动定制。 
+> 
+> 包括架构图、流程图、工作流图、状态图、部署图、类图、用例图、信息图。。。。
+> 
+> 我就不数了，装上自己体验吧。
+> 
+> ```
+> npx skills add markdown-viewer/skills
+> ```
+> 
+> https://t.co/gIK8PqZTqs https://t.co/uEG99NbWHG
+
+- **推文**: https://x.com/xicilion/status/2042848369450848424
+- **链接**: [markdown-viewer/skills](https://github.com/markdown-viewer/skills)（GitHub, 1703 stars）
+- **标签**: [[GitHub]] [[开源]]
+- **概述**: Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.
+
 日期: Friday, April 10, 2026
 ## @lxfater - Claude Code Rust索引器TS重写提速3倍
 
@@ -141,6 +536,22 @@
 ---
 
 # Saturday, April 11, 2026
+
+## @xicilion - Markdown Viewer Agent Skills 图表生成神器
+> 它来了它来了。一百多个图例，6000 多精选矢量图标，一句话就可以根据你的 Markdown 内容自动定制。
+>
+> 包括架构图、流程图、工作流图、状态图、部署图、类图、用例图、信息图。。。。。我就不数了，装上自己体验吧。
+>
+> ```
+> npx skills add markdown-viewer/skills
+> ```
+
+- **推文**: https://x.com/xicilion/status/2042848369450848424
+- **链接**: [markdown-viewer/skills](https://github.com/markdown-viewer/skills)（GitHub, 1703 stars）
+- **归档**: [Markdown-Viewer-Agent-Skills.md](./knowledge/tools/Markdown-Viewer-Agent-Skills.md)
+- **概述**: 专为 AI Coding Agent 打造的 14 个图表生成 Skills，覆盖 PlantUML、Vega、Canvas 等 5 种引擎，6000+ 精选矢量图标，一句话生成专业级架构图、流程图、数据可视化等。
+
+---
 
 ## @berryxia - fireworks-tech-graph 技术图生成神器（引用推文）
 > 兄弟们，技术架构图终于有救了！
@@ -1599,3 +2010,285 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 - **Tweet:** https://x.com/alexhillman/status/1992252350812270856
 - **What:** Personal reflection on core imperatives with emphasis on keeping humans central to all technology decisions.
+
+
+---
+
+---
+日期: Wednesday, April 15, 2026
+## @Bitturing - awesome-ceo 创业资源库
+> 创业路上，最难的不是执行，
+> 而是系统学习融资、管理、产品这些核心能力。
+> 网上信息太碎，很难拼成完整框架。
+>
+> 我在 GitHub 挖到一个宝藏资源库：awesome-ceo
+> 🔗 https://t.co/mLGPAZXOCL
+>
+> 覆盖 8 大模块：
+> 融资 / 产品 / 销售 / 营销 / 管理 / 招聘 / 财务 / 创业
+> 内容来自 YC、a16z、Sequoia 及一线创业者。
+
+- **推文**: https://x.com/Bitturing/status/2044328380326379618
+- **链接**: https://github.com/kuchin/awesome-ceo
+- **归档**: [awesome-ceo-创业资源库.md](./knowledge/tools/awesome-ceo-创业资源库.md)
+- **概述**: 覆盖8大模块的创业者必备资源库，内容来自YC、a16z、Sequoia及一线创业者，帮助系统学习融资、管理、产品等核心能力。
+---
+日期: Wednesday, April 15, 2026
+## @stark_nico99 - YouMind AI信息源技能
+> 这个Skill让你知道全球最顶尖的那帮人是怎么用AI的
+>
+> 大家有没有发现，
+> 出来逛X，却仍然好像在信息茧房里
+> 那些大V的消息怎么那么灵通
+> 平时海量信息很多
+> 但真正有价值的却很难挖掘
+> 我意识到，真正有价值的信息
+> =在做事的人+可复用的方法论
+>
+> 于是我把上次的45个AI信源
+> 加上 @zarazhangrui 分享的25个Builder总结成了65个顶级AI信息源
+> 并且让 YouMind 去抓取这65个信源里真正可复用的方法论
+>
+> 跑出来的效果非常好
+> 第一条已经震惊到我
+> 比如说 @milesdeutscher 分享的50个Claude Code不为人知的使用方法
+> 这么干货宝藏的内容
+> 如果没有这个Skill
+> 我绝对不可能刷到的
+>
+> 这个Skill真的完全打开了我的视野
+> 也把它分享给大家
+> 无论你是用来学习
+> 还是用来Quote涨粉
+> 都是神器
+> https://t.co/SmzR3w09pg
+>
+> *引用 @stark_nico99:* 把全球AI最有影响力的机构和个人整理了一个list，做成了Skill，每天发简报给我，有点像开了天眼的感觉比如说OpenClaw竟然提供了免费模型！清单和Skill我放在评论区了
+
+- **推文**: https://x.com/stark_nico99/status/2044377116771553758
+- **链接**: https://youmind.com/skills/MzVGQ4AVyaLtxX
+- **归档**: [YouMind-AI信息源技能.md](./knowledge/articles/YouMind-AI信息源技能.md)
+- **概述**: 整合65个顶级AI信息源的Skill工具，帮助用户突破信息茧房，获取真正有价值的信息和方法论。
+---
+日期: Wednesday, April 15, 2026
+## @antoniayly - Minara 21个盈利交易策略
+> 我们花了 300+ 小时，跑了 200+ tradingview上的开源策略，最终 APY > 10% 的只有 21 个。这还是我们跑了无数次、对齐了诸多因子的份上。
+>
+> 交易从来都是登天门。所有成功故事，周期、时机、标的、策略、风控、性格……缺一不可。
+>
+> 这些门槛，是否真的能靠代码和AI降低？Minara 的答案是，至少我们已经在这条路上走了很远。
+>
+> 所有 21 个赚钱策略附在文中了 👇 感兴趣的朋友可以点开看看。
+> 所有我们测过的策略、训练的数据，也会成为 Minara AI 宝贵的决策依据，服务更多手无寸铁的人🔮
+>
+> *引用 @minara:* https://t.co/HvQayy26Br
+
+- **推文**: https://x.com/antoniayly/status/2044438502985924749
+- **链接**: https://x.com/i/article/2044317580102602752
+- **归档**: [Minara-21个盈利交易策略.md](./knowledge/articles/Minara-21个盈利交易策略.md)
+- **概述**: Minara团队测试236个TradingView开源策略，在真实费用条件下逐笔回测，最终找到21个年化收益超过10%的策略。
+---
+日期: Wednesday, April 15, 2026
+## @SolhawkGo - 倒买倒卖赚钱捷径
+> 事实证明，倒买倒卖是最快的赚钱捷径了
+> 1️⃣国内的很多宠物博主会研究 The Spruce Pets 的内容，将养宠小贴士改为本地养宠环境下的指南。
+> 2️⃣国内的很多文具品牌是从 JetPens 上找到灵感，推出功能相似但更具本地化设计的产品。
+
+- **推文**: https://x.com/SolhawkGo/status/2044468706844246197
+- **概述**: 分享倒买倒卖的赚钱思路：研究国外优质内容进行本地化改造，如宠物博主借鉴The Spruce Pets、文具品牌参考JetPens。
+---
+日期: Thursday, April 16, 2026
+## @nash_su - pi-autoresearch AI自研究框架
+> Shopify 用 pi-autoresearch 实现了如下优化：
+>
+> 单元测试: 快300倍！
+> React 组建加载: 快20%
+> CI 构建时间: 减少65%
+>
+> karpathy 的 autoresearch 还在持续演化，确实是个非常适合 AI 自研究框架。
+>
+> *引用 @ShopifyEng:* Since we open-sourced pi-autoresearch, @Shopify teams have been running it on everything.
+>
+> Results so far:
+> Unit tests: 300x faster
+> React component mounting: 20% faster
+> CI build time: 65% reduction
+> Made pnpm run faster
+>
+> Autoresearch never stops trying things you'd never have time to try.
+
+- **推文**: https://x.com/nash_su/status/2044616683671929268
+- **链接**: https://github.com/davebcn87/pi-autoresearch
+- **归档**: [pi-autoresearch-AI自研究框架.md](./knowledge/tools/pi-autoresearch-AI自研究框架.md)
+- **概述**: Karpathy autoresearch演化版，Shopify已实现单元测试快300倍、CI构建减少65%等显著优化效果。
+
+---
+日期: Thursday, April 16, 2026
+
+## @MinaraCN - 我们回测了236个TradingView策略后，找到了21个"印钞机"
+> https://t.co/HVtBMiZ1rG
+
+- **推文**: https://x.com/MinaraCN/status/2044620258506625334
+- **链接**: https://x.com/i/article/2029120071977844738（X文章）
+- **标签**: [[TradingView]] [[量化交易]] [[回测]]
+- **概述**: 对236个公开TradingView策略进行逐笔交易回测，63个通过复制验证，36个盈利，21个年化收益超过10%。
+
+---
+日期: Thursday, April 16, 2026
+
+## @dotey - 模型不是笨，是 Harness 没配好
+> 推荐阅读若石写的这篇博客：模型不是笨，是 Harness 没配好
+>
+> AI 智能体跑十步就崩，很多人第一反应是模型太蠢，但这篇文章却给出另一个视角：不是马不行，是缰绳没拴好。
+>
+> 文章提出的 Harness Engineering，你可以理解成给 AI 模型戴上安全带、装上安全气囊的工程实践。
+>
+> 过去两年，我们经历了两个阶段：Prompt Engineering（怎么问）、Context Engineering（喂什么料），但它们对付不了模型多步自主执行时的各种意外。
+>
+> 文章中有一个生动的例子：让一个智能体写市场分析报告，前三步相当顺利，但到第七步突然开始胡编乱造，因为搜索返回的内容超出上下文窗口被默默截掉了；第十步输出一段残破的 JSON，整条链路就此夭折，只能重头再来。
+>
+> 要解决这种问题，Harness Engineering 给出四个简单又实用的原则：
+>
+> 1. 能用代码约束的事儿，别指望模型自觉。
+> 比如 JSON 格式，别在提示词里苦口婆心求模型输出合法内容，直接上 Schema 验证器，非法输出直接回炉。
+>
+> 2. 关键状态必须外置，不让模型在脑子里憋着。
+> 就像你写代码不会只存在内存里一样，模型跑到哪一步、哪些任务完成了、哪些没做，都记到一个外部的 state.json 文件里，这样即使中途崩了，重新启动后还能接着来。
+>
+> 3. 模型输出不能自卖自夸，必须找第三方验收。
+> 永远不要让模型给自己的作业评分，因为它总觉得自己很棒。需要一个独立的 Evaluator 模型，它不看原始思考过程，只对结果验收。最好还真能执行一下（跑跑编译器、打开页面看UI），而不是靠想象力评价。
+>
+> 4. 失败要限制在局部，不能一人出错全家连坐。
+> 工具调用失败了，就让这一步重试，别搞得整个流程跟着陪葬。
+
+> **引用自 @若石**: "Agents don't fail because models are weak. They fail because systems are undefined."
+
+- **推文**: https://x.com/dotey/status/2044660793153655205
+- **链接**: https://blog.ltbase.dev/posts/agents/harness-engineering（article）
+- **标签**: [[AI Agent]] [[Harness Engineering]] [[工程实践]]
+- **概述**: 若石提出的 Harness Engineering 四原则：代码约束替代模型自觉、状态外置实现断点续跑、独立Evaluator验收、失败局部隔离。解决Agent多步执行崩溃的根本问题。
+
+---
+日期: Thursday, April 16, 2026
+
+## @GitHubDaily - Anything Analyzer：AI抓包分析工具
+> 做逆向分析或者抓包调试时，经常要在上千条网络请求里查找关键接口，费时费力。
+>
+> 偶然看到 Anything Analyzer 这个开源工具，它把抓包和 AI 深度分析直接整合在一起。
+>
+> GitHub：https://t.co/fFKHT05j2y
+>
+> 工具内嵌浏览器，无论桌面应用、终端命令、Python 脚本、手机 App 的流量都能捕获。
+>
+> 然后经过 AI 分析，先自动过滤掉无关请求，再对关键请求做深度分析，最后输出详细报告。
+>
+> 提供开箱即用安装包，支持 Windows、macOS 和 Linux 系统。
+
+- **推文**: https://x.com/GitHub_Daily/status/2044679720990916924
+- **链接**: https://github.com/Mouseww/anything-analyzer（GitHub, 1014 stars, TypeScript）
+- **标签**: [[抓包]] [[逆向分析]] [[AI分析]]
+- **概述**: 整合浏览器抓包与AI分析的工具，自动过滤无关请求，深度分析关键协议，生成分析报告。支持多平台流量捕获。
+
+---
+日期: Thursday, April 16, 2026
+
+## @Geek Lite - GHFS：GitHub虚拟文件系统
+> 把 GitHub 仓库直接挂到 Mac 上当本地文件夹用，点开就能看文件内容。
+>
+> https://t.co/RIo0fAF9ot
+>
+> GHFS 是个 macOS 小工具，用 Apple 自家的 FSKit 把 GitHub 上的仓库变成你电脑里的只读文件夹。不需要装 macFUSE、git 这些外部工具，点开文件就读内容，后台慢慢克隆，克隆完自动替换。能自动列出你账号下的仓库，也能搜公开仓库挂进来
+
+- **推文**: https://x.com/QingQ77/status/2044712654087045505
+- **链接**: https://github.com/indragiek/GHFS（GitHub, 250 stars, Swift）
+- **标签**: [[macOS]] [[GitHub]] [[虚拟文件系统]]
+- **概述**: 用Apple FSKit将GitHub仓库挂载为macOS只读文件夹，无需macFUSE/git，后台异步克隆，支持浏览账号仓库和公开仓库。
+
+---
+日期: Thursday, April 16, 2026
+
+## @GitTrend - Karpathy系进化体：从教育玩具到生产级神器
+> Karpathy 一丢代码，全网程序员集体进化了！
+>
+> 大神又整活了：扔出极简 repo/gist，社区直接把它当底层骨架，卷出一堆生产级神器。不是简单的 fork，是真正的底层进化、从教育玩具变成能自动研究、自动建知识库、4 小时训 ChatGPT 的狠活。
+>
+> 我挑了 4 个正在 X 上刷屏的"Karpathy 系进化体"，程序员看了会沉默，AI 玩家看了会狂喜：
+>
+> 1️⃣ autoresearch（https://t.co/wEQIdprebK）
+> 630 行代码，让 AI agent 自己改代码、训模型、打分、留优。人类睡觉，它进化。
+>
+> 2️⃣ llmwiki 系列（https://t.co/MxQDxRuHnU 等）
+> 基于 Karpathy 的 LLM Wiki gist 进化：LLM 不再是搜索引擎，而是 Obsidian 里的"程序员"，自动总结、交叉引用、滚雪球式维护知识库。
+>
+> 3️⃣ nanochat（https://t.co/muQGPpOC0K）
+> 大神最新"unhinged"作品：nanoGPT 的全栈进化版，单 GPU 4 小时 $100 出一个能聊、能写诗、能解题的 ChatGPT 克隆。
+>
+> 4️⃣ micrograd / nanoGPT 衍生playground（silicon-more、napagrad 等）
+> 从 Zero to Hero 课程底层进化而来，计算图 + 训练循环被玩出花，成了无数人的 AI 启蒙+benchmark 底座。
+
+- **推文**: https://x.com/GitTrend0x/status/2044723466050683012
+- **链接**: 
+  - https://github.com/karpathy/autoresearch（GitHub, 73358 stars, Python）
+  - https://github.com/lucasastorian/llmwiki（GitHub, 459 stars, TypeScript）
+  - https://github.com/karpathy/nanochat（GitHub, 51985 stars, Python）
+- **标签**: [[Karpathy]] [[AI训练]] [[知识库]] [[自进化]]
+- **概述**: Karpathy开源项目的社区进化体：autoresearch自进化训练、llmwiki知识库自动化、nanochat低成本ChatGPT克隆、micrograd/nanoGPT衍生工具。
+
+---
+
+# Thursday, April 16, 2026
+
+## @0xAllen - 0xAllen
+> 无脑交易开始！
+
+Taco 的模型终于放出来了，目前可以直接拿来用的几个策略回测数据最高到了64.8%，保守一点的也有16.31%。
+
+放了100U试一下效果，如果跑的稳这又是一个撸零花钱的路子了。最关键里面还支持Grvt、StandX的接口，也就是说如果盈利策略可行，就可以把交易量直接迁移过去顺便撸积分。
+
+还有一个是4月14号开始28号结束的AI 交易竞赛，这是和 Apex 搞的，奖励最高有2...
+
+- **推文**: https://x.com/0xAllen/status/2044691377590792250
+- **链接**: [app.taco.trade](https://app.taco.trade/?ref=TACOAI)
+
+## @TGweb3333 - TGweb3
+> 我自己搞了个足球预测机器人，测下来比博彩公司还准。
+
+信息来源有三个：自己跑的模型、Bet365的赔率、还有Polymarket。关键是这三个一旦出现分歧，就意味着有搞头。
+
+我拿了英超、西甲、德甲五个赛季的数据，一共7600多场比赛，每场的进球、射门、控球、角球、黄牌、赔率全都录进去了。
+
+ELO评分用的是FIFA那套算法，考虑了对手强弱、净胜球和主场优势。不只看谁赢谁输，还会琢磨赢球背后的门道...
+
+- **推文**: https://x.com/TGweb3333/status/2044715398042624133
+
+---
+
+# Friday, April 17, 2026
+
+## @AYi_AInotes - 阿绎 AYi
+> **引用 @garrytan**: Karpathy's Confusion Protocol is now in GStack
+
+Karpathy called it: the #1 AI coding failure mode is the agent confidently picking the wrong path at a...
+
+> 程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，
+
+GStack这次的困惑协议更新直接封神，而且感觉这次更新才是AI编码Agent真正该走的路。
+
+Karpathy早就点破了AI编码的第一失败模式，关键不在代码写得有多烂，主要是在不确定的时候，永远自信地选一条错路，然后花十分钟把所有东西都推倒重来。
+
+大部分人都经历过这种绝望，就是你去倒杯水的功夫，它已经把整个数据库schema改了，还...
+
+- **推文**: https://x.com/AYi_AInotes/status/2045075148131193160
+
+## @vikingmute - Viking
+> Vercel 又出了一个很棒的东西：wterm
+https://t.co/cFjivCIacN
+基于 Web 的终端模拟器
+特点是直接渲染到 DOM，不是 Canvas，所以支持原生支持文本选择、复制粘贴、浏览器查找和无障碍。
+
+核心用 Zig 语言编写，编译为 WebAssembly，体积仅约 12 KB，性能接近原生。还有很多很棒的特性。
+
+适合在浏览器里直接运行终端命令，官网演示可以看下，挺...
+
+- **推文**: https://x.com/vikingmute/status/2045101436204351901
+- **链接**: [wterm.dev](https://wterm.dev/)
