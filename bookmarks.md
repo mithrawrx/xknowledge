@@ -1,5 +1,269 @@
 ---
+日期: Tuesday, April 21, 2026
+## @QingQ77 - agents-md 高级工程师行为规范
+
+> 一个扔进项目根目录的 AGENTS.md 文件，让 Claude Code、Codex、Cursor 这类编程代理一上来就按高级工程师的方式干活。
+>
+> https://t.co/VaZHZxJfdF
+>
+> agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使各类编程代理遵循"高级工程师"行为规范。它综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变包括：代理会在你犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义时主动询问。
+>
+> 文件约 200 行，仅有两个可编辑部分（项目上下文和项目经验积累），其余行为规则保持精简不变。通过创建 CLAUDE.md 和 GEMINI.md 符号链接，可实现一份文件统一管理所有代理的行为
+
+- **推文**: https://x.com/QingQ77/status/2046395996016419050
+- **链接**: https://github.com/TheRealSeanDonahoe/agents-md（GitHub, 462 stars）
+- **归档**: [agents-md-高级工程师行为规范](./knowledge/tools/agents-md-高级工程师行为规范.md)
+- **概述**: AGENTS.md 文件让编程代理遵循高级工程师行为规范：反抗盲目顺从、最小必要修改、强制验证循环、歧义主动询问。约200行精简规则，支持多代理统一管理。
+
+## @liyue_ai - Kollab AI团队协作工具
+
+> 学不完，学不完，刚看到有大佬分享了一个新的AI工具：Kollab。
+>
+> 这刚上手Hermes Agent没几天，又来了个Kollab，而且还是主打团队协作，这之前可都是各大AI Agent的弱项。
+>
+> 与多Agent协作不同，Kollab另辟蹊径，它是通过共享工作空间，将所有内容都放在同一个工作空间里，保证产出的各种文档，分析结果，任务输出持续存在，不仅仅是一次性对话就结束了，而是可以持续推进的，这样就保证了任务的连续性。
+>
+> 很重要一点就是这个工具居然是在线的，开箱即用，省去了很多安装维护更新的活，还可以邀请你的团队成员加入一起协作推进。
+
+- **推文**: https://x.com/liyue_ai/status/2046545225833918890
+- **归档**: [Kollab-AI团队协作工具](./knowledge/tweets/Kollab-AI团队协作工具.md)
+- **概述**: Kollab 是主打团队协作的在线AI工具，通过共享工作空间实现跨对话的持续协作。支持飞书、企业微信、Telegram、Slack 等IM集成，开箱即用适合新手和企业。
+
+---
+
+# Wednesday, April 22, 2026
+
+
+## @Gorden_Sun - Google DESIGN.md Agent 设计规范
+
+> Google开源DESIGN.md
+> 给Agent的设计系统规范，Agent读完这份文件，就能持续按照品牌规范生成UI，能跨工具、跨项目复用。
+> Github：https://t.co/OkOd9rk4Pn https://t.co/0i8uDUX2kh
+
+- **推文**: https://x.com/Gorden_Sun/status/2046947310631035017
+- **链接**: https://github.com/google-labs-code/design.md（GitHub, 5522 stars）
+- **归档**: [DESIGN.md-Agent设计系统规范](./knowledge/tools/DESIGN.md-Agent设计系统规范.md)
+- **概述**: Google 开源的设计系统规范文件格式，结合 YAML tokens 和 Markdown 说明。Agent 读取后能持续按品牌规范生成 UI，支持 lint 验证和 diff 比较。
+
+## @gkxspace - skills-manage 跨平台 Skills 管理工具
+
+> 用了两天志辉大佬开源的 skills-manage，好家伙，这个工具解决了我一个大痛点。
+>
+> 以前我的 Skill 文件散落在各种地方，每次更新一个 Skill，得手动同步。
+>
+> skills-manage 用 ~/.agents/skills/ 做中央仓库，其他平台通过软链接指向这里。一处修改，全平台生效。
+>
+> 并且：
+> 1. 可以从 GitHub 直接导入 Skill 仓库
+> 2. 支持 20+ 个 AI 编程工具（Claude Code、Cursor、Windsurf、Codex...）
+> 3. 有 Collection 功能，可以把常用 Skill 打包，一键安装到新平台
+> 4. 本地优先，数据都在本地 SQLite，不上传
+>
+> 推荐给需要管理多个 AI 编程工具的朋友。
+>
+> *引用 @iamzhihui:* 重大消息，周一给大家带来干货。那就是打磨了两周的skills管理工具开源了。我觉得应该差不多，功能很棒，解决了我自己平时的痛点...
+
+- **推文**: https://x.com/gkxspace/status/2046938571395760307
+- **引用推文**: https://x.com/iamzhihui/status/2046063506609635552
+- **链接**: https://github.com/iamzhihuix/skills-manage（GitHub, 870 stars）
+- **归档**: [skills-manage-跨平台管理工具](./knowledge/tools/skills-manage-跨平台管理工具.md)
+- **概述**: Tauri 桌面应用，用 ~/.agents/skills/ 作为中央仓库管理 AI 编程工具 Skills。支持 20+ 平台、GitHub 导入、Collections 打包、本地优先存储。
+
+## @Jason_Young1231 - CC Switch v3.14 发布
+
+> CC Switch 已发布 v3.14，（加上上周的3.13）带来了 Hermes agent 支持、Codex & Copilot OAuth 反向代理、response & gemini -> message 格式转换、官方订阅用量展示、轻量模式、内置 https://t.co/IGrjRXw3bX 市场等一系列亦可赛艇的功能，详细内容如下⬇️ https://t.co/WC1JSTzO0k
+
+- **推文**: https://x.com/Jason_Young1231/status/2046870426144702549
+- **链接**: https://skills.sh/（Agent Skills 市场）
+- **概述**: CC Switch v3.14/v3.13 带来多项重要更新：Hermes agent 支持、OAuth 反向代理、格式转换、用量展示、轻量模式，以及内置 skills.sh Agent Skills 市场。
+
+## @0xcherry - 目前的思路：
+用 freqtrade+auto-research 的文件约定
+
+有点意思的 https://t.co/g...
+> 目前的思路：
+用 freqtrade+auto-research 的文件约定
+
+有点意思的 https://t.co/gr0DLF1MEk
+- **推文**: https://x.com/0xcherry/status/2046828991190008270
+- **链接**: [https://twitter.com/0xcherry/status/2046828991190008270/photo/1](https://twitter.com/0xcherry/status/2046828991190008270/photo/1)
+
+## @oragnes - 又扫到了一个极其硬核的开源项目：ai-hedge-fund（已揽 5.6 万 Star）。
+
+这就是个「多智能体 (Mu...
+> 又扫到了一个极其硬核的开源项目：ai-hedge-fund（已揽 5.6 万 Star）。
+
+这就是个「多智能体 (Multi-Agent) 虚拟基金公司」。
+
+它把华尔街大佬（巴菲特、木头姐、大空头 Michael Burry）和专业分析师（基本面、技术面、风控）全写成了独立的 AI Agent，直接帮你组团研判股票。
+
+平时如果想搞一套带大模型的量化回测框架，光是接金融数据源、写并发协作逻辑、调教各个 Agent 的 Prompt 就能把人恶心死。（我深有感触）
+
+这项目的精妙之处恰恰在于帮你跳过了前期造轮子的烂坑。它直接给了一套开箱即用的协作骨架，各路 Agent 各司其职交换完意见后，最后交由 Portfolio Manager 汇总拍板。
+
+跑通成本极低。不用苦哈哈地配一堆环境，配好 key 后敲一行命令就能出分析和交易信号。
+
+你想调 DeepSeek、GPT-4o 也行，想挂本地 Ollama 白嫖算力也行，连带历史数据回测（Backtester）和 Web 界面都给你备好了，把原来得折腾一两周的验证流程压缩到了几分钟。
+
+想要仓库地址的同学举手👇👇👇👇
+- **推文**: https://x.com/oragnes/status/2046858289477222801
+
+
+---
+# Thursday, April 23, 2026
+
+
+## @0xcherry - Auto-Quant 量化策略自动化迭代
+
+> Auto-Quant 是一个允许 Agent 自动构建和迭代量化交易策略的最小原型。
+> https://t.co/G5cWib3M7w
+>
+> 0.2.0 版本更新：
+> - 允许 AI 一次尝试多个策略迭代方向
+> - 可用 Sharpe 提升至 0.67
+> - 同样迭代次数下，产出策略可用性较 0.1.0 大幅度提高
+> - 更不容易过拟合 https://t.co/FBSHjoR0v6
+
+- **推文**: https://x.com/0xcherry/status/2047258070104047707
+- **链接**: https://github.com/TraderAlice/Auto-Quant（GitHub, 222 stars）
+- **归档**: [Auto-Quant-量化策略自动化迭代](./knowledge/tools/Auto-Quant-量化策略自动化迭代.md)
+- **概述**: LLM-native 自主量化研究循环，将 Karpathy autoresearch 模式应用于 FreqTrade 策略。v0.2.0 支持多策略迭代，clean Sharpe 0.67，Agent 能主动识别并丢弃过拟合策略。
+
+## @Honcia13 - Kronos AI交易分析工具
+
+> 太炸裂了，居然有人做了款能直接看懂K线交易的AI，胜率还高达93%！
+>
+> 这款AI叫Kronos，靠45家交易所120亿条数据训练，是首个专门为金融市场打造的开源Agent。
+
+- **推文**: https://x.com/Honcia13/status/2047136625998901529
+- **链接**: https://github.com/shiyu-coder/Kronos（GitHub, 20836 stars）
+- **归档**: [Kronos-AI交易分析工具](./knowledge/tools/kronos.md)
+- **概述**: 首个专为金融市场打造的开源AI Agent，用45家交易所120亿条数据训练，K线交易分析胜率高达93%。
+
+## @AI_jacksaku - Unsloth AI训练加速库
+
+> GitHub本周黑马：Unsloth
+>
+> AI模型训练速度提升2-5倍，显存占用减少80%。
+> 这意味着什么？
+> 以前微调一个大模型，需要A100集群+几万美金...
+
+- **推文**: https://x.com/AI_jacksaku/status/2047142917324624233
+- **链接**: https://github.com/unslothai/unsloth（GitHub, 62708 stars）
+- **归档**: [unsloth-AI训练加速库](./knowledge/tools/unsloth.md)
+- **概述**: AI模型训练加速库，训练速度提升2-5倍，显存占用减少80%，支持大模型微调。
+
+## @GitHub_Daily - Claude Context MCP插件
+
+> 今日 GitHub Trending 榜首，Claude Context 这个开源项目专门解决 AI 编程工具的上下文窗口不够用的问题。
+>
+> 通过 MCP 插件，...
+
+- **推文**: https://x.com/GitHub_Daily/status/2047163470110658731
+- **链接**: https://github.com/zilliztech/claude-context（GitHub, 8363 stars）
+- **归档**: [claude-context-MCP上下文扩展](./knowledge/tools/claude-context.md)
+- **概述**: 通过MCP插件扩展AI编程工具的上下文窗口，解决上下文不够用的问题。
+
+## @mnmn94253156337 - Agent Browser浏览器自动化
+
+> 这个 AI 浏览器神器，137k 人都在用
+>
+> 用了一个月 Agent Browser，我直接卸载了 Puppeteer 和 Playwright。
+
+- **推文**: https://x.com/mnmn94253156337/status/2047181646118678576
+- **链接**: https://clawskills.sh/skills/thesethrose-agent-browser
+- **归档**: [Agent-Browser浏览器自动化](./knowledge/tools/agent-browser.md)
+- **概述**: AI驱动的浏览器自动化工具，137k用户使用，可替代Puppeteer和Playwright。
+
+---
+
+
+# Tuesday, April 21, 2026
+
+## @QingQ77 - 一个扔进项目根目录的 AGENTS.md 文件，让 Claude Code、Codex、Cursor 这类编程代理一上来...
+> 一个扔进项目根目录的 AGENTS.md 文件，让 Claude Code、Codex、Cursor 这类编程代理一上来就按高级工程师的方式干活。
+
+https://t.co/VaZHZxJfdF
+
+agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使各类编程代理遵循"高级工程师"行为规范。它综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变包括：代理会在你犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义时主动询问。
+
+文件约 200 行，仅有两个可编辑部分（项目上下文和项目经验积累），其余行为规则保持精简不变。通过创建 CLAUDE.md 和 GEMINI.md 符号链接，可实现一份文件统一管理所有代理的行为
+- **推文**: https://x.com/QingQ77/status/2046395996016419050
+- **GitHub**: [TheRealSeanDonahoe/agents-md](https://github.com/TheRealSeanDonahoe/agents-md) ⭐ 462
+  - Drop-in AGENTS.md that makes every coding agent behave like a senior engineer instead of an eager intern. Kills sycophancy, stops drive-by refactors, forces verification loops. Synthesizes Karpathy's four principles and Boris Cherny's Claude Code workflow. Works with Claude Code, Codex, Gemini CLI, Cursor, and the open standard.
+
+## @liyue_ai - 学不完，学不完，刚看到有大佬分享了一个新的AI工具：Kollab。
+
+这刚上手Hermes Agent没几天，又来了个K...
+> 学不完，学不完，刚看到有大佬分享了一个新的AI工具：Kollab。
+
+这刚上手Hermes Agent没几天，又来了个Kollab，而且还是主打团队协作，这之前可都是各大AI Agent的弱项。
+
+即使是像强如OpenClaw这种支持多Agent的AI工具，在团队协作上依然存在很多不确定性，例如Agent经常忘了自己是谁，上下文混乱导致任务没办法继续推进。
+
+特地去他们的X主页和官网看了一下具体功能。
+
+与多Agent协作不同，Kollab另辟蹊径，它是通过共享工作空间，将所有内容都放在同一个工作空间里，保证产出的各种文档，分析结果，任务输出持续存在，不仅仅是一次性对话就结束了，而是可以持续推进的，这样就保证了任务的连续性。
+
+很重要一点就是这个工具居然是在线的，开箱即用，省去了很多安装维护更新的活，还可以邀请你的团队成员加入一起协作推进。
+
+从这几个角度看是非常适合新手和企业协作的。
+
+而且里面集成了大量的Skills，支持连接飞书、企业微信、Telegram、Slack等多种im工具，该有的功能基本都有。
+
+我浅浅的试了一下水，让它根据我的个人简介生成几页PPT，颜值还是挺高的。
+
+我想测试一下是不是真的像他们说的那样可以协同工作，于是直接新开了一个窗口让它给我梳理一下个人PPT里的内容。  你猜怎么着？它居然真的在自己的知识库里找到了，然后重新整理成文字说明。
+
+在我的印象中，跨对话那就是独立任务了，这么一个简单的测试验证了他们并不是吹牛逼，是真的可以协同干活。
+
+AI进化的太快了，我之前还在惊艳各种大模型和Agent的工程结构水平，现在又来了个可以真正线上协同的工具，这进一步的提升了AI的可玩性和想象空间了。
+
+官网地址放评论区了，新用户注册就有500积分，每天还额外送200积分，想体验的朋友自取。
+- **推文**: https://x.com/liyue_ai/status/2046545225833918890
+
+## @nash_su - llm_wiki v0.3.8 更新发布🎉
+
+主要增强和修复了对各种LLM的支持：
+
+-  阿里百炼 Coding Pl...
+> llm_wiki v0.3.8 更新发布🎉
+
+主要增强和修复了对各种LLM的支持：
+
+-  阿里百炼 Coding Plan 
+-  火山 Ark 
+-  小米 MiMo 
+-  Kimi / 智谱 / MiniMax 模型清单更新
+-  Gemini 流式修复(多 part 拼接 + URL 编码)
+-  Gemini HTTP 400 彻底修复(generationConfig 翻译)
+
+https://t.co/FHCxtJJm06 https://t.co/E3UTKHkMfS
+- **推文**: https://x.com/nash_su/status/2046734818873155785
+- **GitHub**: [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) ⭐ 2616
+  - LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
+- **链接**: [https://twitter.com/nash_su/status/2046734818873155785/photo/1](https://twitter.com/nash_su/status/2046734818873155785/photo/1)
+
+
+---
+
 日期: Monday, April 20, 2026
+## @VincentLogic - Earthworm英语学习神器
+
+> 我刷到个开源英语神器，直接原地"种草"：
+> Earthworm —— 用「连词成句 + 循序渐进」的方式学英语，不再死记硬背单词，而是不断重复形成肌肉记忆，同时塞满游戏奖励和积分排行榜，把枯燥的背单词直接玩成了刷分上榜的爽感！
+> 
+> ✅开源免费  
+> ✅支持自托管 + 本地运行（隐私安全拉满）  
+> ✅真正让英语学习又有趣又高效
+> 
+> 想高效提分、想摆脱死记硬背、想本地跑个专属英语学习站的同学，赶紧冲！
+
+- **推文**: https://x.com/VincentLogic/status/2046064539473531274
+- **链接**: https://github.com/cuixueshe/earthworm（GitHub, 10807 stars）
+- **归档**: [Earthworm-英语学习游戏](./knowledge/tools/Earthworm-英语学习游戏.md)
+- **概述**: 开源英语学习神器，用「连词成句 + 循序渐进」的方式学英语，融入游戏奖励和排行榜机制，支持自托管和本地运行，把背单词变成刷分上榜的游戏体验。
+
 ## @AI_jacksaku - FinceptTerminal开源金融终端
 
 > 单日暴涨1,169 stars！
@@ -2292,3 +2556,78 @@ https://t.co/cFjivCIacN
 
 - **推文**: https://x.com/vikingmute/status/2045101436204351901
 - **链接**: [wterm.dev](https://wterm.dev/)
+
+
+---
+
+# Tuesday, April 21, 2026
+
+## @nash_su - 12天，2k Star !!!🎉
+
+> 12天，2k Star !!!🎉
+
+llm_wiki 是基于 @karpathy 大神的个人知识管理方法论做的全平台落地实现，看来大家对个人知识库很感兴趣，感谢大家支持！
+
+同时预告一个重磅产品马上会发布，也是跟个人知识管理相关的，后期会跟 llm_wiki 和 autocli 全面打通，大家可以关注下。
+
+另外 llm_wiki v0.3.6 也同步更新了，修复了一些bug，现在的版本已经很稳定了。
+
+https://t.co/Xkd9oTNcIj
+
+- **推文**: https://x.com/nash_su/status/2046393001140986216
+- **链接**: [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)
+- **描述**: LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
+- **Stars**: ⭐ 2,354
+
+## @AlchainHust - Claude Design能提供惊艳的设计，但...我认为必须通过GUI操作的已经是上一个时代的产品了。
+
+> Claude Design能提供惊艳的设计，但...我认为必须通过GUI操作的已经是上一个时代的产品了。
+
+所以我为你逆向了Claude Design的核心能力，并正式推出：Huashu-Design 一个真正为Agent而生的设计产品
+
+现已免费开源：https://t.co/rMvLbPR98v https://t.co/jwb3FBgqUb
+
+- **推文**: https://x.com/AlchainHust/status/2046431318507147670
+- **链接**: [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)
+- **描述**: Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic
+- **Stars**: ⭐ 2,810
+- **链接**: https://twitter.com/AlchainHust/status/2046431318507147670/video/1
+- **链接**: https://twitter.com/AlchainHust/status/2046192558666342720/video/1
+
+# Monday, April 20, 2026
+
+## @VincentLogic - 我刷到个开源英语神器，直接原地“种草”：
+
+> 我刷到个开源英语神器，直接原地“种草”：
+Earthworm —— 用「连词成句 + 循序渐进」的方式学英语，不再死记硬背单词，而是不断重复形成肌肉记忆，同时塞满游戏奖励和积分排行榜，把枯燥的背单词直接玩成了刷分上榜的爽感！
+
+✅开源免费  
+✅支持自托管 + 本地运行（隐私安全拉满）  
+✅真正让英语学习又有趣又高效
+
+想高效提分、想摆脱死记硬背、想本地跑个专属英语学习站的同学，赶紧冲！
+
+项目地址：https://t.co/P470oAWSWH
+
+点个 Star 就是对开源作者最大的支持！
+转发给正在痛苦背单词的朋友，他们会感谢你的😂
+
+#英语学习 #开源项目 #背单词 #自托管 #Ear...
+
+- **推文**: https://x.com/VincentLogic/status/2046064539473531274
+- **链接**: [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm)
+- **描述**: Learning English through the method of constructing sentences with conjunctions
+- **Stars**: ⭐ 10,807
+
+## @QingQ77 - 给 Markdown 加上图表、数据和排版支持，让文档、仪表盘和幻灯片都能用纯文本写出来，直接出 HTML 或 P...
+
+> 给 Markdown 加上图表、数据和排版支持，让文档、仪表盘和幻灯片都能用纯文本写出来，直接出 HTML 或 PDF。
+
+https://t.co/pHzysDUYFt
+
+MDV 在 Markdown 上只加了四样东西：YAML 元数据、围栏块写图表、::: 容器做排版、自动生成目录。不用写 CSS 或表达式，样式全靠主题和预设。数据可以内联 CSV/JSON，也可以引用外部文件，渲染出来的 HTML 自带 SVG，不跑 JS。附带 VS Code 预览插件，命令行支持渲染和导出 PDF。
+
+- **推文**: https://x.com/QingQ77/status/2046350700393714041
+- **链接**: [drasimwagan/mdv](https://github.com/drasimwagan/mdv)
+- **描述**: MDV — a Markdown superset for documents, dashboards, and slides with embedded data and visualizations. HTML + PDF export, live preview, VS Code extension.
+- **Stars**: ⭐ 372
