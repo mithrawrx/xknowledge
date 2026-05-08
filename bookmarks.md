@@ -1,5 +1,13 @@
 # Friday, May 8, 2026
 
+## @wherecall1 - autoresearch-crypto AI量化交易框架
+> 开源了一个AI 量化交易框架：让 Agent 自己找策略，你只负责决定跑不跑。autoresearch-crypto：内核来自 Karpathy 的 autoresearch 范式。说人话：不是让 AI 跑你写好的策略，而是让 AI 自己从 11 种策略原型里去搜索、竞争、进化出最优解。
+
+- **推文**: https://x.com/wherecall1/status/2052709653709254941
+- **链接**: https://github.com/chencore/autoresearch-crypto（autoresearch-crypto, 29 stars, Python）
+- **归档**: [autoresearch-crypto](./knowledge/tools/autoresearch-crypto-AI量化交易框架.md)
+- **概述**: AI 驱动的加密货币量化交易策略自动研究框架，基于 Karpathy autoresearch 范式，内置 11 种策略原型，通过 ATLAS/GEPA 双进化引擎让 AI Agent 自主搜索、竞争、进化最优策略。
+
 ## @grapeot - Agent文件系统架构转向分析
 > Anthropic 发现把 MCP 工具定义改成让 agent 自己从文件系统按需加载，token 从 150K 降到 2K，省了 98.7%。Vercel 的模板说不要向量数据库。Manus 的核心是把文件系统当 context。这个转向背后的前因后果、四家公司各自的设计判断差异、和四个盲区，我写清楚了。
 
