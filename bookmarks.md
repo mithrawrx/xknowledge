@@ -1,3 +1,340 @@
+# Friday, May 8, 2026
+
+## @grapeot - Agent文件系统架构转向分析
+> Anthropic 发现把 MCP 工具定义改成让 agent 自己从文件系统按需加载，token 从 150K 降到 2K，省了 98.7%。Vercel 的模板说不要向量数据库。Manus 的核心是把文件系统当 context。这个转向背后的前因后果、四家公司各自的设计判断差异、和四个盲区，我写清楚了。
+
+- **推文**: https://x.com/grapeot/status/2052622046300098781
+- **链接**: https://yage.ai/share/agent-filesystem-survey-20260507.html
+- **归档**: [Agent文件系统架构转向分析](./knowledge/articles/Agent文件系统架构转向分析.md)
+- **概述**: 鸭哥对比分析 Anthropic、Vercel、Manus 等四家公司在 Agent 文件系统方向的架构转向，token 节省高达 98.7%。
+
+## @Imlaomao - 美股编年史历史数据平台
+> 推荐一个网站，漂亮得不像学术网站的美股历史数据汇集平台，我的朋友做的，经他同意，分享给大家。
+
+- **推文**: https://x.com/Imlaomao/status/2052676509534667258
+- **链接**: https://historyofmarket.com
+- **归档**: [美股编年史历史数据平台](./knowledge/articles/美股编年史历史数据平台.md)
+- **概述**: 汇集美股百年历史数据的可视化平台，覆盖标普500、纳斯达克、道琼斯三大指数的走势、估值和回撤数据。
+
+## @Imlaomao - 美元流动性指标监控平台
+> 另外一个网站，是监控美元流动性的，这个对做宏观交易的人有用，也是同一个作者。
+
+- **推文**: https://x.com/Imlaomao/status/2052677830979510340
+- **链接**: https://dollarliquidity.com/zh
+- **归档**: [美元流动性指标监控平台](./knowledge/articles/美元流动性指标监控平台.md)
+- **概述**: 实时追踪美元流动性和市场流动性指标的监控平台，为宏观交易者提供数据支持，与美股编年史为同一作者。
+
+
+# Wednesday, May 6, 2026
+
+## @shao__meng - Warp团队开源Oz Skills集合
+> Warp 团队这是要把开源进行到底了，在 Warp、Doc 开源后，又把团队用于加速工作流的 Oz Skills 开源了... 15 个 Skills 详细拆解
+
+*引用 @warpdotdev:*
+> The Warp team uses a lot of Skills to speed up our workflow, so we open-sourced them.
+
+- **推文**: https://x.com/shao__meng/status/2051865033425190994
+- **链接**: https://github.com/warpdotdev/oz-skills（Warp团队Agent Skills集合, 724 stars, Python）
+- **归档**: [oz-skills](./knowledge/tools/oz-skills-Warp团队AgentSkills集合.md)
+- **概述**: Warp 团队开源的 15 个 Agent Skills，覆盖代码生成、文档、测试等开发环节，与 Oz Agent 框架配合使用，加速开发工作流。
+
+## @0xKingsKuan - Ossium GitHub项目发现神器与PageIndex RAG工具
+> GitHub开源项目发现神器 - Ossium OSS开源项目助手，专治 'GitHub刷到吐却找不到好项目' 的痛点
+
+*引用 @0xKingsKuan:*
+> RAG 行业要被干翻了! 这是 PageIndex 向量零 RAG 革命神器...
+
+- **推文**: https://x.com/0xKingsKuan/status/2051889932265021816
+- **链接**: https://ossium.live（GitHub项目发现平台）
+- **归档**: [Ossium](./knowledge/tweets/Ossium-GitHub项目发现神器.md)
+- **概述**: 推荐了 Ossium（GitHub 开源项目发现平台）和 PageIndex（零向量 RAG 技术），解决开源项目发现和技术文档检索两大痛点。
+
+## @RocM301 - MacShot开源macOS截图工具
+> 这可能是目前最强的开源 macOS 截图工具：MacShot。告别付费订阅，它不仅原生、轻量，还把 CleanShot X 和 Shottr 的活儿全干了
+
+- **推文**: https://x.com/RocM301/status/2051903619054948794
+- **链接**: https://github.com/sw33tLie/macshot（原生macOS截图录屏工具, 1501 stars, Swift）
+- **归档**: [MacShot](./knowledge/tools/MacShot-macOS截图工具.md)
+- **概述**: 功能强大的原生 macOS 截图和录屏工具，Swift 开发，轻量高效，可替代 CleanShot X 和 Shottr，免费开源无需付费订阅。
+
+## @JohnsonZ91127 - 国产存储模组三雄分析
+> 这是我们半导体研究员存芯早察的最新文章：谁将率先冲击2000亿市值？——国产存储模组三雄分析。江波龙、佰维、德明利三家模组厂的深度分析...
+
+- **推文**: https://x.com/JohnsonZ91127/status/2051934329022939457
+- **归档**: [国产存储模组三雄分析](./knowledge/tweets/国产存储模组三雄分析.md)
+- **概述**: 半导体研究员对国产存储模组三雄（江波龙、佰维、德明利）的深度对比分析，探讨谁将率先冲击2000亿市值。
+
+## @vista8 - 打造活人感AI助理实战经验
+> 如果你想做活人感的AI助理，一定要看洛小山的这篇1.6w字的长文。相当多干货和实战经验，发现这块做得好的，都是游戏达人或从业者。
+
+- **推文**: https://x.com/vista8/status/2052027106410811473
+- **链接**: mp.weixin.qq.com（微信文章，被验证码拦截）
+- **归档**: [活人感AI助理实战经验](./knowledge/tweets/活人感AI助理实战经验.md)
+- **概述**: 推荐洛小山1.6万字长文，分享打造"活人感"AI助理的实战经验，指出游戏从业者在此领域的独特优势。
+
+
+# Tuesday, May 5, 2026
+
+## @mylifcc - PageIndex：抛弃向量检索的无向量RAG新方案
+> 100% 开源，建议所有做 RAG 的都看看 👧
+
+- **推文**: https://x.com/mylifcc/status/2051569275228545352
+- **链接**: https://github.com/VectifyAI/PageIndex - "Document Index for Vectorless, Reasoning-based RAG" (30047 stars, Python)
+- **上下文**: "PageIndex 这思路真的很优雅！以前 RAG 一直被 chunking + embedding + 向量检索绑架，现在直接把这些全扔掉，建一个树状索引..."
+- **归档**: [PageIndex-无向量RAG.md](./knowledge/tools/PageIndex-无向量RAG.md)
+- **概述**: 抛弃传统 RAG 三件套（chunking、embedding、向量检索），用树状索引实现基于推理的无向量文档检索。100% 开源，Python 实现。
+
+## @JohnsonZ91127 - 大宇高通研报：布局未来，低估当下
+> 大宇出品，必属精品，btw：我持有高通
+
+- **推文**: https://x.com/JohnsonZ91127/status/2051573565879947283
+- **链接**: https://x.com/i/article/2051437438049161216 - 高通研报：布局未来，低估当下 (1.8万字深度分析)
+- **引用**: "https://t.co/wbVyJEi5IV" by @BTCdayu (大宇)
+- **归档**: [高通研报-布局未来低估当下.md](./knowledge/articles/高通研报-布局未来低估当下.md)
+- **概述**: 大宇撰写的 1.8 万字高通公司深度分析研报，从手机芯片、汽车、IoT 多维度拆解业务布局与估值，论证其被市场低估的投资价值。
+
+## @VincentLogic - TablePro：Mac原生轻量级数据库管理工具
+> Mac 程序员必备，发现个超好用的数据库管理工具。TablePro，原生 SwiftUI 开发的，不是 Electron 套壳，启动不到 1 秒，内存才占 80MB... 支持 MySQL、PG、SQLite、MongoDB、Redis 等 18+ 种数据库...
+
+- **推文**: https://x.com/VincentLogic/status/2051606319157686572
+- **归档**: [TablePro-Mac数据库管理工具.md](./knowledge/tweets/TablePro-Mac数据库管理工具.md)
+- **概述**: TablePro 是原生 SwiftUI 开发的 macOS 数据库管理工具，非 Electron 套壳，启动不到 1 秒、内存仅 80MB，支持 18+ 种数据库。
+
+## @ai_xiaomu - Reddit需求挖掘：从小众社区发现百万爆款灵感
+> Reddit我一直没玩懂，因为那古怪的时间线。但里面老外多啊，信息值钱啊，随便搬一点出来就是百万爆款，这篇不容错过⬇️
+
+- **推文**: https://x.com/ai_xiaomu/status/2051613476985204910
+- **链接**: https://x.com/i/article/2050820311407620097 - 如何在Reddit上挖掘小而美需求 by LISA
+- **引用**: by @MindOS_Lisa (LISA)
+- **归档**: [Reddit上挖掘小而美需求.md](./knowledge/articles/Reddit上挖掘小而美需求.md)
+- **概述**: LISA 的 Reddit 需求挖掘指南，教读者如何在这个英文社区中发现小众需求，将信息差转化为产品灵感和爆款内容。
+
+## @billtheinvestor - Python交易策略比较框架
+> 有人开发了一个用于比较交易策略的 Python 框架，然后将一切都开源了
+
+- **推文**: https://x.com/billtheinvestor/status/2051666175437021609
+- **归档**: [Python交易策略比较框架](./knowledge/tweets/Python交易策略比较框架.md)
+- **概述**: Python 交易策略对比框架，支持多种策略的回测分析和对比，适合量化交易研究。
+
+## @zarazhangrui - Beautiful HTML幻灯片模板
+> Introducing Beautiful HTML Templates: I made some stunning HTML slide templates & open-sourced them. If you use this template system, it will literally be impossible for your agent to produce something ugly
+
+- **推文**: https://x.com/zarazhangrui/status/2051768995188228178
+- **归档**: [Beautiful HTML Templates](./knowledge/tweets/Beautiful-HTML-Templates.md)
+- **概述**: AI Agent 友好的 HTML 幻灯片模板系统，开源发布，确保 Agent 生成的演示文稿视觉效果出众。
+
+
+# Monday, May 4, 2026
+
+## @NFTCPS - Dexter：专为金融研究打造的自主AI Agent + RaTeX纯Rust公式渲染
+> 金融版Claude Code来了，这玩意儿有点东西！Dexter——专门为深度金融研究打造的自主AI Agent...
+
+- **推文**: https://x.com/NFTCPS/status/2051177005467787575
+- **链接**: https://github.com/virattt/dexter - "An autonomous agent for deep financial research" (24839 stars, TypeScript)
+- **链接**: https://github.com/erweixin/RaTeX - ">99.5% KaTeX syntax coverage. LaTeX math renderer in pure Rust" (1142 stars, Rust)
+- **引用**: "做教育App的注意了，这个东西可能要颠覆你的技术选型... RaTeX... 纯 Rust 公式渲染引擎" by @NFTCPS
+- **归档**: [dexter-金融深度研究Agent.md](./knowledge/tools/dexter-金融深度研究Agent.md)、[RaTeX-纯Rust公式渲染引擎.md](./knowledge/tools/RaTeX-纯Rust公式渲染引擎.md)
+- **概述**: Dexter 是专注于深度金融研究的自主 AI Agent，2.4 万星；RaTeX 是纯 Rust 编写的 LaTeX 公式渲染引擎，KaTeX 语法覆盖率超 99.5%，适合教育 App 集成。
+
+## @wey_gu - Deep GraphRAG：蚂蚁图检索自适应重排 + GRPO图抽取微调
+> 蚂蚁的 Deep GraphRAG 论文... DW GRPO 和我去年做的探索工作是差不多的哈... 蒸馏老师模型的知识图谱抽取能力 RLFT GRPO 到小模型上...
+
+- **推文**: https://x.com/wey_gu/status/2051262658612211734
+- **链接**: https://github.com/wey-gu/grpo-graph-extraction - "Qwen GRPO Graph Extraction RL Finetune" (69 stars, Jupyter Notebook)
+- **链接**: https://arxiv.org/abs/2601.11144 - "Deep GraphRAG: A Balanced Approach to Hierarchical Retrieval and Adaptive Integration"
+- **引用**: "Deep GraphRAG: Hierarchical Graph Retrieval with Adaptive Re-ranking..." by @TheYotg
+- **归档**: [grpo-graph-extraction-GRPO图抽取微调.md](./knowledge/tools/grpo-graph-extraction-GRPO图抽取微调.md)
+- **概述**: 蚂蚁 Deep GraphRAG 论文提出分层图检索与自适应重排方法；作者古思为开源了使用 GRPO 对 Qwen 进行知识图谱抽取能力 RL 微调的项目，将大模型的图谱抽取能力蒸馏到小模型。
+
+## @AYi_AInotes - Karpathy编程铁律：100行CLAUDE.md干翻所有编码prompt
+> 一个100行的文件，干翻了所有LLM编码prompt。GitHub Trending第一，一周暴涨4.4万星，目前已破11万星！没有框架、没有依赖、零配置。就一个 CLAUDE.md 文件，把 Andrej Karpathy 反复吐槽的 LLM 编码坏习惯，浓缩成4条铁律。
+
+- **推文**: https://x.com/AYi_AInotes/status/2051321729843069037
+- **链接**: https://github.com/forrestchang/andrej-karpathy-skills - "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations" (120301 stars)
+- **归档**: [andrej-karpathy-skills.md](./knowledge/tools/andrej-karpathy-skills.md)
+- **概述**: 将 Karpathy 对 AI 编程代理的吐槽浓缩为 4 条编码铁律，一个 CLAUDE.md 文件即可显著提升 Claude Code 编码质量。GitHub Trending 第一，一周暴涨 4.4 万星。
+
+
+## @wey_gu - 蚂蚁Deep GraphRAG论文与GRPO图抽取微调
+
+> 蚂蚁的 GraphRAG 论文
+>
+> 这里的 DW GPRO 和我去年做的探索工作是差不多的哈
+>
+> 蒸馏老师模型的知识图谱抽取的能力 RLFT GRPO 到小的模型上。我的工作下是在超小 qwen 模型、从 R1 蒸馏，效果好过 gpt-4o。
+>
+> 说起来确实有打算把这个工作放到 Nowledge Mem 的本地模型上的哈。
+>
+> 这里的召回策略也和 Nowlege Mem 不谋而合。
+>
+> 说一个我的背景：我是第一个给出 GraphRAG 这个 term 的人哈，在 23 年夏天，最开始给出这个工作是在 LlamaIndex 中引入了 graph store 用 LlamaIndex 和 NebulaGraph 给出了开源的 GraphRAG 的实现，在那之后两年，我一直带团队做 GraphRAG 的产品。微软的 GraphRAG 论文（他们的创新是引入了 ledein 👍处理 global 问题非常棒）有引用我们的工作，但是年份说错了，不是 24 年，是 23 年
+>
+> 那个 grpo 的工作在这里哈
+>
+> https://t.co/ViqpG50IHd
+>
+> *引用 @TheYotg:* Deep GraphRAG: Hierarchical Graph Retrieval with Adaptive Re-ranking
+>
+> RAG systems have a fundamental problem. Search broadly and you lose the detail. Search locally and you miss the bigger picture.
+>
+> Most graph-based RAG approaches pick one and hope for the best. Researchers from Ant Group and Zhejiang University built Deep GraphRAG to stop making that trade-off.
+>
+> The core idea: use a 3-level hierarchy to navigate a knowledge graph from the big picture down to the specific detail, with smart filtering at every stage, not just at the end.
+>
+> The payoff is significant. On multi-hop reasoning tasks - the kind where you need to connect facts across multiple sources - it hits 45.44% exact match accuracy. That's vs 38.75% for the previous best and just 10% for standard local search. And it runs 86% faster than comparable recursive methods.
+>
+> A compact 1.5B parameter model reaches 94% of what a 72B model achieves. Smaller, faster, more accurate.
+>
+> 🔗 https://t.co/VhsMTjfDPP
+
+- **推文**: https://x.com/wey_gu/status/2051262658612211734
+- **引用推文**: https://x.com/TheYotg/status/2051246211546452131
+- **链接**: https://github.com/wey-gu/grpo-graph-extraction（GitHub, 69 stars）；https://arxiv.org/abs/2601.11144（Deep GraphRAG 论文）
+- **归档**: [grpo-graph-extraction-GRPO图抽取微调](./knowledge/tools/grpo-graph-extraction-GRPO图抽取微调.md)
+- **概述**: GraphRAG 术语首创者 @wey_gu 分享蚂蚁 Deep GraphRAG 论文及自己的 GRPO 图抽取微调工作。使用 RLFT + GRPO 将大模型的知识图谱抽取能力蒸馏到超小 Qwen 模型上，效果超过 gpt-4o。Deep GraphRAG 提出三层层次图检索 + 自适应重排方法，1.5B 模型达到 72B 模型 94% 的性能。
+
+## @NFTCPS - Dexter金融深度研究Agent & RaTeX纯Rust公式渲染引擎
+
+> 金融版Claude Code来了，这玩意儿有点东西！
+>
+> Dexter——专门为深度金融研究打造的自主AI Agent，不是那种问一句答一句的废物工具，它能像真人分析师一样自己思考、规划、学习。
+>
+> 几个核心能力：
+> 1️⃣ 自动跑金融研究和分析
+> 2️⃣ 实时抓取处理市场数据
+> 3️⃣ 多步骤推理自主决策
+> 4️⃣ 结果还能自我验证优化
+>
+> 我去先试了，感兴趣的自己冲👇
+>
+> 🔗 https://t.co/WC9lDyW8wo
+>
+> *引用 @NFTCPS:* 做教育App的注意了，这个东西可能要颠覆你的技术选型
+>
+> 一直以来移动端渲染数学公式这件事，WebView就是那根永远绕不过去的刺。你加载一条公式，背后跟着的是整套浏览器内核，内存哗哗地吃，启动龟速，用户体验烂得你自己都不好意思说。
+>
+> 然后我看到了 RaTeX。
+>
+> 这玩意儿用纯 Rust 从零写的公式渲染引擎，直接把 JavaScript 和 WebView 整个从链路里踢飞，不是优化，是直接干掉。
+>
+> 一套核心代码能覆盖七个平台：① iOS ② Android ③ Flutter ④ React Native ⑤ Web ⑥ PNG ⑦ SVG
+>
+> 全原生渲染，零 JS 依赖，完全离线跑，不需要联网加载任何东西。
+>
+> 功能上也没偷懒：① 语法对 KaTeX 兼容度约 99%，你原来的公式基本照搬 ② 分数、根号、积分、矩阵这些常用表达都稳 ③ 顺带支持化学方程式和物理单位书写 ④ 理工科场景基本全覆盖
+>
+> 说白了就是：又快、又轻、又能跨端、还不依赖任何 Web 技术栈。
+>
+> 你做教育、学术类 App，现在还在用 WebView 那套又重又慢的方案，纯粹是在给自己挖坑。
+>
+> 🔗 https://t.co/jJlqlLRrzH
+
+- **推文**: https://x.com/NFTCPS/status/2051177005467787575
+- **引用推文**: https://x.com/NFTCPS/status/2051176614407581755
+- **链接**: https://github.com/virattt/dexter（GitHub, 24839 stars）；https://github.com/erweixin/RaTeX（GitHub, 1142 stars）
+- **归档**: [dexter-金融深度研究Agent](./knowledge/tools/dexter-金融深度研究Agent.md)、[RaTeX-纯Rust公式渲染引擎](./knowledge/tools/RaTeX-纯Rust公式渲染引擎.md)
+- **概述**: 两个值得关注的工具：Dexter 是专为金融深度研究设计的自主 AI Agent，能自主思考、规划和执行市场分析；RaTeX 是纯 Rust 实现的 KaTeX 兼容公式渲染引擎，零 WebView 依赖，覆盖 iOS/Android/Flutter/RN/Web 等七平台，对教育 App 技术选型有颠覆性意义。
+
+---
+
+## @qkl2058 - 中国工程师AI交易胜率九成两天赚六万美金
+
+> 这哥们儿是个中国工程师，交易胜率接近九成，两天就赚了六万美金。
+>
+> 他压根不用看K线，也不用预测行情——Claude和他搭的那套六层代理系统，把活儿全干了。
+>
+> 优势全藏在数字和数学里头，所以他印钞一样赚钱，风险几乎为零。
+>
+> 说真的，现在做预测市场，你只要有AI，加上愿意动手开发，一年赚个500万美元不是梦。
+>
+> 大机构和那些几十亿的资本还没进场——不是不想，是声誉风险太大，这圈子现在也太早期。
+>
+> 所以才会有这种普通学生，把专业级别的打法用到Polymarket上。
+>
+> 一千笔交易赢九百笔，他吃的就是纯粹的低效率。
+
+- **推文**: https://x.com/qkl2058/status/2050822077423489040
+- **概述**: 一名中国工程师使用 Claude + 六层 AI 代理系统进行交易，胜率接近 90%，两天赚取六万美金。作者认为预测市场仍处于早期阶段，大机构因声誉风险尚未入场，个人开发者利用 AI + 技术能力可获得巨大优势。
+
+---
+# Sunday, May 3, 2026
+
+## @qkl2058 - AI六层代理系统：中国工程师预测市场高胜率套利
+> 这哥们儿是个中国工程师，交易胜率接近九成，两天就赚了六万美金。他压根不用看K线，也不用预测行情——Claude和他搭的那套六层代理系统，把活儿全干了。优势全藏在数字和数学里头，所以他印钞一样赚钱，风险几乎为零。说真的，现在做预测市场，你只要有AI，加上愿意动手开发，一年赚个500万美元不是梦。
+
+- **推文**: https://x.com/qkl2058/status/2050822077423489040
+- **归档**: [AI六层代理系统预测市场套利.md](./knowledge/tweets/AI六层代理系统预测市场套利.md)
+- **概述**: 中国工程师利用 Claude 搭建六层 AI 代理系统，在预测市场实现近 90% 胜率、两天获利 6 万美元，展示了 AI + 开发能力在金融领域的巨大潜力。
+
+
+# Saturday, May 2, 2026
+
+## @tuturetom - Codex Pets React：Codex宠物精灵React封装库
+> 本项目参考了
+> - https://github.com/backnotprop/codex-pets-react
+> - https://codex-pet-share.onrender.com
+> - https://codex-pets.net
+> 向他们表达诚挚的感谢❤️
+
+- **推文**: https://x.com/tuturetom/status/2050604849352290475
+- **链接**: https://github.com/backnotprop/codex-pets-react - "Declarative React wrapper for Codex pet spritesheets" (30 stars, TypeScript)
+- **上下文**: "内建 8 款超有感觉的宠物 pets" by @tuturetom
+- **归档**: [codex-pets-react-Codex宠物精灵封装.md](./knowledge/tools/codex-pets-react-Codex宠物精灵封装.md)
+- **概述**: 为 Codex 宠物精灵 spritesheets 提供声明式 React 封装，内建 8 款复古风格像素宠物，可用于 React 项目中添加趣味动画元素。
+
+## @billtheinvestor - 本周金融领域GitHub增长Top10排行榜
+> 本周金融领域增长最快的 GitHub 仓库：1. TradingAgents (+7.9K ★)... 2. FinceptTerminal (+4.3K ★)... 3. daily_stock_analysis... 4. Vibe-Trading... 5. QuantDinger... 6. TradingAgents-CN... 7. last30days-skill... 8. qlib... 9. scientific-agent-skills... 10. OpenBB
+
+- **推文**: https://x.com/billtheinvestor/status/2050640973974380784
+- **归档**: [金融领域GitHub增长Top10周排行.md](./knowledge/tweets/金融领域GitHub增长Top10周排行.md)
+- **概述**: 2026年5月第一周金融领域 GitHub 仓库增长排行，TradingAgents 以 7.9K 星增量登顶，AI 金融代理类项目占据半壁江山。
+
+
+## @billtheinvestor - 本周金融领域增长最快的GitHub仓库Top10
+
+> 本周金融领域增长最快的 GitHub 仓库：
+>
+> 1. TradingAgents (+7.9K ★) 来自 UCLA/MIT 的多智能体 LLM 交易框架。包含基本面分析师、情绪分析师、技术面分析师、风险管理师，支持 DeepSeek V4 思维模式。
+>
+> 2. FinceptTerminal (+4.3K ★) 基于 C++20 + Qt6 构建的开源 Bloomberg 替代方案。拥有 37 个巴菲特/芒格/林奇/格雷厄姆风格的 AI 智能体。支持 16 个券商集成的实时交易。内置 MCP + AI 量化标签页。
+>
+> 3. daily_stock_analysis (+2.3K ★) 面向美股、A 股和港股市场的 LLM 股票分析器。自动构建包含入场/出场水平的每日决策仪表盘。通过 GitHub Actions 推送到微信/Telegram/Discord/Email。
+>
+> 4. Vibe-Trading (+1.9K ★) 个人交易智能体。自然语言 → 策略 → 回测 → 导出至 TradingView/MT5。只需一个 pip install，即可拥有属于你自己的 AI 交易台。
+>
+> 5. QuantDinger (+837 ★) 自托管 AI 量化操作系统。研究市场、生成 Python 策略、回测想法、运行实盘交易。支持加密货币、通过 IBKR 交易股票、通过 MT5 交易外汇。一个 Docker Compose，你的基础设施，你的数据。
+>
+> 6. TradingAgents-CN (+641 ★) TradingAgents 的中文分支。针对 A 股市场、中文数据源和国产大模型进行了完全本地化。
+>
+> 7. last30days-skill (+630 ★) AI 智能体技能，可研究过去 30 天内 Reddit、X、YouTube、HN、Polymarket 及全网的任何话题。可接入任何智能体框架。
+>
+> 8. qlib (+569 ★) 微软推出的面向 AI 的量化投资平台。端到端流程：数据 → Alpha → 投资组合 → 执行。目前最严肃的开源量化基础设施。
+>
+> 9. scientific-agent-skills (+511 ★) 用于研究、科学、工程、分析和金融的即用型智能体技能。可接入任何智能体框架。涵盖生物信息学、化学信息学，以及现在的 Hugging Science。
+>
+> 10. OpenBB (+387 ★) 面向分析师、量化研究员和 AI 智能体的开源金融数据平台。在一个平台上集成股票、加密货币、期权、衍生品、固定收益。
+
+- **推文**: https://x.com/billtheinvestor/status/2050640973974380784
+- **概述**: 本周金融领域增长最快的 10 个 GitHub 仓库盘点，涵盖多智能体交易框架（TradingAgents）、开源 Bloomberg 替代（FinceptTerminal）、LLM 股票分析器、自托管量化 OS 等。TradingAgents 以 +7.9K stars 领跑，qlib 和 OpenBB 作为微软级基础设施也值得关注。
+
+## @tuturetom - Codex Pets React 引用致谢
+
+> *回复 @tuturetom:* 内建 8 款超有感觉的宠物 pets https://t.co/sRqw2poHxb
+>
+> 本项目参考了
+>
+> - https://t.co/jVKJwIu4K0
+> - - https://t.co/JzWc4lzb3X
+> - https://t.co/TuMSZTLDjH
+>
+> 向他们表达诚挚的感谢❤️
+
+- **推文**: https://x.com/tuturetom/status/2050604849352290475
+- **父推文**: https://x.com/tuturetom/status/2050604845346717895
+- **链接**: https://github.com/backnotprop/codex-pets-react（GitHub, 30 stars）
+- **归档**: [codex-pets-react-Codex宠物精灵封装](./knowledge/tools/codex-pets-react-Codex宠物精灵封装.md)
+- **概述**: Codex Pets React 项目的致谢回复，列出了三个参考项目：codex-pets-react、codex-pet-share 和 codex-pets.net。
+
 ---
 日期: Sunday, April 26, 2026
 
